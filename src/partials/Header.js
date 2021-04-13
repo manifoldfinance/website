@@ -62,7 +62,7 @@ function Header() {
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
                 <Link
-                  to="https://form.typeform.com/to/Sr7xLL3s"
+                  href="https://form.typeform.com/to/Sr7xLL3s"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Solutions
@@ -78,7 +78,7 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="https://primitives.substack.com/"
+                  href="https://primitives.substack.com/"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Blog
@@ -86,7 +86,7 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="https://t.me/manifoldfinance"
+                  href="https://t.me/manifoldfinance"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Telegram
@@ -97,7 +97,7 @@ function Header() {
                 {/* 2nd level: hover */}
                 <li>
                   <Link
-                    to="mailto:ops@manifoldfinance.com"
+                    href="mailto:ops@manifoldfinance.com"
                     className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight"
                   >
                     Contact us
@@ -105,7 +105,7 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="https://backbonecabal.github.io/knowledgebase/"
+                    href="https://backbonecabal.github.io/knowledgebase/"
                     className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight"
                   >
                     Help center
@@ -178,7 +178,7 @@ function Header() {
               <ul className="bg-gray-800 px-4 py-2">
                 <li>
                   <Link
-                    to="https://form.typeform.com/to/Sr7xLL3s"
+                    href="https://form.typeform.com/to/Sr7xLL3s"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
                     Solutions
@@ -186,7 +186,7 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="https://dev-status.web3.workers.dev/"
+                    href="https://dev-status.web3.workers.dev/"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
                     Network
@@ -194,7 +194,7 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="https://primitives.substack.com/"
+                    href="https://primitives.substack.com/"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
                     Blog
@@ -202,7 +202,7 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="https://t.me/manifoldfinance"
+                    href="https://t.me/manifoldfinance"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
                     Telegram
@@ -221,7 +221,7 @@ function Header() {
                     </li>
                     <li>
                       <Link
-                        to="https://backbonecabal.github.io/knowledgebase/"
+                        href="https://backbonecabal.github.io/knowledgebase/"
                         className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
                       >
                         Help center
