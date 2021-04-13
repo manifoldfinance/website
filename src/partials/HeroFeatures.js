@@ -52,8 +52,7 @@ function HeroSolutions() {
               className="text-xl text-gray-400"
               data-aos="fade-up"
               data-aos-delay="200"
-            >
-            </p>
+            ></p>
           </div>
           {/* Image */}
           <img

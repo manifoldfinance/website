@@ -99,7 +99,7 @@ function Tabs() {
                   <path d="M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm0 10c-1.1 0-2-.9-2-2 0-.2 0-.3.1-.5L3.6 5 5 3.6l2.5 2.5c.2-.1.3-.1.5-.1 1.1 0 2 .9 2 2s-.9 2-2 2z" />
                 </svg>
                 <span className="text-gray-400 group-hover:text-gray-200 transition-colors duration-150 ease-in-out">
-                 Grey Pool
+                  Grey Pool
                 </span>
               </button>
             </div>
@@ -137,10 +137,12 @@ function Tabs() {
                       Debug and Trace RPC calls supported
                     </h4>
                     <p className="text-lg text-gray-400">
-                      Seamlessly access Ethereum via the Backbone load-balanced nodes and smart architecture 
-                      the same way you would via your own nodes. We have built services and APIs around 
-                      JSON RPC, REST and WebSockets that you can use with your favorite libraries and frameworks,
-                      on supported Ethereum networks.
+                      Seamlessly access Ethereum via the Backbone load-balanced
+                      nodes and smart architecture the same way you would via
+                      your own nodes. We have built services and APIs around
+                      JSON RPC, REST and WebSockets that you can use with your
+                      favorite libraries and frameworks, on supported Ethereum
+                      networks.
                     </p>
                     <a
                       className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6"
@@ -182,14 +184,15 @@ function Tabs() {
                     />
                   </figure>
                   <div className="relative bg-gray-800 py-8 md:py-16 px-6 md:pl-16 md:max-w-lg lg:max-w-xl md:ml-auto">
-                    <h4 className="h4 mb-2">
-                    MultiChain RPC
-                    </h4>
+                    <h4 className="h4 mb-2">MultiChain RPC</h4>
                     <p className="text-lg text-gray-400">
-                    When you sign up you'll receive your Backbone v3 key to use within your application. 
-                    With it we can provide you with  customized insights and analytics, route your data where it needs to go, 
-                    and give you access to the most powerful infrastructure for Ethereum.
-                    Learn more about getting started, and if you have any issues check our other resources below for help.
+                      When you sign up you'll receive your Backbone v3 key to
+                      use within your application. With it we can provide you
+                      with customized insights and analytics, route your data
+                      where it needs to go, and give you access to the most
+                      powerful infrastructure for Ethereum. Learn more about
+                      getting started, and if you have any issues check our
+                      other resources below for help.
                     </p>
                     <a
                       className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6"
@@ -235,11 +238,14 @@ function Tabs() {
                       YCabal: enabling gasless DEX trading
                     </h4>
                     <p className="text-lg text-gray-400">
-                    YCabal uses a batch auction-based matching engine to execute orders. Batch auctions were chosen to reduce the impact of frontrunning on the exchange.
-                   - All orders for the given market are collected.
-                   -  Orders beyond their time-in-force are canceled.
-                   -  Orders are placed into separate lists by market side, and aggregate supply and demand curves are calculated.
-                      </p>
+                      YCabal uses a batch auction-based matching engine to
+                      execute orders. Batch auctions were chosen to reduce the
+                      impact of frontrunning on the exchange. - All orders for
+                      the given market are collected. - Orders beyond their
+                      time-in-force are canceled. - Orders are placed into
+                      separate lists by market side, and aggregate supply and
+                      demand curves are calculated.
+                    </p>
                     <a
                       className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6"
                       href="https://backbonecabal.github.io/knowledgebase/"

@@ -33,43 +33,41 @@ function Faqs() {
               </p>
             </li>
             <li>
-              <h4 className="text-xl font-medium mb-2">
-                Publishing industries for previewing layouts?
-              </h4>
+              <h4 className="text-xl font-medium mb-2">Gas Pricing</h4>
               <p className="text-lg text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                enim lobortis scelerisque fermentum.
+                Our gas pricing service utilizes noise-reduction (i.e. removing
+                outliar transactions) to provide accurate gas pricing
+                predictions.
               </p>
             </li>
             <li>
               <h4 className="text-xl font-medium mb-2">
-                Publishing industries for previewing layouts?
+                How is this different than flashbots?
               </h4>
               <p className="text-lg text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                enim lobortis scelerisque fermentum.
+                Flashbots provides an open platform for arbitrage and MEV
+                transactions. We contribute to flashbots, we see our stack as
+                building ontop of flashbots.
               </p>
             </li>
             <li>
               <h4 className="text-xl font-medium mb-2">
-                Publishing industries for previewing layouts?
+                Do mining pools have to run your client?
               </h4>
               <p className="text-lg text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                enim lobortis scelerisque fermentum.
+                No! In fact we work with mining pools to enhance their block
+                propagation, sort of like how a CDN network helps distribute
+                content for web applications.
               </p>
             </li>
             <li>
               <h4 className="text-xl font-medium mb-2">
-                Publishing industries for previewing layouts?
+                Are you offering your Gasless DEX service anywhere else?
               </h4>
               <p className="text-lg text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-                enim lobortis scelerisque fermentum.
+                We are working with Sushiswap exclusively. We feel building a
+                strong community is important, and those decisions are left to a
+                formal governance procedure.
               </p>
             </li>
           </ul>
