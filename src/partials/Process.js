@@ -67,8 +67,8 @@ function Process() {
                 <span className="text-gray-400">1</span>. Connect
               </h4>
               <p className="text-lg text-gray-400 text-center">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur.
+                Users enter trades normally, we then bundle the frontend
+                transactions into batches.
               </p>
             </div>
 
@@ -119,8 +119,9 @@ function Process() {
                 <span className="text-gray-400">2</span>. Trade
               </h4>
               <p className="text-lg text-gray-400 text-center">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur.
+                Through both on-chain and off-chain solutions we find optimal
+                trading routing and miner extracted value (MEV), which we then
+                send to miners through a private connection.
               </p>
             </div>
 
@@ -157,11 +158,12 @@ function Process() {
                 />
               </svg>
               <h4 className="h4 mb-2">
-                <span className="text-gray-400">3</span>. Refunds
+                <span className="text-gray-400">3</span>. Save
               </h4>
               <p className="text-lg text-gray-400 text-center">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur.
+                Redistribute the resulting value back to users who submitted
+                trades by eliminating their transaction cost and to the greater
+                SushiSwap community by further enriching their rewards pool
               </p>
             </div>
           </div>

@@ -53,8 +53,6 @@ function HeroSolutions() {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Every feature in Open PRO makes things easy to build, pleasant to
-              create, and simple to manage.
             </p>
           </div>
           {/* Image */}

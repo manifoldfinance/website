@@ -53,7 +53,7 @@ function Footer() {
                 <ul>
                   <li className="mb-1">
                     <Link
-                      to="#"
+                      to="/solutions"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
                       Transaction Privacy
@@ -69,7 +69,7 @@ function Footer() {
                   </li>
                   <li className="mb-1">
                     <Link
-                      to="#"
+                      to="https://github.com/manifoldfinance"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
                       Protocol Middleware
@@ -84,7 +84,7 @@ function Footer() {
                 <ul>
                   <li className="mb-1">
                     <Link
-                      to="#"
+                      to="https://github.com/manifoldfinance"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
                       GitHub
@@ -92,7 +92,7 @@ function Footer() {
                   </li>
                   <li className="mb-1">
                     <Link
-                      to="#"
+                      to="https://backbonecabal.github.io/knowledgebase/"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
                       Documentation
@@ -100,7 +100,7 @@ function Footer() {
                   </li>
                   <li className="mb-1">
                     <Link
-                      to="#"
+                      to="https://t.me/manifoldfinance"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
                       Telegram
@@ -116,7 +116,7 @@ function Footer() {
                   </li>
                   <li className="mb-1">
                     <Link
-                      to="#"
+                      to="https://github.com/manifoldfinance/pki"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
                       Security
@@ -155,7 +155,7 @@ function Footer() {
                   </li>
                   <li className="mb-1">
                     <Link
-                      to="#"
+                      to="https://github.com/manifoldfinance/legal"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
                       Legal

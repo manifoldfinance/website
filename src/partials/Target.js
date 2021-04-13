@@ -8,9 +8,7 @@ function Target() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2" data-aos="fade-up">
-              Consistency-availability,
-              Latency-throughput, 
-              and Debuggability.
+              Consistency-availability, Latency-throughput, and Debuggability.
             </h2>
           </div>
 
@@ -54,7 +52,7 @@ function Target() {
                       <span className="text-purple-600">.</span> For engineers
                     </h4>
                     <p className="text-lg text-gray-400">
-                      From GraalVM to kdb+, our solutions are designed for 
+                      From GraalVM to kdb+, our solutions are designed for
                       debuggability and consistency.
                     </p>
                   </div>
@@ -68,9 +66,9 @@ function Target() {
                       <span className="text-teal-500">.</span> For operations
                     </h4>
                     <p className="text-lg text-gray-400">
-                     From Nix to TLA+ we utilize the best tools to guarantee 
-                     application behavior and state, providing robust services
-                     for mission critical applications.
+                      From Nix to TLA+ we utilize the best tools to guarantee
+                      application behavior and state, providing robust services
+                      for mission critical applications.
                     </p>
                   </div>
                   <div

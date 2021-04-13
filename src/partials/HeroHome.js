@@ -14,14 +14,14 @@ function HeroHome() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
-              Challenge core assumptions
+              Challenging finance's core assumptions
             </h1>
             <p
               className="text-xl text-gray-400 mb-8"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              enabling collaborative decentralized finance
+              price stability as a service to middleware scaling solutions
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
@@ -53,44 +53,11 @@ function HeroHome() {
               {/* @dev hereo image here */}
               <img
                 className="mx-auto"
-                src={require('../images/img-manifold-01.png')}
-                width="419"
-                height="419"
+                src={require('../images/hero_graph.svg')}
+                width="620"
+                height="620"
                 alt="Hero"
               />
-              <a
-                className="absolute group"
-                href="#0"
-                onClick={(e) => {
-                  e.preventDefault();
-                  setVideoModalOpen(true);
-                }}
-                aria-controls="modal"
-              >
-                <svg
-                  className="w-16 h-16 sm:w-20 sm:h-20 hover:opacity-75 transition duration-150 ease-in-out"
-                  viewBox="0 0 88 88"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <defs>
-                    <linearGradient
-                      x1="78.169%"
-                      y1="9.507%"
-                      x2="24.434%"
-                      y2="90.469%"
-                      id="a"
-                    >
-                      <stop stopColor="#EBF1F5" stopOpacity=".8" offset="0%" />
-                      <stop stopColor="#EBF1F5" offset="100%" />
-                    </linearGradient>
-                  </defs>
-                  <circle fill="url(#a)" cx="44" cy="44" r="44" />
-                  <path
-                    className="fill-current text-purple-600"
-                    d="M52 44a.999.999 0 00-.427-.82l-10-7A1 1 0 0040 37V51a.999.999 0 001.573.82l10-7A.995.995 0 0052 44V44c0 .001 0 .001 0 0z"
-                  />
-                </svg>
-              </a>
             </div>
 
             {/* Modal */}

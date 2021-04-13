@@ -14,7 +14,7 @@ import AOS from 'aos';
 import { focusHandling } from 'cruip-js-toolkit';
 
 import Home from './pages/Home';
-//import solutions from './pages/solutions';
+import Solutions from './pages/solutions';
 import Network from './pages/Network';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
@@ -52,7 +52,7 @@ function App() {
           <Home />
         </Route>
         <Route path="/solutions">
-          <solutions />
+          <Solutions />
         </Route>
         <Route path="/network">
           <Network />

@@ -36,7 +36,7 @@ function Header() {
             {/* Logo */}
             <Link to="/" className="block" aria-label="Manifold">
               <svg
-                className="w-8 h-8 fill-current text-purple-600"
+                className="w-8 h-8 fill-current text-white-600"
                 viewBox="0 0 32 32"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -98,7 +98,7 @@ function Header() {
                 <li>
                   <Link
                     to="/contact"
-                    className="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight"
+                    className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight"
                   >
                     Contact us
                   </Link>
@@ -106,7 +106,7 @@ function Header() {
                 <li>
                   <Link
                     to="/help"
-                    className="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight"
+                    className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight"
                   >
                     Help center
                   </Link>
@@ -114,7 +114,7 @@ function Header() {
                 <li>
                   <Link
                     to="/404"
-                    className="font-medium text-sm text-gray-400 hover:text-purple-600 flex py-2 px-4 leading-tight"
+                    className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight"
                   >
                     404
                   </Link>
@@ -127,7 +127,7 @@ function Header() {
               <li>
                 <Link
                   to="/signin"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                  className="font-medium text-white-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Sign in
                 </Link>
@@ -135,9 +135,9 @@ function Header() {
               <li>
                 <Link
                   to="/signup"
-                  className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3"
+                  className="btn-sm text-white bg-white-600 hover:bg-white-700 ml-3"
                 >
-                  Sign up
+                  Request access
                 </Link>
               </li>
             </ul>
@@ -178,15 +178,15 @@ function Header() {
               <ul className="bg-gray-800 px-4 py-2">
                 <li>
                   <Link
-                    to="/solutions"
+                    to="https://form.typeform.com/to/Sr7xLL3s"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
-                    solutions
+                    Solutions
                   </Link>
                 </li>
                 <li>
                   <Link
-                    to="/network"
+                    to="https://dev-status.web3.workers.dev/"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
                     Network
@@ -194,7 +194,7 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="/blog"
+                    to="primitives.substack.com/"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
                     Blog
@@ -202,10 +202,10 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="/about"
+                    to="https://t.me/manifoldfinance"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
-                    About us
+                    Telegram
                   </Link>
                 </li>
                 <li className="py-2 my-2 border-t border-b border-gray-700">
@@ -213,7 +213,7 @@ function Header() {
                   <ul className="pl-4">
                     <li>
                       <Link
-                        to="/contact"
+                        to="mailto:ops@manifoldfinance.com"
                         className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
                       >
                         Contact us
@@ -221,7 +221,7 @@ function Header() {
                     </li>
                     <li>
                       <Link
-                        to="/help"
+                        to="https://backbonecabal.github.io/knowledgebase/"
                         className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
                       >
                         Help center
@@ -240,7 +240,7 @@ function Header() {
                 <li>
                   <Link
                     to="/signin"
-                    className="flex font-medium w-full text-purple-600 hover:text-gray-200 py-2 justify-center"
+                    className="flex font-medium w-full text-white-600 hover:text-gray-200 py-2 justify-center"
                   >
                     Sign in
                   </Link>
@@ -248,9 +248,9 @@ function Header() {
                 <li>
                   <Link
                     to="/signup"
-                    className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
+                    className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-gray-600 hover:bg-white-700 transition duration-150 ease-in-out"
                   >
-                    Sign up
+                    Request access
                   </Link>
                 </li>
               </ul>
