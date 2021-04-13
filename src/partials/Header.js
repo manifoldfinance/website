@@ -62,7 +62,7 @@ function Header() {
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
                 <Link
-                  to="/solutions"
+                  to="https://form.typeform.com/to/Sr7xLL3s"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Solutions
@@ -70,7 +70,7 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="/network"
+                  to="#"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Network
@@ -78,7 +78,7 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="/blog"
+                  to="https://primitives.substack.com/"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Blog
@@ -86,10 +86,10 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="/about"
+                  to="https://t.me/manifoldfinance"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  About us
+                  Telegram
                 </Link>
               </li>
               {/* 1st level: hover */}
@@ -97,7 +97,7 @@ function Header() {
                 {/* 2nd level: hover */}
                 <li>
                   <Link
-                    to="/contact"
+                    to="mailto:ops@manifoldfinance.com"
                     className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight"
                   >
                     Contact us
@@ -105,7 +105,7 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="/help"
+                    to="https://backbonecabal.github.io/knowledgebase/"
                     className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight"
                   >
                     Help center
@@ -194,7 +194,7 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="primitives.substack.com/"
+                    to="https://primitives.substack.com/"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
                     Blog

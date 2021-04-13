@@ -1,31 +1,27 @@
 module.exports = {
   clearMocks: true,
-  coverageDirectory: "coverage",
-  coveragePathIgnorePatterns: [
-    "/node_modules/"
-  ],
+  coverageDirectory: 'coverage',
+  coveragePathIgnorePatterns: ['/node_modules/'],
 
   // A list of reporter names that Jest uses when writing coverage reports
   coverageReporters: [
     //   "json",
     //   "text",
-    "lcov"
+    'lcov',
     //   "clover"
   ],
   moduleFileExtensions: [
-    "js",
+    'js',
     //   "json",
-    "jsx",
+    'jsx',
     //   "ts",
     //   "tsx",
     //   "node"
   ],
 
-  roots: [
-    "<rootDir>"
-  ],
+  roots: ['<rootDir>'],
 
-  snapshotSerializers: ["jest-snapshot-serializer-raw"]
+  snapshotSerializers: ['jest-snapshot-serializer-raw'],
 
   // The test environment that will be used for testing
   // testEnvironment: "jest-environment-jsdom",
