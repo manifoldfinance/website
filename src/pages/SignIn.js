@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Header from '../partials/Header';
-import PageIllustration from '../partials/PageIllustration';
+
 
 function SignIn() {
   return (
@@ -17,7 +17,7 @@ function SignIn() {
           className="relative max-w-6xl mx-auto h-0 pointer-events-none"
           aria-hidden="true"
         >
-          <PageIllustration />
+
         </div>
 
         <section className="relative">

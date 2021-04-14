@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Header from '../partials/Header';
-import PageIllustration from '../partials/PageIllustration';
 import NetworkTables from '../partials/NetworkTables';
 import Faqs from '../partials/Faqs';
 import Testimonials from '../partials/Testimonials';
@@ -21,7 +20,6 @@ function Network() {
           className="relative max-w-6xl mx-auto h-0 pointer-events-none"
           aria-hidden="true"
         >
-          <PageIllustration />
         </div>
 
         {/*  Page sections */}

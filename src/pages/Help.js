@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 import Header from '../partials/Header';
-import PageIllustration from '../partials/PageIllustration';
 import Footer from '../partials/Footer';
 
 function Help() {
@@ -19,7 +18,6 @@ function Help() {
           className="relative max-w-6xl mx-auto h-0 pointer-events-none"
           aria-hidden="true"
         >
-          <PageIllustration />
         </div>
 
         {/*  Page sections */}

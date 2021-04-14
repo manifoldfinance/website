@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Header from '../partials/Header';
-import PageIllustration from '../partials/PageIllustration';
+
 import CtaContact from '../partials/CtaContact';
 import Footer from '../partials/Footer';
 
@@ -18,7 +18,7 @@ function Contact() {
           className="relative max-w-6xl mx-auto h-0 pointer-events-none"
           aria-hidden="true"
         >
-          <PageIllustration />
+
         </div>
 
         <section className="relative">
