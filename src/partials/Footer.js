@@ -21,8 +21,7 @@ function Footer() {
                   <svg
                     className="w-8 h-8 fill-current text-purple-600"
                     viewBox="0 0 32 32"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                    xmlns="http://www.w3.org/2000/svg">
                     <path
                       fill="#fff"
                       d="M11.691.0468C7.068.541 3.1666 3.7545 1.8104 8.197c-.4743 1.5565-.6413 3.3002-.4342 4.6229.0334.2205.04.2138.4008-.4342 1.5767-2.866 4.329-4.8701 7.5825-5.5115 1.0889-.2204 2.9795-.2138 4.0017 0 4.5227.9554 7.8831 4.3491 8.8584 8.9253l.1136.5344.2271-.501c1.2894-2.8259 1.423-5.9524.3741-8.785-.3006-.815-.9486-1.9975-1.4897-2.7123C19.701 2.0042 17.0889.481 14.1762.1002 13.4881.0067 12.2789-.02 11.691.0468z"
@@ -54,30 +53,24 @@ function Footer() {
                   <li className="mb-1">
                     <Link
                       href="https://github.com/manifoldfinance/api-documentation"
-                      target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
                       Transaction Privacy
                     </Link>
                   </li>
                   <li className="mb-1">
                     <Link
                       href="https://github.com/manifoldfinance/api-documentation"
-                      target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
                       Private RPC Connections
                     </Link>
                   </li>
                   <li className="mb-1">
                     <Link
                       href="https://github.com/manifoldfinance"
-                      target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
                       Protocol Middleware
                     </Link>
                   </li>
@@ -91,51 +84,45 @@ function Footer() {
                   <li className="mb-1">
                     <Link
                       href="https://github.com/manifoldfinance"
-                      target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
                       GitHub
                     </Link>
                   </li>
                   <li className="mb-1">
                     <Link
                       href="https://backbonecabal.github.io/knowledgebase/"
-                      target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
                       Documentation
                     </Link>
                   </li>
                   <li className="mb-1">
                     <Link
                       href="https://t.me/manifoldfinance"
-                      target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
                       Telegram
                     </Link>
                   </li>
                   <li className="mb-1">
                     <Link
                       href="https://join.slack.com/t/manifoldfinance/signup"
-                      target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
                       Slack
                     </Link>
                   </li>
                   <li className="mb-1">
                     <Link
                       href="https://github.com/manifoldfinance/pki"
-                      target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Security
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                      <a
+                        rel="noopener noreferrer"
+                        href={'https://github.com/manifoldfinance/pki'}>
+                        Security
+                      </a>
                     </Link>
                   </li>
                 </ul>
@@ -148,39 +135,36 @@ function Footer() {
                   <li className="mb-1">
                     <Link
                       href="#"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
                       Overview
                     </Link>
                   </li>
                   <li className="mb-1">
                     <Link
                       href="#"
-                      target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
                       Roadmap
                     </Link>
                   </li>
                   <li className="mb-1">
                     <Link
                       href="#"
-                      target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
                       Partners
                     </Link>
                   </li>
                   <li className="mb-1">
                     <Link
                       href="https://github.com/manifoldfinance/legal"
-                      target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Legal
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                      <a
+                        rel="noopener noreferrer"
+                        href={'https://github.com/manifoldfinance/legal'}>
+                        Legal
+                      </a>
                     </Link>
                   </li>
                 </ul>
@@ -198,13 +182,11 @@ function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
-                  aria-label="Twitter"
-                >
+                  aria-label="Twitter">
                   <svg
                     className="w-8 h-8 fill-current"
                     viewBox="0 0 32 32"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                    xmlns="http://www.w3.org/2000/svg">
                     <path d="M24 11.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H8c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z" />
                   </svg>
                 </Link>
@@ -215,13 +197,11 @@ function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
-                  aria-label="Github"
-                >
+                  aria-label="Github">
                   <svg
                     className="w-8 h-8 fill-current"
                     viewBox="0 0 32 32"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                    xmlns="http://www.w3.org/2000/svg">
                     <path d="M16 8.2c-4.4 0-8 3.6-8 8 0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4V22c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.3 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 2-.3s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.7 3.9.3.4.6.9.6 1.6v2.2c0 .2.1.5.6.4 3.2-1.1 5.5-4.1 5.5-7.6-.1-4.4-3.7-8-8.1-8z" />
                   </svg>
                 </Link>

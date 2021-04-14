@@ -15,8 +15,7 @@ function PageNotFound() {
         {/*  Page illustration */}
         <div
           className="relative max-w-6xl mx-auto h-0 pointer-events-none"
-          aria-hidden="true"
-        ></div>
+          aria-hidden="true"></div>
 
         <section className="relative">
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -25,8 +24,7 @@ function PageNotFound() {
                 {/* Top image */}
                 <div
                   className="relative inline-flex flex-col mb-6"
-                  data-aos="fade-up"
-                >
+                  data-aos="fade-up">
                   <img
                     className="rounded-full"
                     src={require('../images/hal.png')}
@@ -42,13 +40,11 @@ function PageNotFound() {
                 <p
                   className="text-lg text-gray-400"
                   data-aos="fade-up"
-                  data-aos-delay="400"
-                >
+                  data-aos-delay="400">
                   Head to our{' '}
                   <Link
                     to="/"
-                    className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  >
+                    className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">
                     homepage
                   </Link>{' '}
                   that does exist, or try double-checking the URL.

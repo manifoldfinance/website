@@ -9,16 +9,14 @@ function HeroSolutions() {
           className="absolute left-0 bottom-0 -ml-64 hidden lg:block pointer-events-none"
           aria-hidden="true"
           data-aos="fade-up"
-          data-aos-delay="600"
-        >
+          data-aos-delay="600">
           <svg
             className="max-w-full"
             width="552"
             height="564"
             viewBox="0 0 552 564"
             fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+            xmlns="http://www.w3.org/2000/svg">
             <defs>
               <linearGradient
                 id="paint0_linear"
@@ -26,8 +24,7 @@ function HeroSolutions() {
                 y1="307.099"
                 x2="290.505"
                 y2="577.859"
-                gradientUnits="userSpaceOnUse"
-              >
+                gradientUnits="userSpaceOnUse">
                 <stop stopColor="#5D5DFF" stopOpacity=".01" />
                 <stop offset="1" stopColor="#5D5DFF" stopOpacity=".32" />
               </linearGradient>
@@ -51,8 +48,7 @@ function HeroSolutions() {
             <p
               className="text-xl text-gray-400"
               data-aos="fade-up"
-              data-aos-delay="200"
-            ></p>
+              data-aos-delay="200"></p>
           </div>
           {/* Image */}
           <img

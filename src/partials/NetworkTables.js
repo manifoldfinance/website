@@ -31,8 +31,7 @@ function NetworkTables() {
             <p
               className="text-xl text-gray-400"
               data-aos="fade-up"
-              data-aos-delay="200"
-            >
+              data-aos-delay="200">
               Ethereum Mainnet, Polkadot, and more.
             </p>
           </div>
@@ -49,8 +48,7 @@ function NetworkTables() {
               <div>
                 <a
                   className="btn-sm text-white bg-purple-600 hover:bg-purple-700"
-                  to="#0"
-                >
+                  to="#0">
                   Contact us
                 </a>
               </div>

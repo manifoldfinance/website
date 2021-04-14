@@ -16,27 +16,23 @@ function Stats() {
             <div className="py-6 md:py-0 md:px-8">
               <div
                 className="text-4xl font-bold leading-tight tracking-tighter text-purple-600 mb-2"
-                data-aos="fade-up"
-              >
+                data-aos="fade-up">
                 179K
               </div>
               <div
                 className="text-lg text-gray-400"
                 data-aos="fade-up"
-                data-aos-delay="200"
-              ></div>
+                data-aos-delay="200"></div>
             </div>
             {/* 2nd item */}
             <div className="py-6 md:py-0 md:px-8">
               <div
                 className="text-4xl font-bold leading-tight tracking-tighter text-purple-600 mb-2"
-                data-aos="fade-up"
-              ></div>
+                data-aos="fade-up"></div>
               <div
                 className="text-lg text-gray-400"
                 data-aos="fade-up"
-                data-aos-delay="200"
-              >
+                data-aos-delay="200">
                 Lorem ipsum is placeholder text commonly used.
               </div>
             </div>
@@ -44,15 +40,13 @@ function Stats() {
             <div className="py-6 md:py-0 md:px-8">
               <div
                 className="text-4xl font-bold leading-tight tracking-tighter text-purple-600 mb-2"
-                data-aos="fade-up"
-              >
+                data-aos="fade-up">
                 $97K
               </div>
               <div
                 className="text-lg text-gray-400"
                 data-aos="fade-up"
-                data-aos-delay="200"
-              >
+                data-aos-delay="200">
                 Lorem ipsum is placeholder text commonly used.
               </div>
             </div>

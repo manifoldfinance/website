@@ -7,8 +7,7 @@ function PageIllustration() {
       width="722"
       height="320"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
+      xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient
           id="illustration-01"
@@ -16,8 +15,7 @@ function PageIllustration() {
           y1="43.12"
           x2="303.145"
           y2="391.913"
-          gradientUnits="userSpaceOnUse"
-        >
+          gradientUnits="userSpaceOnUse">
           <stop stopColor="#5D5DFF" stopOpacity=".01" />
           <stop offset=".538" stopColor="#5D5DFF" stopOpacity=".32" />
           <stop offset="1" stopColor="#5D5DFF" stopOpacity=".01" />

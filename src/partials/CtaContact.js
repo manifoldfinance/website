@@ -19,8 +19,7 @@ function CtaContact() {
             <div className="w-full lg:w-1/4 flex justify-center lg:justify-end">
               <a
                 className="btn text-white bg-purple-600 hover:bg-purple-700"
-                to="#0"
-              >
+                to="#0">
                 Contact us
               </a>
             </div>

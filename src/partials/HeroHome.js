@@ -19,24 +19,21 @@ function HeroHome() {
             <p
               className="text-xl text-gray-400 mb-8"
               data-aos="fade-up"
-              data-aos-delay="200"
-            >
+              data-aos-delay="200">
               Price stability as a service to Middleware scaling solutions
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
                   className="btn text-black bg-white hover:bg-white w-full mb-4 sm:w-auto sm:mb-0"
-                  to="#0"
-                >
+                  to="#0">
                   Explore
                 </a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
                 <a
                   className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
-                  to="#0"
-                >
+                  to="#0">
                   Learn more
                 </a>
               </div>
@@ -48,8 +45,7 @@ function HeroHome() {
             <div
               className="relative flex justify-center items-center"
               data-aos="fade-up"
-              data-aos-delay="200"
-            >
+              data-aos-delay="200">
               {/* @dev hereo image here */}
               <img
                 className="mx-auto"
@@ -65,15 +61,13 @@ function HeroHome() {
               id="modal"
               ariaLabel="modal-headline"
               show={videoModalOpen}
-              handleClose={() => setVideoModalOpen(false)}
-            >
+              handleClose={() => setVideoModalOpen(false)}>
               <div className="relative pb-9/16">
                 <iframe
                   className="absolute w-full h-full"
                   src="#"
                   title="manifold-video"
-                  allowFullScreen
-                ></iframe>
+                  allowFullScreen></iframe>
               </div>
             </Modal>
           </div>

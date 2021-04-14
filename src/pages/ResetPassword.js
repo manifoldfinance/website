@@ -15,8 +15,7 @@ function ResetPassword() {
         {/*  Page illustration */}
         <div
           className="relative max-w-6xl mx-auto h-0 pointer-events-none"
-          aria-hidden="true"
-        >
+          aria-hidden="true">
           <PageIllustration />
         </div>
 
@@ -38,8 +37,7 @@ function ResetPassword() {
                     <div className="w-full px-3">
                       <label
                         className="block text-gray-300 text-sm font-medium mb-1"
-                        htmlFor="email"
-                      >
+                        htmlFor="email">
                         Email
                       </label>
                       <input
@@ -62,8 +60,7 @@ function ResetPassword() {
                 <div className="text-gray-400 text-center mt-6">
                   <Link
                     to="/signin"
-                    className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  >
+                    className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">
                     Cancel
                   </Link>
                 </div>

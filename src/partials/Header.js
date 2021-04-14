@@ -38,8 +38,7 @@ function Header() {
               <svg
                 className="w-8 h-8 fill-current text-white-600"
                 viewBox="0 0 32 32"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   fill="#fff"
                   d="M11.691.0468C7.068.541 3.1666 3.7545 1.8104 8.197c-.4743 1.5565-.6413 3.3002-.4342 4.6229.0334.2205.04.2138.4008-.4342 1.5767-2.866 4.329-4.8701 7.5825-5.5115 1.0889-.2204 2.9795-.2138 4.0017 0 4.5227.9554 7.8831 4.3491 8.8584 8.9253l.1136.5344.2271-.501c1.2894-2.8259 1.423-5.9524.3741-8.785-.3006-.815-.9486-1.9975-1.4897-2.7123C19.701 2.0042 17.0889.481 14.1762.1002 13.4881.0067 12.2789-.02 11.691.0468z"
@@ -65,16 +64,14 @@ function Header() {
                   href="https://form.typeform.com/to/Sr7xLL3s"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
-                >
+                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
                   Solutions
                 </Link>
               </li>
               <li>
                 <Link
                   href="#"
-                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
-                >
+                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
                   Network
                 </Link>
               </li>
@@ -83,8 +80,7 @@ function Header() {
                   href="https://primitives.substack.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
-                >
+                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
                   Blog
                 </Link>
               </li>
@@ -93,8 +89,7 @@ function Header() {
                   href="https://t.me/manifoldfinance"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
-                >
+                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
                   Telegram
                 </Link>
               </li>
@@ -106,8 +101,7 @@ function Header() {
                     href="mailto:ops@manifoldfinance.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight"
-                  >
+                    className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight">
                     Contact us
                   </Link>
                 </li>
@@ -116,16 +110,14 @@ function Header() {
                     href="https://backbonecabal.github.io/knowledgebase/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight"
-                  >
+                    className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight">
                     Help center
                   </Link>
                 </li>
                 <li>
                   <Link
                     to="/404"
-                    className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight"
-                  >
+                    className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight">
                     404
                   </Link>
                 </li>
@@ -137,16 +129,14 @@ function Header() {
               <li>
                 <Link
                   to="/signin"
-                  className="font-medium text-white-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
-                >
+                  className="font-medium text-white-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
                   Sign in
                 </Link>
               </li>
               <li>
                 <Link
                   to="/signup"
-                  className="btn-sm text-white bg-white-600 hover:bg-white-700 ml-3"
-                >
+                  className="btn-sm text-white bg-white-600 hover:bg-white-700 ml-3">
                   Request access
                 </Link>
               </li>
@@ -160,14 +150,12 @@ function Header() {
               className={`hamburger ${mobileNavOpen && 'active'}`}
               aria-controls="mobile-nav"
               aria-expanded={mobileNavOpen}
-              onClick={() => setMobileNavOpen(!mobileNavOpen)}
-            >
+              onClick={() => setMobileNavOpen(!mobileNavOpen)}>
               <span className="sr-only">Menu</span>
               <svg
                 className="w-6 h-6 fill-current text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out"
                 viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <rect y="4" width="24" height="2" rx="1" />
                 <rect y="11" width="24" height="2" rx="1" />
                 <rect y="18" width="24" height="2" rx="1" />
@@ -183,16 +171,14 @@ function Header() {
                 mobileNavOpen
                   ? { maxHeight: mobileNav.current.scrollHeight, opacity: 1 }
                   : { maxHeight: 0, opacity: 0.8 }
-              }
-            >
+              }>
               <ul className="bg-gray-800 px-4 py-2">
                 <li>
                   <Link
                     href="https://form.typeform.com/to/Sr7xLL3s"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex text-gray-300 hover:text-gray-200 py-2"
-                  >
+                    className="flex text-gray-300 hover:text-gray-200 py-2">
                     Solutions
                   </Link>
                 </li>
@@ -201,8 +187,7 @@ function Header() {
                     href="https://dev-status.web3.workers.dev/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex text-gray-300 hover:text-gray-200 py-2"
-                  >
+                    className="flex text-gray-300 hover:text-gray-200 py-2">
                     Network
                   </Link>
                 </li>
@@ -211,8 +196,7 @@ function Header() {
                     href="https://primitives.substack.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex text-gray-300 hover:text-gray-200 py-2"
-                  >
+                    className="flex text-gray-300 hover:text-gray-200 py-2">
                     Blog
                   </Link>
                 </li>
@@ -221,8 +205,7 @@ function Header() {
                     href="https://t.me/manifoldfinance"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex text-gray-300 hover:text-gray-200 py-2"
-                  >
+                    className="flex text-gray-300 hover:text-gray-200 py-2">
                     Telegram
                   </Link>
                 </li>
@@ -232,8 +215,7 @@ function Header() {
                     <li>
                       <Link
                         href="mailto:ops@manifoldfinance.com"
-                        className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
-                      >
+                        className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2">
                         Contact us
                       </Link>
                     </li>
@@ -242,16 +224,14 @@ function Header() {
                         href="https://backbonecabal.github.io/knowledgebase/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
-                      >
+                        className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2">
                         Help center
                       </Link>
                     </li>
                     <li>
                       <Link
                         to="/404"
-                        className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
-                      >
+                        className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2">
                         404
                       </Link>
                     </li>
@@ -260,16 +240,14 @@ function Header() {
                 <li>
                   <Link
                     to="/signin"
-                    className="flex font-medium w-full text-white-600 hover:text-gray-200 py-2 justify-center"
-                  >
+                    className="flex font-medium w-full text-white-600 hover:text-gray-200 py-2 justify-center">
                     Sign in
                   </Link>
                 </li>
                 <li>
                   <Link
                     to="/signup"
-                    className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-gray-600 hover:bg-white-700 transition duration-150 ease-in-out"
-                  >
+                    className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-gray-600 hover:bg-white-700 transition duration-150 ease-in-out">
                     Request access
                   </Link>
                 </li>

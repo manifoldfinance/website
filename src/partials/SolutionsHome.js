@@ -13,8 +13,7 @@ function SolutionsHome() {
               <div
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1"
                 data-aos="fade-up"
-                data-aos-anchor="[data-aos-id-solutions-home]"
-              >
+                data-aos-anchor="[data-aos-id-solutions-home]">
                 <div className="relative">
                   <img
                     className="md:max-w-none"
@@ -28,8 +27,7 @@ function SolutionsHome() {
                     width="540"
                     height="520"
                     viewBox="0 0 540 520"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
+                    xmlns="http://www.w3.org/2000/svg">
                     <g className="fill-current text-purple-600">
                       <circle className="pulse" cx="270" cy="260" r="64" />
                       <circle
@@ -58,8 +56,7 @@ function SolutionsHome() {
               <div
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
                 data-aos="fade-right"
-                data-aos-anchor="[data-aos-id-solutions-home]"
-              >
+                data-aos-anchor="[data-aos-id-solutions-home]">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   {/* TODO change style */}
                   <div className="font-fira-sans text-xl text-purple-600 mb-2">
@@ -76,8 +73,7 @@ function SolutionsHome() {
                       <svg
                         className="w-3 h-3 fill-current text-green-500 mr-2 flex-shrink-0"
                         viewBox="0 0 12 12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
+                        xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>SQL Queries</span>
@@ -86,8 +82,7 @@ function SolutionsHome() {
                       <svg
                         className="w-3 h-3 fill-current text-green-500 mr-2 flex-shrink-0"
                         viewBox="0 0 12 12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
+                        xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>Trace Transaction</span>
@@ -96,8 +91,7 @@ function SolutionsHome() {
                       <svg
                         className="w-3 h-3 fill-current text-green-500 mr-2 flex-shrink-0"
                         viewBox="0 0 12 12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
+                        xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>Debug Transaction</span>
@@ -106,8 +100,7 @@ function SolutionsHome() {
                       <svg
                         className="w-3 h-3 fill-current text-green-500 mr-2 flex-shrink-0"
                         viewBox="0 0 12 12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
+                        xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>Mainland China DNS</span>
@@ -116,8 +109,7 @@ function SolutionsHome() {
                       <svg
                         className="w-3 h-3 fill-current text-green-500 mr-2 flex-shrink-0"
                         viewBox="0 0 12 12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
+                        xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                       <span>Multi Client RPCs</span>

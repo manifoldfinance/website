@@ -7,19 +7,16 @@ function Newsletter() {
         {/* CTA box */}
         <div
           className="relative bg-purple-600 py-10 px-8 md:py-16 md:px-12"
-          data-aos="fade-up"
-        >
+          data-aos="fade-up">
           {/* Background illustration */}
           <div
             className="absolute right-0 top-0 -ml-40 pointer-events-none"
-            aria-hidden="true"
-          >
+            aria-hidden="true">
             <svg
               width="238"
               height="110"
               fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+              xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <linearGradient
                   id="illustration-04"
@@ -27,8 +24,7 @@ function Newsletter() {
                   y1="-84.633"
                   x2="139.954"
                   y2="-199.798"
-                  gradientUnits="userSpaceOnUse"
-                >
+                  gradientUnits="userSpaceOnUse">
                   <stop stopColor="#fff" stopOpacity=".01" />
                   <stop offset="1" stopColor="#fff" stopOpacity=".24" />
                 </linearGradient>
@@ -62,8 +58,7 @@ function Newsletter() {
                 />
                 <a
                   className="btn text-purple-600 bg-purple-100 hover:bg-white shadow"
-                  to="#0"
-                >
+                  to="#0">
                   Subscribe
                 </a>
               </div>

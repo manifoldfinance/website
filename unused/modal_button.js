@@ -5,13 +5,11 @@
     e.preventDefault();
     setVideoModalOpen(true);
   }}
-  aria-controls="modal"
->
+  aria-controls="modal">
   <svg
     className="w-16 h-16 sm:w-20 sm:h-20 hover:opacity-75 transition duration-150 ease-in-out"
     viewBox="0 0 88 88"
-    xmlns="http://www.w3.org/2000/svg"
-  >
+    xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient x1="78.169%" y1="9.507%" x2="24.434%" y2="90.469%" id="a">
         <stop stopColor="#EBF1F5" stopOpacity=".8" offset="0%" />

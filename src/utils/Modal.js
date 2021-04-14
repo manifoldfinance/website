@@ -54,12 +54,10 @@ function Modal({ children, id, ariaLabel, show, handleClose }) {
         enterEnd="opacity-100 scale-100"
         leave="transition ease-out duration-200"
         leaveStart="opacity-100 scale-100"
-        leaveEnd="opacity-0 scale-95"
-      >
+        leaveEnd="opacity-0 scale-95">
         <div
           className="bg-white overflow-auto max-w-6xl w-full max-h-full"
-          ref={modalContent}
-        >
+          ref={modalContent}>
           {children}
         </div>
       </Transition>

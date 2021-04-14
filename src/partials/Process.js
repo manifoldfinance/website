@@ -13,8 +13,7 @@ function Process() {
             <p
               className="text-xl text-gray-400"
               data-aos="fade-up"
-              data-aos-delay="200"
-            >
+              data-aos-delay="200">
               Middleware for Decentralized Finance
             </p>
           </div>
@@ -24,8 +23,7 @@ function Process() {
             {/* 1st item */}
             <div
               className="relative flex flex-col items-center"
-              data-aos="fade-up"
-            >
+              data-aos="fade-up">
               <div
                 aria-hidden="true"
                 className="absolute h-1 border-t border-dashed border-gray-700 hidden md:block"
@@ -35,13 +33,11 @@ function Process() {
                   top: '32px',
                 }}
                 data-aos="fade-in"
-                data-aos-delay="200"
-              ></div>
+                data-aos-delay="200"></div>
               <svg
                 className="w-16 h-16 mb-4"
                 viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <rect
                   className="fill-current text-purple-600"
                   width="64"
@@ -79,8 +75,7 @@ function Process() {
             <div
               className="relative flex flex-col items-center"
               data-aos="fade-up"
-              data-aos-delay="200"
-            >
+              data-aos-delay="200">
               <div
                 aria-hidden="true"
                 className="absolute h-1 border-t border-dashed border-gray-700 hidden md:block"
@@ -90,13 +85,11 @@ function Process() {
                   top: '32px',
                 }}
                 data-aos="fade-in"
-                data-aos-delay="400"
-              ></div>
+                data-aos-delay="400"></div>
               <svg
                 className="w-16 h-16 mb-4"
                 viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <rect
                   className="fill-current text-purple-600"
                   width="64"
@@ -134,13 +127,11 @@ function Process() {
             <div
               className="relative flex flex-col items-center"
               data-aos="fade-up"
-              data-aos-delay="400"
-            >
+              data-aos-delay="400">
               <svg
                 className="w-16 h-16 mb-4"
                 viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+                xmlns="http://www.w3.org/2000/svg">
                 <rect
                   className="fill-current text-purple-600"
                   width="64"
