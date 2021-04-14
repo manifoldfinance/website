@@ -46,9 +46,9 @@ function Home() {
 /**
  *  Page Sections tmp removed
  *       <Tabs />
- *     
+ *
  *    <News />
- * 
+ *
  *               Our solution handles connectivity to venues, executes trades via
               your choice of a number of order types and execution algorithms, and consolidates key data.
  *     <Target />
