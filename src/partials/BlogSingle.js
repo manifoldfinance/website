@@ -19,9 +19,6 @@ function BlogSingle() {
                     data-aos="fade-up"
                     data-aos-delay="200"
                   >
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
                   </p>
                 </div>
                 {/* Article meta */}

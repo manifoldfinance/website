@@ -34,7 +34,7 @@ function Header() {
           {/* Site branding */}
           <div className="flex-shrink-0 mr-4">
             {/* Logo */}
-            <Link to="/" className="block" aria-label="Manifold">
+            <Link href="/" className="block" aria-label="Manifold">
               <svg
                 className="w-8 h-8 fill-current text-white-600"
                 viewBox="0 0 32 32"
@@ -62,7 +62,9 @@ function Header() {
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
                 <Link
-                  to="https://form.typeform.com/to/Sr7xLL3s"
+                  href="https://form.typeform.com/to/Sr7xLL3s"
+                  target="_blank" 
+                  rel="noopener noreferrer"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Solutions
@@ -70,7 +72,7 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="#"
+                  href="#"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Network
@@ -78,7 +80,9 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="https://primitives.substack.com/"
+                  href="https://primitives.substack.com/"
+                  target="_blank" 
+                  rel="noopener noreferrer"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Blog
@@ -86,7 +90,9 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="https://t.me/manifoldfinance"
+                  href="https://t.me/manifoldfinance"
+                  target="_blank" 
+                  rel="noopener noreferrer"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Telegram
@@ -97,7 +103,9 @@ function Header() {
                 {/* 2nd level: hover */}
                 <li>
                   <Link
-                    to="mailto:ops@manifoldfinance.com"
+                    href="mailto:ops@manifoldfinance.com"
+                    target="_blank" 
+                    rel="noopener noreferrer"
                     className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight"
                   >
                     Contact us
@@ -105,7 +113,9 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="https://backbonecabal.github.io/knowledgebase/"
+                    href="https://backbonecabal.github.io/knowledgebase/"
+                    target="_blank" 
+                    rel="noopener noreferrer"
                     className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight"
                   >
                     Help center
@@ -178,7 +188,9 @@ function Header() {
               <ul className="bg-gray-800 px-4 py-2">
                 <li>
                   <Link
-                    to="https://form.typeform.com/to/Sr7xLL3s"
+                    href="https://form.typeform.com/to/Sr7xLL3s"
+                    target="_blank" 
+                    rel="noopener noreferrer"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
                     Solutions
@@ -186,7 +198,9 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="https://dev-status.web3.workers.dev/"
+                    href="https://dev-status.web3.workers.dev/"
+                    target="_blank" 
+                    rel="noopener noreferrer"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
                     Network
@@ -194,7 +208,9 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="https://primitives.substack.com/"
+                    href="https://primitives.substack.com/"
+                    target="_blank" 
+                    rel="noopener noreferrer"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
                     Blog
@@ -202,7 +218,9 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="https://t.me/manifoldfinance"
+                    href="https://t.me/manifoldfinance"
+                    target="_blank" 
+                    rel="noopener noreferrer"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
                     Telegram
@@ -213,7 +231,7 @@ function Header() {
                   <ul className="pl-4">
                     <li>
                       <Link
-                        to="mailto:ops@manifoldfinance.com"
+                        href="mailto:ops@manifoldfinance.com"
                         className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
                       >
                         Contact us
@@ -221,7 +239,9 @@ function Header() {
                     </li>
                     <li>
                       <Link
-                        to="https://backbonecabal.github.io/knowledgebase/"
+                        href="https://backbonecabal.github.io/knowledgebase/"
+                        target="_blank" 
+                        rel="noopener noreferrer"
                         className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
                       >
                         Help center
