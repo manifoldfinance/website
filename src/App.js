@@ -36,7 +36,7 @@ function App() {
       duration: 600,
       easing: 'ease-out-sine',
     });
-});
+  });
 
   useEffect(() => {
     document.querySelector('html').style.scrollBehavior = 'auto';

@@ -54,7 +54,7 @@ function Footer() {
                   <li className="mb-1">
                     <Link
                       href="https://github.com/manifoldfinance/api-documentation"
-                      target="_blank" 
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
@@ -64,7 +64,7 @@ function Footer() {
                   <li className="mb-1">
                     <Link
                       href="https://github.com/manifoldfinance/api-documentation"
-                      target="_blank" 
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
@@ -74,7 +74,7 @@ function Footer() {
                   <li className="mb-1">
                     <Link
                       href="https://github.com/manifoldfinance"
-                      target="_blank" 
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
@@ -91,7 +91,7 @@ function Footer() {
                   <li className="mb-1">
                     <Link
                       href="https://github.com/manifoldfinance"
-                      target="_blank" 
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
@@ -101,7 +101,7 @@ function Footer() {
                   <li className="mb-1">
                     <Link
                       href="https://backbonecabal.github.io/knowledgebase/"
-                      target="_blank" 
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
@@ -111,7 +111,7 @@ function Footer() {
                   <li className="mb-1">
                     <Link
                       href="https://t.me/manifoldfinance"
-                      target="_blank" 
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
@@ -121,7 +121,7 @@ function Footer() {
                   <li className="mb-1">
                     <Link
                       href="https://join.slack.com/t/manifoldfinance/signup"
-                      target="_blank" 
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
@@ -131,7 +131,7 @@ function Footer() {
                   <li className="mb-1">
                     <Link
                       href="https://github.com/manifoldfinance/pki"
-                      target="_blank" 
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
@@ -156,7 +156,7 @@ function Footer() {
                   <li className="mb-1">
                     <Link
                       href="#"
-                      target="_blank" 
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
@@ -166,7 +166,7 @@ function Footer() {
                   <li className="mb-1">
                     <Link
                       href="#"
-                      target="_blank" 
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
@@ -176,7 +176,7 @@ function Footer() {
                   <li className="mb-1">
                     <Link
                       href="https://github.com/manifoldfinance/legal"
-                      target="_blank" 
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
@@ -195,7 +195,7 @@ function Footer() {
               <li>
                 <Link
                   href="https://twitter.com/foldfinance"
-                  target="_blank" 
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
                   aria-label="Twitter"
@@ -212,7 +212,7 @@ function Footer() {
               <li className="ml-4">
                 <Link
                   href="https://github.com/manifoldfinance"
-                  target="_blank" 
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
                   aria-label="Github"

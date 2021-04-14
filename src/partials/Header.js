@@ -63,7 +63,7 @@ function Header() {
               <li>
                 <Link
                   href="https://form.typeform.com/to/Sr7xLL3s"
-                  target="_blank" 
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
@@ -81,7 +81,7 @@ function Header() {
               <li>
                 <Link
                   href="https://primitives.substack.com/"
-                  target="_blank" 
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
@@ -91,7 +91,7 @@ function Header() {
               <li>
                 <Link
                   href="https://t.me/manifoldfinance"
-                  target="_blank" 
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
@@ -104,7 +104,7 @@ function Header() {
                 <li>
                   <Link
                     href="mailto:ops@manifoldfinance.com"
-                    target="_blank" 
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight"
                   >
@@ -114,7 +114,7 @@ function Header() {
                 <li>
                   <Link
                     href="https://backbonecabal.github.io/knowledgebase/"
-                    target="_blank" 
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight"
                   >
@@ -189,7 +189,7 @@ function Header() {
                 <li>
                   <Link
                     href="https://form.typeform.com/to/Sr7xLL3s"
-                    target="_blank" 
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
@@ -199,7 +199,7 @@ function Header() {
                 <li>
                   <Link
                     href="https://dev-status.web3.workers.dev/"
-                    target="_blank" 
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
@@ -209,7 +209,7 @@ function Header() {
                 <li>
                   <Link
                     href="https://primitives.substack.com/"
-                    target="_blank" 
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
@@ -219,7 +219,7 @@ function Header() {
                 <li>
                   <Link
                     href="https://t.me/manifoldfinance"
-                    target="_blank" 
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="flex text-gray-300 hover:text-gray-200 py-2"
                   >
@@ -240,7 +240,7 @@ function Header() {
                     <li>
                       <Link
                         href="https://backbonecabal.github.io/knowledgebase/"
-                        target="_blank" 
+                        target="_blank"
                         rel="noopener noreferrer"
                         className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2"
                       >

@@ -18,8 +18,7 @@ function BlogSingle() {
                     className="text-xl text-gray-400"
                     data-aos="fade-up"
                     data-aos-delay="200"
-                  >
-                  </p>
+                  ></p>
                 </div>
                 {/* Article meta */}
                 <div className="md:flex md:items-center md:justify-between mt-3">
