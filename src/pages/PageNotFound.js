@@ -16,8 +16,7 @@ function PageNotFound() {
         <div
           className="relative max-w-6xl mx-auto h-0 pointer-events-none"
           aria-hidden="true"
-        >
-        </div>
+        ></div>
 
         <section className="relative">
           <div className="max-w-6xl mx-auto px-4 sm:px-6">

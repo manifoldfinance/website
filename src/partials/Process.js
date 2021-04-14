@@ -68,7 +68,10 @@ function Process() {
               </h4>
               <p className="text-lg text-gray-400 text-center">
                 Users enter trades normally, we then bundle the frontend
-                transactions into batches.
+                transactions into batches. Users don't experience any noticeable
+                differences in transaction confirmation as a result of our
+                service. Users only have to click a button to authorize the
+                connection, thats it.
               </p>
             </div>
 
@@ -121,7 +124,9 @@ function Process() {
               <p className="text-lg text-gray-400 text-center">
                 Through both on-chain and off-chain solutions we find optimal
                 trading routing and miner extracted value (MEV), which we then
-                send to miners through a private connection.
+                send to miners through a private connection. This batch process
+                is handled through both our own connections and providers such
+                as flashbots.
               </p>
             </div>
 
@@ -161,9 +166,9 @@ function Process() {
                 <span className="text-gray-400">3</span>. Save
               </h4>
               <p className="text-lg text-gray-400 text-center">
-                Redistribute the resulting value back to users who submitted
-                trades by eliminating their transaction cost and to the greater
-                SushiSwap community by further enriching their rewards pool
+                The strategy then distributes the resulting value back to users
+                who submitted trades by eliminating their transaction cost and
+                to the greater community by further enriching their rewards pool
               </p>
             </div>
           </div>
@@ -174,3 +179,4 @@ function Process() {
 }
 
 export default Process;
+/** @export process  */

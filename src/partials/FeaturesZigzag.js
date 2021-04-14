@@ -11,10 +11,7 @@ function SolutionsZigzag() {
               Reach goals that matter
             </div>
             <h1 className="h2 mb-4">One product, unlimited solutions</h1>
-            <p className="text-xl text-gray-400">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit laborum — semper quis lectus nulla.
-            </p>
+            <p className="text-xl text-gray-400"></p>
           </div>
 
           {/* Items */}

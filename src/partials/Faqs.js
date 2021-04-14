@@ -14,29 +14,31 @@ function Faqs() {
           <ul className="grid gap-8 md:grid-cols-2 xl:col-gap-16 lg:row-gap-12">
             <li>
               <h4 className="text-xl font-medium mb-2">
-                Efficiency by Aggregation
+                Scaling Layer 1 - Gasless Trading
               </h4>
               <p className="text-lg text-gray-400">
                 By leveraging batching, miner transaction flow, and providing
                 additional performant utilities (e.g. faster calculations for
-                finalizing), we can realize the following potential avenues for
-                realizing profitable activites
+                finalizing), YCabal enables gasless trading on Layer 1 Ethereum
               </p>
             </li>
             <li>
-              <h4 className="text-xl font-medium mb-2">User Capture</h4>
+              <h4 className="text-xl font-medium mb-2">
+                Efficiency by Aggregation
+              </h4>
               <p className="text-lg text-gray-400">
-                The whole point of Backbone Cabal is to maximize profits from
-                user actions which gets distributed for free to miners and bots.
-                We then extract this value and provide these profits as{' '}
-                <b>cashback</b> to users.
+                YCabal is a strategy in which we maximize profits from user
+                actions. This normally gets distributed for free to miners and
+                bots via MEV (miner extracted value). We then extract this value
+                and provide these profits as <b>cashback/rebates</b> back to
+                users.
               </p>
             </li>
             <li>
               <h4 className="text-xl font-medium mb-2">Gas Pricing</h4>
               <p className="text-lg text-gray-400">
                 Our gas pricing service utilizes noise-reduction (i.e. removing
-                outliar transactions) to provide accurate gas pricing
+                outlier transactions) to provide accurate gas pricing
                 predictions.
               </p>
             </li>

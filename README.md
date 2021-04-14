@@ -12,14 +12,14 @@
 ./exec-cd.sh
 ```
 
-### Utils 
+### Utils
 
 #### Debugging
 
 Enable in the `public/index.html` file:
+
 ```html
 <script src="http://172.20.0.136:8097"></script>
 ```
-Then run
-`npm run test:profile`
 
+Then run `npm run test:profile`

@@ -9,7 +9,6 @@ import Cta from '../partials/Cta';
 import Footer from '../partials/Footer';
 import FeaturesTiles from '../components/sections/FeaturesTiles';
 
-
 function Network() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
@@ -32,7 +31,6 @@ function Network() {
         <FeaturesTiles />
         <Testimonials />
         <Cta />
-
       </main>
 
       {/*  Site footer */}

@@ -22,7 +22,6 @@ function Home() {
       <main className="flex-grow">
         {/*  Page illustration */}
 
-
         {/*  Page sections */}
         <HeroHome />
         <Process />

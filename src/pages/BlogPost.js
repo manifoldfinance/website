@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Header from '../partials/Header';
-import PageIllustration from '../partials/PageIllustration';
 import BlogSingle from '../partials/BlogSingle';
 import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
@@ -18,9 +17,7 @@ function BlogPost() {
         <div
           className="relative max-w-6xl mx-auto h-0 pointer-events-none"
           aria-hidden="true"
-        >
-          <PageIllustration />
-        </div>
+        ></div>
 
         {/*  Page sections */}
         <BlogSingle />

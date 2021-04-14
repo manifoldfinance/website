@@ -19,8 +19,7 @@ function Network() {
         <div
           className="relative max-w-6xl mx-auto h-0 pointer-events-none"
           aria-hidden="true"
-        >
-        </div>
+        ></div>
 
         {/*  Page sections */}
         <NetworkTables />
