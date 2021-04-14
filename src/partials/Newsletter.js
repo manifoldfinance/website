@@ -62,7 +62,7 @@ function Newsletter() {
                 />
                 <a
                   className="btn text-purple-600 bg-purple-100 hover:bg-white shadow"
-                  href="#0"
+                  to="#0"
                 >
                   Subscribe
                 </a>

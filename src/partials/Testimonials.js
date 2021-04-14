@@ -51,7 +51,7 @@ function Testimonials() {
                 -{' '}
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  to="#0"
                 >
                   UX Board
                 </a>
@@ -93,7 +93,7 @@ function Testimonials() {
                 -{' '}
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  to="#0"
                 >
                   UX Board
                 </a>
@@ -135,7 +135,7 @@ function Testimonials() {
                 -{' '}
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  to="#0"
                 >
                   UX Board
                 </a>

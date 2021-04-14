@@ -146,7 +146,7 @@ function Tabs() {
                     </p>
                     <a
                       className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6"
-                      href="https://github.com/manifoldfinance/api-documentation"
+                      to="https://github.com/manifoldfinance/api-documentation"
                     >
                       <span className="text-sm">Learn more</span>
                       <svg
@@ -196,7 +196,7 @@ function Tabs() {
                     </p>
                     <a
                       className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6"
-                      href="https://backbonecabal.github.io/knowledgebase/"
+                      to="https://backbonecabal.github.io/knowledgebase/"
                     >
                       <span className="text-sm">Learn more</span>
                       <svg
@@ -248,7 +248,7 @@ function Tabs() {
                     </p>
                     <a
                       className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6"
-                      href="https://backbonecabal.github.io/knowledgebase/"
+                      to="https://backbonecabal.github.io/knowledgebase/"
                     >
                       <span className="text-sm">Learn more</span>
                       <svg

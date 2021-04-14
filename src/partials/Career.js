@@ -20,7 +20,7 @@ function Career() {
                 <div className="mb-2">
                   <a
                     className="flex justify-between items-center text-xl font-bold text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                    href="#0"
+                    to="#0"
                   >
                     <span>Lead Product Designer</span>
                     <svg
@@ -88,7 +88,7 @@ function Career() {
                 <div className="mb-2">
                   <a
                     className="flex justify-between items-center text-xl font-bold text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                    href="#0"
+                    to="#0"
                   >
                     <span>Front-end Engineer</span>
                     <svg
@@ -156,7 +156,7 @@ function Career() {
                 <div className="mb-2">
                   <a
                     className="flex justify-between items-center text-xl font-bold text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                    href="#0"
+                    to="#0"
                   >
                     <span>Product Manager</span>
                     <svg

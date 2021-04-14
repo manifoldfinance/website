@@ -36,7 +36,7 @@ function Cta() {
             >
               <a
                 className="btn text-white bg-purple-600 hover:bg-purple-700"
-                href="#0"
+                to="#0"
               >
                 Start free trial
               </a>

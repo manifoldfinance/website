@@ -467,7 +467,7 @@ function Help() {
                         className={`flex items-center px-3 group text-gray-400 hover:text-purple-600 transition duration-150 ease-in-out ${
                           page === 1 && 'text-purple-600'
                         }`}
-                        href="#0"
+                        to="#0"
                         onClick={(e) => {
                           e.preventDefault();
                           setPage(1);
@@ -488,7 +488,7 @@ function Help() {
                         className={`flex items-center px-3 group text-gray-400 hover:text-purple-600 transition duration-150 ease-in-out ${
                           page === 2 && 'text-purple-600'
                         }`}
-                        href="#0"
+                        to="#0"
                         onClick={(e) => {
                           e.preventDefault();
                           setPage(2);
@@ -509,7 +509,7 @@ function Help() {
                         className={`flex items-center px-3 group text-gray-400 hover:text-purple-600 transition duration-150 ease-in-out ${
                           page === 3 && 'text-purple-600'
                         }`}
-                        href="#0"
+                        to="#0"
                         onClick={(e) => {
                           e.preventDefault();
                           setPage(3);
@@ -530,7 +530,7 @@ function Help() {
                         className={`flex items-center px-3 group text-gray-400 hover:text-purple-600 transition duration-150 ease-in-out ${
                           page === 4 && 'text-purple-600'
                         }`}
-                        href="#0"
+                        to="#0"
                         onClick={(e) => {
                           e.preventDefault();
                           setPage(4);
@@ -551,7 +551,7 @@ function Help() {
                         className={`flex items-center px-3 group text-gray-400 hover:text-purple-600 transition duration-150 ease-in-out ${
                           page === 5 && 'text-purple-600'
                         }`}
-                        href="#0"
+                        to="#0"
                         onClick={(e) => {
                           e.preventDefault();
                           setPage(5);

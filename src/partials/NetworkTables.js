@@ -49,7 +49,7 @@ function NetworkTables() {
               <div>
                 <a
                   className="btn-sm text-white bg-purple-600 hover:bg-purple-700"
-                  href="#0"
+                  to="#0"
                 >
                   Contact us
                 </a>

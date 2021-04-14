@@ -20,7 +20,7 @@ function CaseStudies() {
           <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-3 md:gap-6 lg:gap-6 items-start md:max-w-none">
             {/* 1st article */}
             <article className="flex flex-col h-full" data-aos="fade-up">
-              <a className="block" href="#0">
+              <a className="block" to="#0">
                 <figure className="relative h-0 pb-9/16 overflow-hidden">
                   <img
                     className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
@@ -31,7 +31,7 @@ function CaseStudies() {
                   />
                   <figcaption
                     className="absolute top-0 right-0 mt-4 mr-4 text-xs font-medium inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-gray-900 bg-opacity-75 pointer-events-none"
-                    href="#0"
+                    to="#0"
                   >
                     Case study
                   </figcaption>
@@ -41,7 +41,7 @@ function CaseStudies() {
                 <h3 className="h4 mb-2">
                   <a
                     className="hover:text-gray-100 transition duration-150 ease-in-out"
-                    href="#0"
+                    to="#0"
                   >
                     How to build anything
                   </a>
@@ -55,7 +55,7 @@ function CaseStudies() {
                 <div>
                   <a
                     className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6"
-                    href="#0"
+                    to="#0"
                   >
                     <span className="text-sm">Learn more</span>
                     <svg
@@ -76,7 +76,7 @@ function CaseStudies() {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <a className="block" href="#0">
+              <a className="block" to="#0">
                 <figure className="relative h-0 pb-9/16 overflow-hidden">
                   <img
                     className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
@@ -87,7 +87,7 @@ function CaseStudies() {
                   />
                   <figcaption
                     className="absolute top-0 right-0 mt-4 mr-4 text-xs font-medium inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-gray-900 bg-opacity-75 pointer-events-none"
-                    href="#0"
+                    to="#0"
                   >
                     Case study
                   </figcaption>
@@ -97,7 +97,7 @@ function CaseStudies() {
                 <h3 className="h4 mb-2">
                   <a
                     className="hover:text-gray-100 transition duration-150 ease-in-out"
-                    href="#0"
+                    to="#0"
                   >
                     How to build anything
                   </a>
@@ -111,7 +111,7 @@ function CaseStudies() {
                 <div>
                   <a
                     className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6"
-                    href="#0"
+                    to="#0"
                   >
                     <span className="text-sm">Learn more</span>
                     <svg
@@ -132,7 +132,7 @@ function CaseStudies() {
               data-aos="fade-up"
               data-aos-delay="400"
             >
-              <a className="block" href="#0">
+              <a className="block" to="#0">
                 <figure className="relative h-0 pb-9/16 overflow-hidden">
                   <img
                     className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
@@ -143,7 +143,7 @@ function CaseStudies() {
                   />
                   <figcaption
                     className="absolute top-0 right-0 mt-4 mr-4 text-xs font-medium inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-gray-900 bg-opacity-75 pointer-events-none"
-                    href="#0"
+                    to="#0"
                   >
                     Case study
                   </figcaption>
@@ -153,7 +153,7 @@ function CaseStudies() {
                 <h3 className="h4 mb-2">
                   <a
                     className="hover:text-gray-100 transition duration-150 ease-in-out"
-                    href="#0"
+                    to="#0"
                   >
                     How to build anything
                   </a>
@@ -167,7 +167,7 @@ function CaseStudies() {
                 <div>
                   <a
                     className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6"
-                    href="#0"
+                    to="#0"
                   >
                     <span className="text-sm">Learn more</span>
                     <svg

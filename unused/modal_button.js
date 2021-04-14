@@ -1,6 +1,6 @@
 <a
   className="absolute group"
-  href="#0"
+  to="#0"
   onClick={(e) => {
     e.preventDefault();
     setVideoModalOpen(true);

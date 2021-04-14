@@ -37,7 +37,7 @@ function Team() {
                 <div className="text-gray-500 mb-1">CEO & Co-founder</div>
                 <a
                   className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  to="#0"
                 >
                   @laraamprecht
                 </a>
@@ -63,7 +63,7 @@ function Team() {
                 <div className="text-gray-500 mb-1">CEO & Co-founder</div>
                 <a
                   className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  to="#0"
                 >
                   @marie_moon
                 </a>
@@ -89,7 +89,7 @@ function Team() {
                 <div className="text-gray-500 mb-1">Head of Design</div>
                 <a
                   className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  to="#0"
                 >
                   @mr_sebastian
                 </a>
@@ -115,7 +115,7 @@ function Team() {
                 <div className="text-gray-500 mb-1">Product Executive</div>
                 <a
                   className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  to="#0"
                 >
                   @timothychandran
                 </a>
@@ -141,7 +141,7 @@ function Team() {
                 <div className="text-gray-500 mb-1">Backend Lead</div>
                 <a
                   className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  to="#0"
                 >
                   @dominikprasad
                 </a>
@@ -167,7 +167,7 @@ function Team() {
                 <div className="text-gray-500 mb-1">Backend Developer</div>
                 <a
                   className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  to="#0"
                 >
                   @daryamagic
                 </a>
@@ -193,7 +193,7 @@ function Team() {
                 <div className="text-gray-500 mb-1">Product Designer</div>
                 <a
                   className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  to="#0"
                 >
                   @quentinrenvoye
                 </a>
@@ -219,7 +219,7 @@ function Team() {
                 <div className="text-gray-500 mb-1">Community Lead</div>
                 <a
                   className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  to="#0"
                 >
                   @hello_chuzeville
                 </a>
