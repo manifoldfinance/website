@@ -85,7 +85,13 @@ function Header() {
                 </a>
               </li>
               <li>
-                <a className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out" rel="noopener noreferrer" target="_blank" href="https://t.me/manifoldfinance">Telegram</a>
+                <a
+                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://t.me/manifoldfinance">
+                  Telegram
+                </a>
               </li>
               {/* 1st level: hover */}
               <Dropdown title="Support">
@@ -199,12 +205,15 @@ function Header() {
                     href={`https://t.me/manifoldfinance`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex text-gray-300 hover:text-gray-200 py-2"
-                    
-                    >
+                    className="flex text-gray-300 hover:text-gray-200 py-2">
                     Telegram
                   </Link>
-                  <a rel="noopener noreferrer" target="_blank" href="https://t.me/manifoldfinance">@manifold</a>
+                  <a
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    href="https://t.me/manifoldfinance">
+                    @manifold
+                  </a>
                 </li>
                 <li className="py-2 my-2 border-t border-b border-gray-700">
                   <span className="flex text-gray-300 py-2">Support</span>
