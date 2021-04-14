@@ -8,7 +8,7 @@ function Target() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2" data-aos="fade-up">
-              Consistency-availability, Latency-throughput, and Debuggability.
+              A Well-typed SDK for engineers
             </h2>
           </div>
 
