@@ -206,6 +206,8 @@ function Footer() {
             <div className="text-gray-400 text-sm mr-4">
               &copy; 2021 CommodityStream LLC, All Rights Reserved.
             </div>
+        <div id="title">network@status:~$ ./status_page</div>
+        <div id="status" status="wait">Wait...</div>
           </div>
         </div>
       </div>
