@@ -174,39 +174,43 @@ function Header() {
               }>
               <ul className="bg-gray-800 px-4 py-2">
                 <li>
-                  <Link
-                    href="https://form.typeform.com/to/Sr7xLL3s"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex text-gray-300 hover:text-gray-200 py-2">
-                    Solutions
+                  <Link className="flex text-gray-300 hover:text-gray-200 py-2">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={'https://form.typeform.com/to/Sr7xLL3s'}>
+                      Solutions
+                    </a>
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    href="https://dev-status.web3.workers.dev/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex text-gray-300 hover:text-gray-200 py-2">
-                    Network
+                  <Link className="flex text-gray-300 hover:text-gray-200 py-2">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={'https://dev-status.web3.workers.dev/'}>
+                      Network
+                    </a>
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    href={`https://primitives.substack.com/`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex text-gray-300 hover:text-gray-200 py-2">
-                    Blog
+                  <Link className="flex text-gray-300 hover:text-gray-200 py-2">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={`https://primitives.substack.com/`}>
+                      Blog
+                    </a>
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    href={`https://t.me/manifoldfinance`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex text-gray-300 hover:text-gray-200 py-2">
-                    Telegram
+                  <Link className="flex text-gray-300 hover:text-gray-200 py-2">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={`https://t.me/manifoldfinance`}>
+                      Telegram
+                    </a>
                   </Link>
                   <a
                     rel="noopener noreferrer"
@@ -219,19 +223,22 @@ function Header() {
                   <span className="flex text-gray-300 py-2">Support</span>
                   <ul className="pl-4">
                     <li>
-                      <Link
-                        href="mailto:ops@manifoldfinance.com"
-                        className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2">
-                        Contact us
+                      <Link className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2">
+                        <a href={'mailto:ops@manifoldfinance.com'}>
+                          Contact us
+                        </a>
                       </Link>
                     </li>
                     <li>
-                      <Link
-                        href="https://backbonecabal.github.io/knowledgebase/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2">
-                        Help center
+                      <Link className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2">
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={
+                            'https://backbonecabal.github.io/knowledgebase/'
+                          }>
+                          Help center
+                        </a>
                       </Link>
                     </li>
                     <li>
