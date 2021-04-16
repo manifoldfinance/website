@@ -39,7 +39,7 @@ function Footer() {
               </div>
               <div className="text-gray-400">
                 Manifold Finance PKI <br></br>
-                Key ID: 3858023A92C8DA82FB996BB37361D5A506F6EB43E <br></br>
+                Key ID: 06F6EB43E <br></br>
                 LEI: 1f231fafd91f3690ea1940d1
               </div>
             </div>
@@ -52,14 +52,17 @@ function Footer() {
                 <ul>
                   <li className="mb-1">
                     <Link
-                      href="https://github.com/manifoldfinance/api-documentation"
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"> </Link>
+                      <a
                       rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                      
+                        href={"https://github.com/manifoldfinance/api-documentation"}> 
                       Transaction Privacy
-                    </Link>
+                      </a>
+                   
                   </li>
                   <li className="mb-1">
-                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"></Link>
                       <a
                         rel="noopener noreferrer"
                         href={
@@ -67,16 +70,16 @@ function Footer() {
                         }>
                         Private RPC Connections
                       </a>
-                    </Link>
+                    
                   </li>
                   <li className="mb-1">
-                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"></Link>
                       <a
                         rel="noopener noreferrer"
                         href={'https://github.com/manifoldfinance'}>
                         Protocol Middleware
                       </a>
-                    </Link>
+                    
                   </li>
                 </ul>
               </div>
@@ -86,41 +89,41 @@ function Footer() {
                 <h6 className="text-gray-200 font-medium mb-1">Resources</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"></Link>
                       <a
                         rel="noopener noreferrer"
                         href={'https://github.com/manifoldfinance'}>
                         GitHub
                       </a>
-                    </Link>
+                    
                   </li>
                   <li className="mb-1">
-                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"> </Link>
                       <a
                         rel="noopener noreferrer"
                         href={'https://backbonecabal.github.io/knowledgebase/'}>
                         Documentation
                       </a>
-                    </Link>
+                   
                   </li>
                   <li className="mb-1">
-                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"> </Link>
                       <a
                         rel="noopener noreferrer"
                         href={'https://t.me/manifoldfinance'}>
                         Telegram
                       </a>
-                    </Link>
+                   
                   </li>
 
                   <li className="mb-1">
-                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"></Link>
                       <a
                         rel="noopener noreferrer"
                         href={'https://github.com/manifoldfinance/pki'}>
                         Security
                       </a>
-                    </Link>
+                    
                   </li>
                 </ul>
               </div>
@@ -132,34 +135,34 @@ function Footer() {
                   <li className="mb-1">
                     <Link
                       href="#"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"></Link>
                       Overview
-                    </Link>
+                    
                   </li>
                   <li className="mb-1">
                     <Link
                       href="#"
                       rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"></Link>
                       Roadmap
-                    </Link>
+                    
                   </li>
                   <li className="mb-1">
                     <Link
                       href="#"
                       rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"> </Link>
                       Partners
-                    </Link>
+                   
                   </li>
                   <li className="mb-1">
-                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"> </Link>
                       <a
                         rel="noopener noreferrer"
                         href={'https://github.com/manifoldfinance/legal'}>
                         Legal
                       </a>
-                    </Link>
+                   
                   </li>
                 </ul>
               </div>

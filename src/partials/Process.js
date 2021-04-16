@@ -63,11 +63,7 @@ function Process() {
                 <span className="text-gray-400">1</span>. Connect
               </h4>
               <p className="text-lg text-gray-400 text-center">
-                Users enter trades normally, we then bundle the frontend
-                transactions into batches. Users don't experience any noticeable
-                differences in transaction confirmation as a result of our
-                service. Users only have to click a button to authorize the
-                connection, thats it.
+                Submit your transactions by connecting to our endpoint
               </p>
             </div>
 
@@ -115,11 +111,7 @@ function Process() {
                 <span className="text-gray-400">2</span>. Trade
               </h4>
               <p className="text-lg text-gray-400 text-center">
-                Through both on-chain and off-chain solutions we find optimal
-                trading routing and miner extracted value (MEV), which we then
-                send to miners through a private connection. This batch process
-                is handled through both our own connections and providers such
-                as flashbots.
+                We process your transactions in a batch-aggregation workflow
               </p>
             </div>
 
@@ -157,9 +149,7 @@ function Process() {
                 <span className="text-gray-400">3</span>. Save
               </h4>
               <p className="text-lg text-gray-400 text-center">
-                The strategy then distributes the resulting value back to users
-                who submitted trades by eliminating their transaction cost and
-                to the greater community by further enriching their rewards pool
+                Rebated arbitrage profits lower or eliminating your cost entirely
               </p>
             </div>
           </div>

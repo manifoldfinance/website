@@ -62,7 +62,7 @@ class Clients extends React.Component {
               </li>
               <li className="reveal-from-top" data-reveal-delay="300">
                 <Image
-                  src={require('./../../assets/images/skynetsvg')}
+                  src={require('./../../assets/images/skynet.svg')}
                   alt="Skynet Trading"
                   width={125}
                   height={39}

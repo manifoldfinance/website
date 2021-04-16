@@ -3,7 +3,7 @@ import React from 'react';
 import Header from '../partials/Header';
 // import PageIllustration from '../partials/PageIllustration';
 import HeroHome from '../partials/HeroHome';
-import Clients from '../components/sections/Clients';
+
 import Process from '../partials/Process';
 import SolutionsHome from '../partials/SolutionsHome';
 
@@ -25,7 +25,7 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
-        <Clients topDivider bottomDivider />
+     
         <Process />
         <SolutionsHome />
 
@@ -41,14 +41,14 @@ function Home() {
 }
 /**
  *  Page Sections tmp removed
- *       <Tabs />
+ *   <Tabs />
  *
- *    <News />
+ *  <News />
  *
- *               Our solution handles connectivity to venues, executes trades via
-              your choice of a number of order types and execution algorithms, and consolidates key data.
- *     <Target />
- *    <News />
+ *  Our solution handles connectivity to venues, executes trades via
+  * your choice of a number of order types and execution algorithms, and consolidates key data.
+ *   <Target />
+ *   <News />
  */
 export default Home;
 /** @export Home */

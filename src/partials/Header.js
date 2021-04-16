@@ -98,20 +98,24 @@ function Header() {
                 {/* 2nd level: hover */}
                 <li>
                   <Link
-                    href="mailto:ops@manifoldfinance.com"
+                           className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight">
+                             <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight">
+                               href={"mailto:ops@manifoldfinance.com"}>
                     Contact us
+                    </a>
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="https://backbonecabal.github.io/knowledgebase/"
+                            className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight">
+                              <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight">
+                             href={"https://backbonecabal.github.io/knowledgebase/"}>
                     Help center
+                    </a>
                   </Link>
                 </li>
                 <li>
