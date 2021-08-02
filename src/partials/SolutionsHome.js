@@ -64,7 +64,7 @@ function SolutionsHome() {
                   </div>
                   <h3 className="h3 mb-3">Performance starts here.</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    Maidenlane enables a Blockchain Message Network (BMN) that
+                    OpenMEV enables a Blockchain Message Network (BMN) that
                     utilizes a global network of servers optimized for network
                     performance.
                   </p>
@@ -76,7 +76,7 @@ function SolutionsHome() {
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>SQL Queries</span>
+                      <span>Public Data Queries</span>
                     </li>
                     <li className="flex items-center mx-2 my-1">
                       <svg
@@ -85,7 +85,7 @@ function SolutionsHome() {
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Trace Transaction</span>
+                      <span>Trace and Simulate Transaction</span>
                     </li>
                     <li className="flex items-center mx-2 my-1">
                       <svg
@@ -94,7 +94,7 @@ function SolutionsHome() {
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Debug Transaction</span>
+                      <span>Debug Trace Transaction</span>
                     </li>
                     <li className="flex items-center mx-2 my-1">
                       <svg

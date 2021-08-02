@@ -14,13 +14,13 @@ function HeroHome() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
-              Challenging Finance's core assumptions
+              OpenMEV
             </h1>
             <p
               className="text-xl text-gray-400 mb-8"
               data-aos="fade-up"
               data-aos-delay="200">
-              Price stability as a service to Middleware scaling solutions
+              OpenMEV is committed to being an open, non-profit, collaborative, and community-driven project
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">

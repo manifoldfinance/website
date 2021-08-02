@@ -8,7 +8,7 @@ import Process from '../partials/Process';
 import SolutionsHome from '../partials/SolutionsHome';
 
 import Tabs from '../partials/Tabs';
-import Target from '../partials/Target';
+// import Target from '../partials/Target';
 //import News from '../partials/News';
 import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
@@ -25,12 +25,12 @@ function Home() {
 
         {/*  Page sections */}
         <HeroHome />
-     
+
         <Process />
         <SolutionsHome />
 
         <Tabs />
-        <Target />
+
         <Newsletter />
       </main>
 
