@@ -21,7 +21,7 @@ function SignIn() {
             <div className="pt-32 pb-12 md:pt-40 md:pb-20">
               {/* Page header */}
               <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-                <h1 className="h1">Project Account Manager</h1>
+                <h1 className="h1">Network Operations</h1>
               </div>
 
               {/* Form */}
@@ -102,7 +102,7 @@ function SignIn() {
                         <Link
                           to="/reset-password"
                           className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">
-                          Forgot Password?
+                          Reset Password
                         </Link>
                       </div>
                     </div>
@@ -116,9 +116,9 @@ function SignIn() {
                   </div>
                 </form>
                 <div className="text-gray-400 text-center mt-6">
-                  Don’t you have an account?{' '}
+                  {' '}
                   <Link
-                    to="/signup"
+                    to="https://form.typeform.com/to/Sr7xLL3s"
                     className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">
                     Request Access
                   </Link>

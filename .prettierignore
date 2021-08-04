@@ -6,3 +6,10 @@ build/
 public/
 *.svg
 *.png
+*.jpg
+*.jpeg
+*.min.js
+*.test.js
+*.htm
+*.xml
+*.xhtml

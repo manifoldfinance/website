@@ -10,7 +10,7 @@ import SolutionsHome from '../partials/SolutionsHome';
 import Tabs from '../partials/Tabs';
 // import Target from '../partials/Target';
 //import News from '../partials/News';
-import Newsletter from '../partials/Newsletter';
+// import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
 
 function Home() {
@@ -26,12 +26,10 @@ function Home() {
         {/*  Page sections */}
         <HeroHome />
 
-        <Process />
+
         <SolutionsHome />
-
+        <Process />
         <Tabs />
-
-
       </main>
 
       {/*  Site footer */}
@@ -46,7 +44,7 @@ function Home() {
  *   <News />
  *   <Newsletter />
  *  Our solution handles connectivity to venues, executes trades via
-  * your choice of a number of order types and execution algorithms, and consolidates key data.
+ * your choice of a number of order types and execution algorithms, and consolidates key data.
  *   <Target />
  *   <News />
  */

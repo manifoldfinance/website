@@ -17,13 +17,14 @@ function Footer() {
             <div className="md:col-span-4 lg:col-span-5">
               <div className="mb-2">
                 {/* Logo */}
-                <Link href="/" className="inline-block" aria-label="Manifold">
-
-                </Link>
+                <Link
+                  href="/"
+                  className="inline-block"
+                  aria-label="Manifold"></Link>
               </div>
               <div className="text-gray-400">
-               <br></br>
-                 <br></br>
+                <br></br>
+                <br></br>
               </div>
             </div>
 
@@ -34,35 +35,30 @@ function Footer() {
                 <h6 className="text-gray-200 font-medium mb-1">Resources</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"> </Link>
-                      <a
+                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                      {' '}
+                    </Link>
+                    <a
                       rel="noopener noreferrer"
-
-                        href={"https://github.com/manifoldfinance/documentation"}>
+                      href={'https://github.com/manifoldfinance/documentation'}>
                       Transaction Privacy
-                      </a>
-
+                    </a>
                   </li>
                   <li className="mb-1">
                     <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"></Link>
-                      <a
-                        rel="noopener noreferrer"
-                        href={
-                          'https://github.com/manifoldfinance/documentation'
-                        }>
-                        Private RPC Connections
-                      </a>
-
+                    <a
+                      rel="noopener noreferrer"
+                      href={'https://github.com/manifoldfinance/documentation'}>
+                      Private RPC Connections
+                    </a>
                   </li>
                   <li className="mb-1">
                     <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"></Link>
-                      <a
-                        rel="noopener noreferrer"
-                        href={'https://github.com/openmev'}>
-                        GitHub
-                      </a>
-
+                    <a
+                      rel="noopener noreferrer"
+                      href={'https://github.com/openmev'}>
+                      GitHub
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -73,40 +69,40 @@ function Footer() {
                 <ul>
                   <li className="mb-1">
                     <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"></Link>
-                      <a
-                        rel="noopener noreferrer"
-                        href={'https://github.com/manifoldfinance'}>
-                        GitHub
-                      </a>
-
+                    <a
+                      rel="noopener noreferrer"
+                      href={'https://form.typeform.com/to/Sr7xLL3s'}>
+                      Contact us
+                    </a>
                   </li>
                   <li className="mb-1">
-                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"> </Link>
-                      <a
-                        rel="noopener noreferrer"
-                        href={'https://backbonecabal.github.io/knowledgebase/'}>
-                        Documentation
-                      </a>
-
+                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                      {' '}
+                    </Link>
+                    <a
+                      rel="noopener noreferrer"
+                      href={'#'}>
+                      Grants
+                    </a>
                   </li>
                   <li className="mb-1">
-                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"> </Link>
-                      <a
-                        rel="noopener noreferrer"
-                        href={'https://t.me/manifoldfinance'}>
-                        Telegram
-                      </a>
-
+                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                      {' '}
+                    </Link>
+                    <a
+                      rel="noopener noreferrer"
+                      href={'https://t.me/manifoldfinance'}>
+                      Telegram
+                    </a>
                   </li>
 
                   <li className="mb-1">
                     <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"></Link>
-                      <a
-                        rel="noopener noreferrer"
-                        href={'https://github.com/manifoldfinance/pki'}>
-                        Security
-                      </a>
-
+                    <a
+                      rel="noopener noreferrer"
+                      href={'https://github.com/manifoldfinance/pki'}>
+                      Security
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -119,33 +115,33 @@ function Footer() {
                     <Link
                       href="#"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"></Link>
-                      Overview
-
+                    Overview
                   </li>
                   <li className="mb-1">
                     <Link
                       href="#"
                       rel="noopener noreferrer"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"></Link>
-                      About
-
+                    About
                   </li>
                   <li className="mb-1">
                     <Link
                       href="#"
                       rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"> </Link>
-                      Partners
-
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                      {' '}
+                    </Link>
+                    Partners
                   </li>
                   <li className="mb-1">
-                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"> </Link>
-                      <a
-                        rel="noopener noreferrer"
-                        href={'https://github.com/openmev/legal'}>
-                        Legal
-                      </a>
-
+                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                      {' '}
+                    </Link>
+                    <a
+                      rel="noopener noreferrer"
+                      href={'https://github.com/openmev/legal'}>
+                      Legal
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -192,11 +188,8 @@ function Footer() {
             <div className="text-gray-400 text-sm mr-4">
               &copy; 2021 OpenMEV.org - All Rights Reserved
             </div>
-            <div id="title" className="text-gray-400 text-sm mr-4">
-            </div>
-            <div id="status" status="wait">
-
-            </div>
+            <div id="title" className="text-gray-400 text-sm mr-4"></div>
+            <div id="status" status="wait"></div>
           </div>
         </div>
       </div>

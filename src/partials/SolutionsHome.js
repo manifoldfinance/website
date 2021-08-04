@@ -53,11 +53,13 @@ function SolutionsHome() {
                 </div>
               </div>
               {/* Content */}
+
               <div
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
                 data-aos="fade-right"
                 data-aos-anchor="[data-aos-id-solutions-home]">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
+
                   {/* TODO change style */}
                   <div className="font-fira-sans text-xl text-purple-600 mb-2">
                     Lighting fast workflow

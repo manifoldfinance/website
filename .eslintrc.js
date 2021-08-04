@@ -1,7 +1,6 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true,
     node: true,
   },
   extends: ['react-app', 'eslint:recommended', 'plugin:react/recommended'],
@@ -9,11 +8,13 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
-    ecmaVersion: 2021,
+    ecmaVersion: 2017,
     sourceType: 'module',
   },
   plugins: ['react'],
   rules: {
     'no-unused-vars': 'off',
+    'no-sequences': 'off',
+    'no-unused-expressions': 'off'
   },
 };

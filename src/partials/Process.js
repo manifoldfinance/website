@@ -10,8 +10,9 @@ function Process() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-10 pb-12 md:pt-16 md:pb-20">
           {/* Section header */}
+
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4" data-aos="fade-up">
+            <h2 className="h2 mb-6" data-aos="fade-up">
               Enabling transparent and fair market practices
             </h2>
             <p
@@ -153,7 +154,8 @@ function Process() {
                 <span className="text-gray-400">3</span>. Save
               </h4>
               <p className="text-lg text-gray-400 text-center">
-                Rebated arbitrage profits lower or eliminating your cost entirely
+                Rebated arbitrage profits lower or eliminating your cost
+                entirely
               </p>
             </div>
           </div>

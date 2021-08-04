@@ -20,7 +20,8 @@ function HeroHome() {
               className="text-xl text-gray-400 mb-8"
               data-aos="fade-up"
               data-aos-delay="200">
-              OpenMEV is committed to being an open, non-profit, collaborative, and community-driven project
+              OpenMEV is committed to being an open, non-profit, collaborative,
+              and community-driven project
             </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
@@ -47,17 +48,11 @@ function HeroHome() {
               data-aos="fade-up"
               data-aos-delay="200">
               {/* @dev hereo image here */}
-              <img
-                className="mx-auto"
-                src={require('../images/hero_graph.svg')}
-                width="620"
-                height="620"
-                alt="Hero"
-              />
+              <br></br>
+              <br></br>
             </div>
 
             {/* Modal */}
-
           </div>
         </div>
       </div>

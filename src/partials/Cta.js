@@ -19,8 +19,7 @@ function Cta() {
               className="text-xl text-gray-400 mb-8"
               data-aos="fade-up"
               data-aos-delay="200"
-              data-aos-anchor="[data-aos-id-cta]">
-            </p>
+              data-aos-anchor="[data-aos-id-cta]"></p>
 
             {/* CTA button */}
             <div
