@@ -20,8 +20,6 @@ function Cta() {
               data-aos="fade-up"
               data-aos-delay="200"
               data-aos-anchor="[data-aos-id-cta]">
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum consequat.
             </p>
 
             {/* CTA button */}

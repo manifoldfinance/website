@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Modal from '../utils/Modal';
+// import Modal from '../utils/Modal';
 
 function HeroHome() {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
@@ -57,19 +57,7 @@ function HeroHome() {
             </div>
 
             {/* Modal */}
-            <Modal
-              id="modal"
-              ariaLabel="modal-headline"
-              show={videoModalOpen}
-              handleClose={() => setVideoModalOpen(false)}>
-              <div className="relative pb-9/16">
-                <iframe
-                  className="absolute w-full h-full"
-                  src="#"
-                  title="manifold-video"
-                  allowFullScreen></iframe>
-              </div>
-            </Modal>
+
           </div>
         </div>
       </div>

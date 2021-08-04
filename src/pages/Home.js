@@ -31,7 +31,7 @@ function Home() {
 
         <Tabs />
 
-        <Newsletter />
+
       </main>
 
       {/*  Site footer */}
@@ -41,10 +41,10 @@ function Home() {
 }
 /**
  *  Page Sections tmp removed
+ *
  *   <Tabs />
- *
- *  <News />
- *
+ *   <News />
+ *   <Newsletter />
  *  Our solution handles connectivity to venues, executes trades via
   * your choice of a number of order types and execution algorithms, and consolidates key data.
  *   <Target />
