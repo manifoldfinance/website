@@ -43,14 +43,21 @@ function HeroHome() {
 
           {/* Hero image */}
           <div>
-            <div
+          <div
               className="relative flex justify-center items-center"
               data-aos="fade-up"
-              data-aos-delay="200">
+              data-aos-delay="200"
+            >
               {/* @dev hereo image here */}
-              <br></br>
-              <br></br>
+              <img
+                className="mx-auto"
+                src={require('../images/hero_graph.svg')}
+                width="620"
+                height="620"
+                alt="Miner Extracted Value"
+              />
             </div>
+
 
             {/* Modal */}
           </div>
