@@ -5,22 +5,24 @@
   "private": true,
   "dependencies": {
     "-": "0.0.1",
-    "@craco/craco": "^5.6.4",
+    "@craco/craco": "^6.2.0",
     "@tailwindcss/custom-forms": "^0.2.1",
+    "@tailwindcss/forms": "^0.3.3",
     "aos": "^3.0.0-beta.6",
-    "autoprefixer": "^9",
+    "autoprefixer": "^10.3.1",
     "classnames": "^2.3.1",
     "cruip-js-toolkit": "^1.0.3",
     "node-sass": "^4.14.1",
-    "postcss-cli": "^7.1.1",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-external-link": "^1.2.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^4.0.3",
     "react-transition-group": "^4.4.1",
-    "tailwindcss": "^2"
+    "tailwindcss": "^2.2.7"
   },
   "scripts": {
     "start": "craco start",
@@ -47,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.15.0",
     "@babel/plugin-transform-typescript": "^7.13.0",
     "@mdx-js/loader": "^1.6.22",
     "@tailwindcss/postcss7-compat": "^2.1.0",
@@ -71,7 +74,6 @@
     "jest": "^24.9.0",
     "jest-matcher-css": "^1.1.0",
     "jest-snapshot-serializer-raw": "^1.1.0",
-    "postcss": "^7",
     "prettier": "^2.2.1"
   }
 }
