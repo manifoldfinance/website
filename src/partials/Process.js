@@ -13,13 +13,14 @@ function Process() {
 
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-6" data-aos="fade-up">
-              Enabling transparent and fair market practices
+              Sushi Relay
             </h2>
             <p
               className="text-xl text-gray-400"
               data-aos="fade-up"
               data-aos-delay="200">
               {}
+              Sushi Relay enables MEV protection and Gas Rebating for SushiSwap users
             </p>
           </div>
 
@@ -65,10 +66,10 @@ function Process() {
                 />
               </svg>
               <h4 className="h4 mb-2">
-                <span className="text-gray-400">1</span>. Connect
+                <span className="text-gray-400">1</span>. Submit
               </h4>
               <p className="text-lg text-gray-400 text-center">
-                Submit your transactions by connecting to our endpoint
+                Zero-configuration for end users: works without having to change any settings
               </p>
             </div>
 
@@ -113,10 +114,10 @@ function Process() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">
-                <span className="text-gray-400">2</span>. Trade
+                <span className="text-gray-400">2</span>. Clearing
               </h4>
               <p className="text-lg text-gray-400 text-center">
-                We process your transactions in a batch-aggregation workflow
+                Aggregated transactions are routed to MEV solutions like flashbots, edennetwork, etc.
               </p>
             </div>
 
@@ -154,8 +155,7 @@ function Process() {
                 <span className="text-gray-400">3</span>. Save
               </h4>
               <p className="text-lg text-gray-400 text-center">
-                Rebated arbitrage profits lower or eliminating your cost
-                entirely
+                End users get rebated their transaction cost in xSushi
               </p>
             </div>
           </div>

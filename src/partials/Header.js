@@ -39,27 +39,29 @@ function Header() {
             <ul className="flex flex-grow justify-end flex-wrap items-center">
               <li>
                 <a
+                  href="https://discord.gg/uTNRCQmzt8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
+                  Discord
+                </a>
+              </li>
+              <li>
+                <a
                   href="https://form.typeform.com/to/Sr7xLL3s"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
-                  Solutions
+                  Contact
                 </a>
               </li>
               <li>
                 <a
-                  href="#"
-                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
-                  Network
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://primitives.substack.com/"
+                  href="https://github.com/openmev"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
-                  Blog
+                  GitHub
                 </a>
               </li>
               <li>
@@ -72,14 +74,14 @@ function Header() {
                 </a>
               </li>
               {/* 1st level: hover */}
-              <Dropdown title="Support">
+              <Dropdown title="Resources">
                 {/* 2nd level: hover */}
                 <li>
                   <Link className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href={'mailto:ops@manifoldfinance.com'}>
+                      href={'https://form.typeform.com/to/Sr7xLL3s'}>
                       Contact us
                     </a>
                   </Link>
@@ -89,16 +91,16 @@ function Header() {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href={'https://backbonecabal.github.io/knowledgebase/'}>
-                      Help center
+                      href={'https://github.com/manifoldfinance/documentation'}>
+                      Documentation
                     </a>
                   </Link>
                 </li>
                 <li>
                   <Link
-                    to="/404"
+                    to="https://status.manifoldfinance.com"
                     className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight">
-                    404
+                    Status
                   </Link>
                 </li>
               </Dropdown>
