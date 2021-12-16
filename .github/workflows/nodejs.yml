@@ -9,6 +9,7 @@ on:
 env:
   CI: true
   FORCE_COLOR: 2
+  SKIP_PREFLIGHT_CHECK: true
 
 jobs:
   pipeline:
