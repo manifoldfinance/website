@@ -1,7 +1,7 @@
 [build]
   base = "."
   publish = "build/"
-  command = "npm install && npm run prod"
+  command = "yarn install && yarn run prod"
 #  functions = "project/functions/" // TODO: LAMBDA FUNCTIONS
 
   [build.processing]

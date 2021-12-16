@@ -20,3 +20,5 @@ coverage
 .netlify
 .devcontainer
 .vscode
+
+.vercel
