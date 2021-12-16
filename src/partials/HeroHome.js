@@ -6,33 +6,33 @@ function HeroHome() {
 
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
+      <div className="relative px-4 mx-auto max-w-6xl sm:px-6">
         {/* Illustration behind hero content */}
 
         {/* Hero content */}
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4" data-aos="fade-up">
-              Manifold
+          <div className="pb-12 mx-auto max-w-3xl text-center md:pb-16">
+            <h1 className="mb-4 h1" data-aos="fade-up">
+              Maximal Extracted Value
             </h1>
             <p
-              className="text-xl text-gray-400 mb-8"
+              className="mb-8 text-xl text-gray-400"
               data-aos="fade-up"
               data-aos-delay="200">
-              Manifold Finance 
+              Manifold Finance enables maximal extracted value from trading via stablecoins
             </p>
-            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+            <div className="mx-auto max-w-xs sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
-                  className="btn text-black bg-white hover:bg-white w-full mb-4 sm:w-auto sm:mb-0"
+                  className="mb-4 w-full text-black bg-white btn hover:bg-white sm:w-auto sm:mb-0"
                   to="#0">
                   Explore
                 </a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
                 <a
-                  className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
+                  className="w-full text-white bg-gray-700 btn hover:bg-gray-800 sm:w-auto sm:ml-4"
                   to="#0">
                   Learn more
                 </a>
@@ -43,7 +43,7 @@ function HeroHome() {
           {/* Hero image */}
           <div>
             <div
-              className="relative flex justify-center items-center"
+              className="flex relative justify-center items-center"
               data-aos="fade-up"
               data-aos-delay="200">
               {/* @dev hereo image here */}
@@ -52,7 +52,7 @@ function HeroHome() {
                 src={require('../images/hero_graph.svg')}
                 width="820"
                 height="820"
-                alt="Miner Extracted Value"
+                alt="Miner / Maximal Extracted Value"
               />
               <a
                 className="absolute group"

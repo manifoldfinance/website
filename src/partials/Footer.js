@@ -10,9 +10,9 @@ function Footer() {
   return (
     <footer>
       <div className="py-12 md:py-16">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <div className="px-4 mx-auto max-w-6xl sm:px-6">
           {/* Top area: Blocks */}
-          <div className="grid md:grid-cols-12 gap-8 lg:gap-20 mb-8 md:mb-12">
+          <div className="grid gap-8 mb-8 md:grid-cols-12 lg:gap-20 md:mb-12">
             {/* 1st block */}
             <div className="md:col-span-4 lg:col-span-5">
               <div className="mb-2">
@@ -29,13 +29,13 @@ function Footer() {
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
-            <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-3 gap-8">
+            <div className="grid gap-8 md:col-span-8 lg:col-span-7 sm:grid-cols-3">
               {/* 2nd block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Resources</h6>
+                <h6 className="mb-1 font-medium text-gray-200">Resources</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100">
                       {' '}
                     </Link>
                     <a
@@ -45,7 +45,7 @@ function Footer() {
                     </a>
                   </li>
                   <li className="mb-1">
-                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"></Link>
+                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
                     <a
                       rel="noopener noreferrer"
                       href={'https://github.com/manifoldfinance/documentation'}>
@@ -53,7 +53,7 @@ function Footer() {
                     </a>
                   </li>
                   <li className="mb-1">
-                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"></Link>
+                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
                     <a
                       rel="noopener noreferrer"
                       href={'https://github.com/openmev'}>
@@ -65,10 +65,10 @@ function Footer() {
 
               {/* 3rd block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Resources</h6>
+                <h6 className="mb-1 font-medium text-gray-200">Resources</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"></Link>
+                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
                     <a
                       rel="noopener noreferrer"
                       href={'https://form.typeform.com/to/Sr7xLL3s'}>
@@ -76,7 +76,7 @@ function Footer() {
                     </a>
                   </li>
                   <li className="mb-1">
-                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100">
                       {' '}
                     </Link>
                     <a
@@ -86,7 +86,7 @@ function Footer() {
                     </a>
                   </li>
                   <li className="mb-1">
-                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100">
                       {' '}
                     </Link>
                     <a
@@ -97,7 +97,7 @@ function Footer() {
                   </li>
 
                   <li className="mb-1">
-                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"></Link>
+                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
                     <a
                       rel="noopener noreferrer"
                       href={'https://github.com/manifoldfinance/pki'}>
@@ -109,32 +109,32 @@ function Footer() {
 
               {/* 4th block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Organization</h6>
+                <h6 className="mb-1 font-medium text-gray-200">Organization</h6>
                 <ul>
                   <li className="mb-1">
                     <Link
                       href="#"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"></Link>
+                      className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
                     Overview
                   </li>
                   <li className="mb-1">
                     <Link
                       href="#"
                       rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"></Link>
+                      className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
                     About
                   </li>
                   <li className="mb-1">
                     <Link
                       href="#"
                       rel="noopener noreferrer"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100">
                       {' '}
                     </Link>
                     Partners
                   </li>
                   <li className="mb-1">
-                    <Link className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">
+                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100">
                       {' '}
                     </Link>
                     <a
@@ -157,7 +157,7 @@ function Footer() {
                   href="https://twitter.com/openmev"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                  className="flex justify-center items-center text-purple-600 bg-gray-800 rounded-full transition duration-150 ease-in-out hover:text-gray-100 hover:bg-purple-600"
                   aria-label="Twitter">
                   <svg
                     className="w-8 h-8 fill-current"
@@ -172,7 +172,7 @@ function Footer() {
                   href="https://github.com/openmev"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                  className="flex justify-center items-center text-purple-600 bg-gray-800 rounded-full transition duration-150 ease-in-out hover:text-gray-100 hover:bg-purple-600"
                   aria-label="Github">
                   <svg
                     className="w-8 h-8 fill-current"
@@ -185,10 +185,10 @@ function Footer() {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">
-              &copy; 2021 OpenMEV.org - All Rights Reserved
+            <div className="mr-4 text-sm text-gray-400">
+              &copy; 2021 Manifold Finance - All Rights Reserved
             </div>
-            <div id="title" className="text-gray-400 text-sm mr-4"></div>
+            <div id="title" className="mr-4 text-sm text-gray-400"></div>
             <div id="status" status="wait"></div>
           </div>
         </div>

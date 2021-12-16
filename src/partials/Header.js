@@ -28,21 +28,21 @@ function Header() {
   });
 
   return (
-    <header className="absolute w-full z-30">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="flex items-center justify-between h-20">
+    <header className="absolute z-30 w-full">
+      <div className="px-4 mx-auto max-w-6xl sm:px-6">
+        <div className="flex justify-between items-center h-20">
           {/* Site branding */}
 
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:flex-grow">
             {/* Desktop menu links */}
-            <ul className="flex flex-grow justify-end flex-wrap items-center">
+            <ul className="flex flex-wrap flex-grow justify-end items-center">
               <li>
                 <a
                   href="https://discord.gg/uTNRCQmzt8"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
+                  className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200">
                   Discord
                 </a>
               </li>
@@ -51,22 +51,22 @@ function Header() {
                   href="https://form.typeform.com/to/Sr7xLL3s"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
+                  className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200">
                   Contact
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/openmev"
+                  href="https://github.com/manifoldfinance"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out">
+                  className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200">
                   GitHub
                 </a>
               </li>
               <li>
                 <a
-                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                  className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
                   rel="noopener noreferrer"
                   target="_blank"
                   href="https://t.me/manifoldfinance">
@@ -77,7 +77,7 @@ function Header() {
               <Dropdown title="Resources">
                 {/* 2nd level: hover */}
                 <li>
-                  <Link className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight">
+                  <Link className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-white-600">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
@@ -87,7 +87,7 @@ function Header() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight">
+                  <Link className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-white-600">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
@@ -99,7 +99,7 @@ function Header() {
                 <li>
                   <Link
                     to="https://status.manifoldfinance.com"
-                    className="font-medium text-sm text-gray-400 hover:text-white-600 flex py-2 px-4 leading-tight">
+                    className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-white-600">
                     Status
                   </Link>
                 </li>
@@ -107,18 +107,18 @@ function Header() {
             </ul>
 
             {/* Desktop sign in links */}
-            <ul className="flex flex-grow justify-end flex-wrap items-center">
+            <ul className="flex flex-wrap flex-grow justify-end items-center">
               <li>
                 <Link
                   to="/signin"
-                  className="font-medium text-white-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out">
+                  className="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out text-white-600 hover:text-gray-200">
                   Sign in
                 </Link>
               </li>
               <li>
                 <Link
                   to="/signup"
-                  className="btn-sm text-white bg-white-600 hover:bg-white-700 ml-3">
+                  className="ml-3 text-white btn-sm bg-white-600 hover:bg-white-700">
                   Request access
                 </Link>
               </li>
@@ -135,7 +135,7 @@ function Header() {
               onClick={() => setMobileNavOpen(!mobileNavOpen)}>
               <span className="sr-only">Menu</span>
               <svg
-                className="w-6 h-6 fill-current text-gray-300 hover:text-gray-200 transition duration-150 ease-in-out"
+                className="w-6 h-6 text-gray-300 transition duration-150 ease-in-out fill-current hover:text-gray-200"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg">
                 <rect y="4" width="24" height="2" rx="1" />
@@ -148,15 +148,15 @@ function Header() {
             <nav
               id="mobile-nav"
               ref={mobileNav}
-              className="absolute top-full z-20 left-0 w-full px-4 sm:px-6 overflow-hidden transition-all duration-300 ease-in-out"
+              className="overflow-hidden absolute left-0 top-full z-20 px-4 w-full transition-all duration-300 ease-in-out sm:px-6"
               style={
                 mobileNavOpen
                   ? { maxHeight: mobileNav.current.scrollHeight, opacity: 1 }
                   : { maxHeight: 0, opacity: 0.8 }
               }>
-              <ul className="bg-gray-800 px-4 py-2">
+              <ul className="px-4 py-2 bg-gray-800">
                 <li>
-                  <Link className="flex text-gray-300 hover:text-gray-200 py-2">
+                  <Link className="flex py-2 text-gray-300 hover:text-gray-200">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
@@ -166,7 +166,7 @@ function Header() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="flex text-gray-300 hover:text-gray-200 py-2">
+                  <Link className="flex py-2 text-gray-300 hover:text-gray-200">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
@@ -176,7 +176,7 @@ function Header() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="flex text-gray-300 hover:text-gray-200 py-2">
+                  <Link className="flex py-2 text-gray-300 hover:text-gray-200">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
@@ -186,7 +186,7 @@ function Header() {
                   </Link>
                 </li>
                 <li>
-                  <Link className="flex text-gray-300 hover:text-gray-200 py-2">
+                  <Link className="flex py-2 text-gray-300 hover:text-gray-200">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
@@ -202,17 +202,17 @@ function Header() {
                   </a>
                 </li>
                 <li className="py-2 my-2 border-t border-b border-gray-700">
-                  <span className="flex text-gray-300 py-2">Support</span>
+                  <span className="flex py-2 text-gray-300">Support</span>
                   <ul className="pl-4">
                     <li>
-                      <Link className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2">
+                      <Link className="flex py-2 text-sm font-medium text-gray-400 hover:text-gray-200">
                         <a href={'mailto:ops@manifoldfinance.com'}>
                           Contact us
                         </a>
                       </Link>
                     </li>
                     <li>
-                      <Link className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2">
+                      <Link className="flex py-2 text-sm font-medium text-gray-400 hover:text-gray-200">
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
@@ -226,7 +226,7 @@ function Header() {
                     <li>
                       <Link
                         to="/404"
-                        className="text-sm flex font-medium text-gray-400 hover:text-gray-200 py-2">
+                        className="flex py-2 text-sm font-medium text-gray-400 hover:text-gray-200">
                         404
                       </Link>
                     </li>
@@ -235,14 +235,14 @@ function Header() {
                 <li>
                   <Link
                     to="/signin"
-                    className="flex font-medium w-full text-white-600 hover:text-gray-200 py-2 justify-center">
+                    className="flex justify-center py-2 w-full font-medium text-white-600 hover:text-gray-200">
                     Sign in
                   </Link>
                 </li>
                 <li>
                   <Link
                     to="/signup"
-                    className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-gray-600 hover:bg-white-700 transition duration-150 ease-in-out">
+                    className="inline-flex justify-center items-center px-4 py-2 my-2 w-full font-medium text-white bg-gray-600 rounded-sm border border-transparent transition duration-150 ease-in-out hover:bg-white-700">
                     Request access
                   </Link>
                 </li>
