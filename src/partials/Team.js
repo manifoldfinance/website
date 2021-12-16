@@ -17,12 +17,14 @@ function Team() {
           {/* Team members */}
           <div
             className="sm:flex sm:flex-wrap sm:justify-center -my-4 sm:-my-8 sm:-mx-3"
-            data-aos-id-team>
+            data-aos-id-team
+          >
             {/* 1st member */}
             <div
               className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3"
               data-aos="fade-up"
-              data-aos-anchor="[data-aos-id-team]">
+              data-aos-anchor="[data-aos-id-team]"
+            >
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
@@ -35,7 +37,8 @@ function Team() {
                 <div className="text-gray-500 mb-1">CEO & Co-founder</div>
                 <a
                   className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  to="#0">
+                  to="#0"
+                >
                   @laraamprecht
                 </a>
               </div>
@@ -46,7 +49,8 @@ function Team() {
               className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3"
               data-aos="fade-up"
               data-aos-delay="100"
-              data-aos-anchor="[data-aos-id-team]">
+              data-aos-anchor="[data-aos-id-team]"
+            >
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
@@ -59,7 +63,8 @@ function Team() {
                 <div className="text-gray-500 mb-1">CEO & Co-founder</div>
                 <a
                   className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  to="#0">
+                  to="#0"
+                >
                   @marie_moon
                 </a>
               </div>
@@ -70,7 +75,8 @@ function Team() {
               className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3"
               data-aos="fade-up"
               data-aos-delay="200"
-              data-aos-anchor="[data-aos-id-team]">
+              data-aos-anchor="[data-aos-id-team]"
+            >
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
@@ -83,7 +89,8 @@ function Team() {
                 <div className="text-gray-500 mb-1">Head of Design</div>
                 <a
                   className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  to="#0">
+                  to="#0"
+                >
                   @mr_sebastian
                 </a>
               </div>
@@ -94,7 +101,8 @@ function Team() {
               className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3"
               data-aos="fade-up"
               data-aos-delay="300"
-              data-aos-anchor="[data-aos-id-team]">
+              data-aos-anchor="[data-aos-id-team]"
+            >
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
@@ -107,7 +115,8 @@ function Team() {
                 <div className="text-gray-500 mb-1">Product Executive</div>
                 <a
                   className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  to="#0">
+                  to="#0"
+                >
                   @timothychandran
                 </a>
               </div>
@@ -118,7 +127,8 @@ function Team() {
               className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3"
               data-aos="fade-up"
               data-aos-delay="400"
-              data-aos-anchor="[data-aos-id-team]">
+              data-aos-anchor="[data-aos-id-team]"
+            >
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
@@ -131,7 +141,8 @@ function Team() {
                 <div className="text-gray-500 mb-1">Backend Lead</div>
                 <a
                   className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  to="#0">
+                  to="#0"
+                >
                   @dominikprasad
                 </a>
               </div>
@@ -142,7 +153,8 @@ function Team() {
               className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3"
               data-aos="fade-up"
               data-aos-delay="500"
-              data-aos-anchor="[data-aos-id-team]">
+              data-aos-anchor="[data-aos-id-team]"
+            >
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
@@ -155,7 +167,8 @@ function Team() {
                 <div className="text-gray-500 mb-1">Backend Developer</div>
                 <a
                   className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  to="#0">
+                  to="#0"
+                >
                   @daryamagic
                 </a>
               </div>
@@ -166,7 +179,8 @@ function Team() {
               className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3"
               data-aos="fade-up"
               data-aos-delay="600"
-              data-aos-anchor="[data-aos-id-team]">
+              data-aos-anchor="[data-aos-id-team]"
+            >
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
@@ -179,7 +193,8 @@ function Team() {
                 <div className="text-gray-500 mb-1">Product Designer</div>
                 <a
                   className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  to="#0">
+                  to="#0"
+                >
                   @quentinrenvoye
                 </a>
               </div>
@@ -190,7 +205,8 @@ function Team() {
               className="sm:w-1/2 md:w-1/3 lg:w-1/4 py-4 sm:py-8 sm:px-3"
               data-aos="fade-up"
               data-aos-delay="700"
-              data-aos-anchor="[data-aos-id-team]">
+              data-aos-anchor="[data-aos-id-team]"
+            >
               <div className="flex flex-col items-center">
                 <img
                   className="rounded-full mb-4"
@@ -203,7 +219,8 @@ function Team() {
                 <div className="text-gray-500 mb-1">Community Lead</div>
                 <a
                   className="block text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  to="#0">
+                  to="#0"
+                >
                   @hello_chuzeville
                 </a>
               </div>

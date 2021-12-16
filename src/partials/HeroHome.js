@@ -19,21 +19,25 @@ function HeroHome() {
             <p
               className="mb-8 text-xl text-gray-400"
               data-aos="fade-up"
-              data-aos-delay="200">
-              Manifold Finance enables maximal extracted value from trading via stablecoins
+              data-aos-delay="200"
+            >
+              Manifold Finance enables maximal extracted value from trading via
+              stablecoins
             </p>
             <div className="mx-auto max-w-xs sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a
                   className="mb-4 w-full text-black bg-white btn hover:bg-white sm:w-auto sm:mb-0"
-                  to="#0">
+                  to="#0"
+                >
                   Explore
                 </a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
                 <a
                   className="w-full text-white bg-gray-700 btn hover:bg-gray-800 sm:w-auto sm:ml-4"
-                  to="#0">
+                  to="#0"
+                >
                   Learn more
                 </a>
               </div>
@@ -45,9 +49,10 @@ function HeroHome() {
             <div
               className="flex relative justify-center items-center"
               data-aos="fade-up"
-              data-aos-delay="200">
+              data-aos-delay="200"
+            >
               {/* @dev hereo image here */}
-                            <img
+              <img
                 className="mx-auto"
                 src={require('../images/hero_graph.svg')}
                 width="820"
@@ -62,8 +67,7 @@ function HeroHome() {
                   setVideoModalOpen(true);
                 }}
                 aria-controls="modal"
-              >
-              </a>
+              ></a>
               <br></br>
               <br></br>
             </div>

@@ -66,12 +66,14 @@ class HeroSplit extends React.Component {
                 <div className="hero-content split-item-content center-content-mobile">
                   <h1
                     className="mt-0 mb-16 reveal-from-bottom"
-                    data-reveal-delay="150">
+                    data-reveal-delay="150"
+                  >
                     Hero Split
                   </h1>
                   <p
                     className="mt-0 mb-32 reveal-from-bottom"
-                    data-reveal-delay="300"></p>
+                    data-reveal-delay="300"
+                  ></p>
                   <div className="reveal-from-bottom" data-reveal-delay="450">
                     <Button tag="a" color="primary" href="#" wideMobile>
                       Get started now

@@ -9,7 +9,8 @@ function TeamImages() {
             <figure
               className="absolute h-auto"
               style={{ top: '45%', width: '41.67%', maxWidth: '320px' }}
-              data-aos="fade-right">
+              data-aos="fade-right"
+            >
               <img
                 src={require('../images/team-mosaic-02.jpg')}
                 width="320"
@@ -21,7 +22,8 @@ function TeamImages() {
               className="relative mx-auto h-auto"
               style={{ width: '78.13%', maxWidth: '600px' }}
               data-aos="fade-down"
-              data-aos-delay="100">
+              data-aos-delay="100"
+            >
               <img
                 src={require('../images/team-mosaic-01.jpg')}
                 width="600"
@@ -38,7 +40,8 @@ function TeamImages() {
                 maxWidth: '250px',
               }}
               data-aos="fade-left"
-              data-aos-delay="200">
+              data-aos-delay="200"
+            >
               <img
                 src={require('../images/team-mosaic-03.jpg')}
                 width="250"
@@ -55,7 +58,8 @@ function TeamImages() {
                 maxWidth: '196px',
               }}
               data-aos="fade-up"
-              data-aos-delay="300">
+              data-aos-delay="300"
+            >
               <img
                 src={require('../images/team-mosaic-04.jpg')}
                 width="196"

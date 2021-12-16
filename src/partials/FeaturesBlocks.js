@@ -14,16 +14,19 @@ function SolutionsBlocks() {
           {/* Items */}
           <div
             className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none"
-            data-aos-id-blocks>
+            data-aos-id-blocks
+          >
             {/* 1st item */}
             <div
               className="relative flex flex-col items-center"
               data-aos="fade-up"
-              data-aos-anchor="[data-aos-id-blocks]">
+              data-aos-anchor="[data-aos-id-blocks]"
+            >
               <svg
                 className="w-16 h-16 mb-4"
                 viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg">
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <rect
                   className="fill-current text-purple-600"
                   width="64"
@@ -58,11 +61,13 @@ function SolutionsBlocks() {
               className="relative flex flex-col items-center"
               data-aos="fade-up"
               data-aos-delay="100"
-              data-aos-anchor="[data-aos-id-blocks]">
+              data-aos-anchor="[data-aos-id-blocks]"
+            >
               <svg
                 className="w-16 h-16 mb-4"
                 viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg">
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <circle
                   className="fill-current text-purple-600"
                   cx="32"
@@ -97,11 +102,13 @@ function SolutionsBlocks() {
               className="relative flex flex-col items-center"
               data-aos="fade-up"
               data-aos-delay="200"
-              data-aos-anchor="[data-aos-id-blocks]">
+              data-aos-anchor="[data-aos-id-blocks]"
+            >
               <svg
                 className="w-16 h-16 mb-4"
                 viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg">
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <rect
                   className="fill-current text-purple-600"
                   width="64"
@@ -113,7 +120,8 @@ function SolutionsBlocks() {
                   strokeLinecap="square"
                   strokeWidth="2"
                   fill="none"
-                  fillRule="evenodd">
+                  fillRule="evenodd"
+                >
                   <ellipse
                     className="stroke-current text-purple-300"
                     cx="11"
@@ -146,11 +154,13 @@ function SolutionsBlocks() {
               className="relative flex flex-col items-center"
               data-aos="fade-up"
               data-aos-delay="300"
-              data-aos-anchor="[data-aos-id-blocks]">
+              data-aos-anchor="[data-aos-id-blocks]"
+            >
               <svg
                 className="w-16 h-16 mb-4"
                 viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg">
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <rect
                   className="fill-current text-purple-600"
                   width="64"
@@ -162,7 +172,8 @@ function SolutionsBlocks() {
                   strokeLinecap="square"
                   strokeWidth="2"
                   fill="none"
-                  fillRule="evenodd">
+                  fillRule="evenodd"
+                >
                   <path
                     className="stroke-current text-purple-100"
                     d="M17 22v-6.3a8.97 8.97 0 003-6.569A9.1 9.1 0 0011.262 0 9 9 0 002 9v1l-2 5 2 1v4a2 2 0 002 2h4a5 5 0 005-5v-5"
@@ -188,11 +199,13 @@ function SolutionsBlocks() {
               className="relative flex flex-col items-center"
               data-aos="fade-up"
               data-aos-delay="400"
-              data-aos-anchor="[data-aos-id-blocks]">
+              data-aos-anchor="[data-aos-id-blocks]"
+            >
               <svg
                 className="w-16 h-16 mb-4"
                 viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg">
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <rect
                   className="fill-current text-purple-600"
                   width="64"
@@ -203,7 +216,8 @@ function SolutionsBlocks() {
                   strokeLinecap="square"
                   strokeWidth="2"
                   fill="none"
-                  fillRule="evenodd">
+                  fillRule="evenodd"
+                >
                   <path
                     className="stroke-current text-purple-100"
                     d="M29 42h10.229a2 2 0 001.912-1.412l2.769-9A2 2 0 0042 29h-7v-4c0-2.373-1.251-3.494-2.764-3.86a1.006 1.006 0 00-1.236.979V26l-5 6"
@@ -227,11 +241,13 @@ function SolutionsBlocks() {
               className="relative flex flex-col items-center"
               data-aos="fade-up"
               data-aos-delay="500"
-              data-aos-anchor="[data-aos-id-blocks]">
+              data-aos-anchor="[data-aos-id-blocks]"
+            >
               <svg
                 className="w-16 h-16 mb-4"
                 viewBox="0 0 64 64"
-                xmlns="http://www.w3.org/2000/svg">
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <rect
                   className="fill-current text-purple-600"
                   width="64"
@@ -243,7 +259,8 @@ function SolutionsBlocks() {
                   strokeLinecap="square"
                   strokeWidth="2"
                   fill="none"
-                  fillRule="evenodd">
+                  fillRule="evenodd"
+                >
                   <path
                     className="stroke-current text-purple-300"
                     d="M17 2V0M19.121 2.879l1.415-1.415M20 5h2M19.121 7.121l1.415 1.415M17 8v2M14.879 7.121l-1.415 1.415M14 5h-2M14.879 2.879l-1.415-1.415"

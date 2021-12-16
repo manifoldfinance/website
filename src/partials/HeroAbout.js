@@ -15,7 +15,8 @@ function HeroAbout() {
         />
         <div
           className="absolute inset-0 bg-gray-900 opacity-75"
-          aria-hidden="true"></div>
+          aria-hidden="true"
+        ></div>
       </div>
 
       {/* Hero content */}
@@ -26,7 +27,8 @@ function HeroAbout() {
             <p
               className="text-xl text-gray-400 mb-8"
               data-aos="fade-up"
-              data-aos-delay="200"></p>
+              data-aos-delay="200"
+            ></p>
           </div>
         </div>
       </div>

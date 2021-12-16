@@ -77,11 +77,13 @@ function CSSTransition({
       onExited={() => {
         removeClasses(nodeRef.current, [...leaveEndClasses, ...leaveClasses]);
         if (!removeFromDom) nodeRef.current.style.display = 'none';
-      }}>
+      }}
+    >
       <Component
         ref={nodeRef}
         {...rest}
-        style={{ display: !removeFromDom ? 'none' : null }}>
+        style={{ display: !removeFromDom ? 'none' : null }}
+      >
         {children}
       </Component>
     </ReactCSSTransition>
@@ -111,7 +113,8 @@ function Transition({ show, appear, ...rest }) {
           isInitialRender,
           appear,
         },
-      }}>
+      }}
+    >
       <CSSTransition appear={appear} show={show} {...rest} />
     </TransitionContext.Provider>
   );

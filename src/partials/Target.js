@@ -21,7 +21,8 @@ function Target() {
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:rtl"
                 data-aos="fade-right"
                 data-aos-delay="200"
-                data-aos-anchor="[data-aos-id-target]">
+                data-aos-anchor="[data-aos-id-target]"
+              >
                 <img
                   className="mx-auto md:max-w-none"
                   src={require('../images/sushiBot.svg')}
@@ -37,14 +38,16 @@ function Target() {
                   <div
                     className="font-cousine text-xl text-purple-600 mb-2"
                     data-aos="fade-left"
-                    data-aos-anchor="[data-aos-id-target]">
+                    data-aos-anchor="[data-aos-id-target]"
+                  >
                     A stateful distributed system
                   </div>
                   <div
                     className="mt-6"
                     data-aos="fade-left"
                     data-aos-delay="200"
-                    data-aos-anchor="[data-aos-id-target]">
+                    data-aos-anchor="[data-aos-id-target]"
+                  >
                     <h4 className="h4 mb-2">
                       <span className="text-purple-600">.</span> For engineers
                     </h4>
@@ -57,7 +60,8 @@ function Target() {
                     className="mt-6"
                     data-aos="fade-left"
                     data-aos-delay="400"
-                    data-aos-anchor="[data-aos-id-target]">
+                    data-aos-anchor="[data-aos-id-target]"
+                  >
                     <h4 className="h4 mb-2">
                       <span className="text-teal-500">.</span> For operations
                     </h4>
@@ -71,7 +75,8 @@ function Target() {
                     className="mt-6"
                     data-aos="fade-left"
                     data-aos-delay="600"
-                    data-aos-anchor="[data-aos-id-target]">
+                    data-aos-anchor="[data-aos-id-target]"
+                  >
                     <h4 className="h4 mb-2">
                       <span className="text-pink-500">.</span> For teams
                     </h4>

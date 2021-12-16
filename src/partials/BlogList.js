@@ -20,10 +20,12 @@ function BlogList() {
                 to="blog-post"
                 className="relative block group"
                 data-aos="fade-right"
-                data-aos-delay="200">
+                data-aos-delay="200"
+              >
                 <div
                   className="absolute inset-0 bg-gray-800 hidden md:block transform md:translate-y-2 md:translate-x-4 xl:translate-y-4 xl:translate-x-8 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-700 ease-out pointer-events-none"
-                  aria-hidden="true"></div>
+                  aria-hidden="true"
+                ></div>
                 <figure className="relative h-0 pb-9/16 md:pb-3/4 lg:pb-9/16 overflow-hidden transform md:-translate-y-2 xl:-translate-y-4 group-hover:translate-x-0 group-hover:translate-y-0 transition duration-700 ease-out">
                   <img
                     className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition duration-700 ease-out"
@@ -41,14 +43,16 @@ function BlogList() {
                       <li className="m-1">
                         <Link
                           to="#"
-                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out">
+                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
+                        >
                           Product
                         </Link>
                       </li>
                       <li className="m-1">
                         <Link
                           to="#"
-                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out">
+                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out"
+                        >
                           Engineering
                         </Link>
                       </li>
@@ -57,7 +61,8 @@ function BlogList() {
                   <h3 className="h3 text-2xl lg:text-3xl mb-2">
                     <Link
                       to="/blog-post"
-                      className="hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
                       Designing a functional workflow at home.
                     </Link>
                   </h3>
@@ -80,7 +85,8 @@ function BlogList() {
                   <div>
                     <Link
                       to="#"
-                      className="font-medium text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="font-medium text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
                       Chris Solerieu
                     </Link>
                     <span className="text-gray-700"> - </span>
@@ -96,7 +102,8 @@ function BlogList() {
             {/*  Section title */}
             <h4
               className="h4 pb-6 mb-10 border-b border-gray-700"
-              data-aos="fade-up">
+              data-aos="fade-up"
+            >
               Latest articles
             </h4>
 
@@ -121,14 +128,16 @@ function BlogList() {
                       <li className="m-1">
                         <Link
                           to="#"
-                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out">
+                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
+                        >
                           Product
                         </Link>
                       </li>
                       <li className="m-1">
                         <Link
                           to="#"
-                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out">
+                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out"
+                        >
                           Engineering
                         </Link>
                       </li>
@@ -137,7 +146,8 @@ function BlogList() {
                   <h3 className="h4 mb-2">
                     <Link
                       to="/blog-post"
-                      className="hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
                       The quick brown fox jumped over the lazy dog.
                     </Link>
                   </h3>
@@ -159,7 +169,8 @@ function BlogList() {
                   <div className="font-medium">
                     <Link
                       to="#"
-                      className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
                       Anastasia Dan
                     </Link>
                     <span className="text-gray-700"> - </span>
@@ -172,7 +183,8 @@ function BlogList() {
               <article
                 className="flex flex-col h-full"
                 data-aos="fade-up"
-                data-aos-delay="100">
+                data-aos-delay="100"
+              >
                 <header>
                   <Link to="/blog-post" className="block mb-6">
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
@@ -190,14 +202,16 @@ function BlogList() {
                       <li className="m-1">
                         <Link
                           to="#"
-                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-pink-500 hover:bg-pink-600 transition duration-150 ease-in-out">
+                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-pink-500 hover:bg-pink-600 transition duration-150 ease-in-out"
+                        >
                           Desing
                         </Link>
                       </li>
                       <li className="m-1">
                         <Link
                           to="#"
-                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out">
+                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out"
+                        >
                           Engineering
                         </Link>
                       </li>
@@ -206,7 +220,8 @@ function BlogList() {
                   <h3 className="h4 mb-2">
                     <Link
                       to="/blog-post"
-                      className="hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
                       The quick brown fox jumped over the lazy dog.
                     </Link>
                   </h3>
@@ -228,7 +243,8 @@ function BlogList() {
                   <div className="font-medium">
                     <Link
                       to="#"
-                      className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
                       Markus Barker
                     </Link>
                     <span className="text-gray-700"> - </span>
@@ -241,7 +257,8 @@ function BlogList() {
               <article
                 className="flex flex-col h-full"
                 data-aos="fade-up"
-                data-aos-delay="200">
+                data-aos-delay="200"
+              >
                 <header>
                   <Link to="/blog-post" className="block mb-6">
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
@@ -259,14 +276,16 @@ function BlogList() {
                       <li className="m-1">
                         <Link
                           to="#"
-                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out">
+                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
+                        >
                           Product
                         </Link>
                       </li>
                       <li className="m-1">
                         <Link
                           to="#"
-                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-teal-500 hover:bg-teal-600 transition duration-150 ease-in-out">
+                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-teal-500 hover:bg-teal-600 transition duration-150 ease-in-out"
+                        >
                           Tutorials and articles
                         </Link>
                       </li>
@@ -275,7 +294,8 @@ function BlogList() {
                   <h3 className="h4 mb-2">
                     <Link
                       to="/blog-post"
-                      className="hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
                       The quick brown fox jumped over the lazy dog.
                     </Link>
                   </h3>
@@ -297,7 +317,8 @@ function BlogList() {
                   <div className="font-medium">
                     <Link
                       to="#"
-                      className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
                       Lisa Crockett
                     </Link>
                     <span className="text-gray-700"> - </span>
@@ -325,14 +346,16 @@ function BlogList() {
                       <li className="m-1">
                         <Link
                           to="#"
-                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out">
+                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
+                        >
                           Product
                         </Link>
                       </li>
                       <li className="m-1">
                         <Link
                           to="#"
-                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-green-500 hover:bg-green-600 transition duration-150 ease-in-out">
+                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-green-500 hover:bg-green-600 transition duration-150 ease-in-out"
+                        >
                           Culture
                         </Link>
                       </li>
@@ -341,7 +364,8 @@ function BlogList() {
                   <h3 className="h4 mb-2">
                     <Link
                       to="/blog-post"
-                      className="hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
                       The quick brown fox jumped over the lazy dog.
                     </Link>
                   </h3>
@@ -363,7 +387,8 @@ function BlogList() {
                   <div className="font-medium">
                     <Link
                       to="#"
-                      className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
                       Alexandra Smith
                     </Link>
                     <span className="text-gray-700"> - </span>
@@ -376,7 +401,8 @@ function BlogList() {
               <article
                 className="flex flex-col h-full"
                 data-aos="fade-up"
-                data-aos-delay="100">
+                data-aos-delay="100"
+              >
                 <header>
                   <Link to="/blog-post" className="block mb-6">
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
@@ -394,7 +420,8 @@ function BlogList() {
                       <li className="m-1">
                         <Link
                           to="#"
-                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out">
+                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out"
+                        >
                           Engineering
                         </Link>
                       </li>
@@ -403,7 +430,8 @@ function BlogList() {
                   <h3 className="h4 mb-2">
                     <Link
                       to="/blog-post"
-                      className="hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
                       The quick brown fox jumped over the lazy dog.
                     </Link>
                   </h3>
@@ -425,7 +453,8 @@ function BlogList() {
                   <div className="font-medium">
                     <Link
                       to="#"
-                      className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
                       Lisa Crockett
                     </Link>
                     <span className="text-gray-700"> - </span>
@@ -438,7 +467,8 @@ function BlogList() {
               <article
                 className="flex flex-col h-full"
                 data-aos="fade-up"
-                data-aos-delay="200">
+                data-aos-delay="200"
+              >
                 <header>
                   <Link to="/blog-post" className="block mb-6">
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
@@ -456,14 +486,16 @@ function BlogList() {
                       <li className="m-1">
                         <Link
                           to="#"
-                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-pink-500 hover:bg-pink-600 transition duration-150 ease-in-out">
+                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-pink-500 hover:bg-pink-600 transition duration-150 ease-in-out"
+                        >
                           Desing
                         </Link>
                       </li>
                       <li className="m-1">
                         <Link
                           to="#"
-                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-teal-500 hover:bg-teal-600 transition duration-150 ease-in-out">
+                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-teal-500 hover:bg-teal-600 transition duration-150 ease-in-out"
+                        >
                           Tutorials and articles
                         </Link>
                       </li>
@@ -472,7 +504,8 @@ function BlogList() {
                   <h3 className="h4 mb-2">
                     <Link
                       to="/blog-post"
-                      className="hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
                       The quick brown fox jumped over the lazy dog.
                     </Link>
                   </h3>
@@ -494,7 +527,8 @@ function BlogList() {
                   <div className="font-medium">
                     <Link
                       to="#"
-                      className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
                       Anton Sebastian
                     </Link>
                     <span className="text-gray-700"> - </span>
@@ -522,14 +556,16 @@ function BlogList() {
                       <li className="m-1">
                         <Link
                           to="#"
-                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out">
+                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
+                        >
                           Product
                         </Link>
                       </li>
                       <li className="m-1">
                         <Link
                           to="#"
-                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out">
+                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out"
+                        >
                           Engineering
                         </Link>
                       </li>
@@ -538,7 +574,8 @@ function BlogList() {
                   <h3 className="h4 mb-2">
                     <Link
                       to="/blog-post"
-                      className="hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
                       The quick brown fox jumped over the lazy dog.
                     </Link>
                   </h3>
@@ -560,7 +597,8 @@ function BlogList() {
                   <div className="font-medium">
                     <Link
                       to="#"
-                      className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
                       Markus Barker
                     </Link>
                     <span className="text-gray-700"> - </span>
@@ -573,7 +611,8 @@ function BlogList() {
               <article
                 className="flex flex-col h-full"
                 data-aos="fade-up"
-                data-aos-delay="100">
+                data-aos-delay="100"
+              >
                 <header>
                   <Link to="/blog-post" className="block mb-6">
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
@@ -591,14 +630,16 @@ function BlogList() {
                       <li className="m-1">
                         <Link
                           to="#"
-                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out">
+                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out"
+                        >
                           Engineering
                         </Link>
                       </li>
                       <li className="m-1">
                         <Link
                           to="#"
-                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-green-500 hover:bg-green-600 transition duration-150 ease-in-out">
+                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-green-500 hover:bg-green-600 transition duration-150 ease-in-out"
+                        >
                           Culture
                         </Link>
                       </li>
@@ -607,7 +648,8 @@ function BlogList() {
                   <h3 className="h4 mb-2">
                     <Link
                       to="/blog-post"
-                      className="hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
                       The quick brown fox jumped over the lazy dog.
                     </Link>
                   </h3>
@@ -629,7 +671,8 @@ function BlogList() {
                   <div className="font-medium">
                     <Link
                       to="#"
-                      className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
                       Anastasia Dan
                     </Link>
                     <span className="text-gray-700"> - </span>
@@ -642,7 +685,8 @@ function BlogList() {
               <article
                 className="flex flex-col h-full"
                 data-aos="fade-up"
-                data-aos-delay="200">
+                data-aos-delay="200"
+              >
                 <header>
                   <Link to="/blog-post" className="block mb-6">
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
@@ -660,7 +704,8 @@ function BlogList() {
                       <li className="m-1">
                         <Link
                           to="#"
-                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out">
+                          className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
+                        >
                           Product
                         </Link>
                       </li>
@@ -669,7 +714,8 @@ function BlogList() {
                   <h3 className="h4 mb-2">
                     <Link
                       to="/blog-post"
-                      className="hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
                       The quick brown fox jumped over the lazy dog.
                     </Link>
                   </h3>
@@ -691,7 +737,8 @@ function BlogList() {
                   <div className="font-medium">
                     <Link
                       to="#"
-                      className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out">
+                      className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
                       Markus Barker
                     </Link>
                     <span className="text-gray-700"> - </span>
@@ -706,7 +753,8 @@ function BlogList() {
           <nav
             className="flex justify-center pt-16"
             role="navigation"
-            aria-label="Pagination Navigation">
+            aria-label="Pagination Navigation"
+          >
             <ul className="inline-flex flex-wrap font-medium text-sm -m-1">
               <li className="m-1">
                 <span className="inline-flex h-10 min-w-10 justify-center items-center bg-gray-800 px-4 rounded-full text-gray-500">
@@ -716,21 +764,24 @@ function BlogList() {
               <li className="m-1">
                 <Link
                   to="#"
-                  className="inline-flex h-10 min-w-10 justify-center items-center bg-gray-800 px-2 rounded-full text-gray-300 hover:bg-purple-600 transition-colors duration-150 ease-in-out">
+                  className="inline-flex h-10 min-w-10 justify-center items-center bg-gray-800 px-2 rounded-full text-gray-300 hover:bg-purple-600 transition-colors duration-150 ease-in-out"
+                >
                   1
                 </Link>
               </li>
               <li className="m-1">
                 <Link
                   to="#"
-                  className="inline-flex h-10 min-w-10 justify-center items-center bg-gray-800 px-2 rounded-full text-gray-300 hover:bg-purple-600 transition-colors duration-150 ease-in-out">
+                  className="inline-flex h-10 min-w-10 justify-center items-center bg-gray-800 px-2 rounded-full text-gray-300 hover:bg-purple-600 transition-colors duration-150 ease-in-out"
+                >
                   2
                 </Link>
               </li>
               <li className="m-1">
                 <Link
                   to="#"
-                  className="inline-flex h-10 min-w-10 justify-center items-center bg-gray-800 px-2 rounded-full text-gray-300 hover:bg-purple-600 transition-colors duration-150 ease-in-out">
+                  className="inline-flex h-10 min-w-10 justify-center items-center bg-gray-800 px-2 rounded-full text-gray-300 hover:bg-purple-600 transition-colors duration-150 ease-in-out"
+                >
                   3
                 </Link>
               </li>
@@ -742,14 +793,16 @@ function BlogList() {
               <li className="m-1">
                 <Link
                   to="#"
-                  className="inline-flex h-10 min-w-10 justify-center items-center bg-gray-800 px-2 rounded-full text-gray-300 hover:bg-purple-600 transition-colors duration-150 ease-in-out">
+                  className="inline-flex h-10 min-w-10 justify-center items-center bg-gray-800 px-2 rounded-full text-gray-300 hover:bg-purple-600 transition-colors duration-150 ease-in-out"
+                >
                   12
                 </Link>
               </li>
               <li className="m-1">
                 <Link
                   to="#"
-                  className="inline-flex h-10 min-w-10 justify-center items-center bg-gray-800 px-4 rounded-full text-gray-300 hover:bg-purple-600 transition-colors duration-150 ease-in-out">
+                  className="inline-flex h-10 min-w-10 justify-center items-center bg-gray-800 px-4 rounded-full text-gray-300 hover:bg-purple-600 transition-colors duration-150 ease-in-out"
+                >
                   Next
                 </Link>
               </li>

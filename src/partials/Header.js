@@ -42,7 +42,8 @@ function Header() {
                   href="https://discord.gg/uTNRCQmzt8"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200">
+                  className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
+                >
                   Discord
                 </a>
               </li>
@@ -51,7 +52,8 @@ function Header() {
                   href="https://form.typeform.com/to/Sr7xLL3s"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200">
+                  className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
+                >
                   Contact
                 </a>
               </li>
@@ -60,7 +62,8 @@ function Header() {
                   href="https://github.com/manifoldfinance"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200">
+                  className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
+                >
                   GitHub
                 </a>
               </li>
@@ -69,7 +72,8 @@ function Header() {
                   className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
                   rel="noopener noreferrer"
                   target="_blank"
-                  href="https://t.me/manifoldfinance">
+                  href="https://t.me/manifoldfinance"
+                >
                   Telegram
                 </a>
               </li>
@@ -81,7 +85,8 @@ function Header() {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href={'https://form.typeform.com/to/Sr7xLL3s'}>
+                      href={'https://form.typeform.com/to/Sr7xLL3s'}
+                    >
                       Contact us
                     </a>
                   </Link>
@@ -91,7 +96,8 @@ function Header() {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href={'https://github.com/manifoldfinance/documentation'}>
+                      href={'https://github.com/manifoldfinance/documentation'}
+                    >
                       Documentation
                     </a>
                   </Link>
@@ -99,7 +105,8 @@ function Header() {
                 <li>
                   <Link
                     to="https://status.manifoldfinance.com"
-                    className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-white-600">
+                    className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-white-600"
+                  >
                     Status
                   </Link>
                 </li>
@@ -111,14 +118,16 @@ function Header() {
               <li>
                 <Link
                   to="/signin"
-                  className="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out text-white-600 hover:text-gray-200">
+                  className="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out text-white-600 hover:text-gray-200"
+                >
                   Sign in
                 </Link>
               </li>
               <li>
                 <Link
                   to="/signup"
-                  className="ml-3 text-white btn-sm bg-white-600 hover:bg-white-700">
+                  className="ml-3 text-white btn-sm bg-white-600 hover:bg-white-700"
+                >
                   Request access
                 </Link>
               </li>
@@ -132,12 +141,14 @@ function Header() {
               className={`hamburger ${mobileNavOpen && 'active'}`}
               aria-controls="mobile-nav"
               aria-expanded={mobileNavOpen}
-              onClick={() => setMobileNavOpen(!mobileNavOpen)}>
+              onClick={() => setMobileNavOpen(!mobileNavOpen)}
+            >
               <span className="sr-only">Menu</span>
               <svg
                 className="w-6 h-6 text-gray-300 transition duration-150 ease-in-out fill-current hover:text-gray-200"
                 viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
+                xmlns="http://www.w3.org/2000/svg"
+              >
                 <rect y="4" width="24" height="2" rx="1" />
                 <rect y="11" width="24" height="2" rx="1" />
                 <rect y="18" width="24" height="2" rx="1" />
@@ -153,14 +164,16 @@ function Header() {
                 mobileNavOpen
                   ? { maxHeight: mobileNav.current.scrollHeight, opacity: 1 }
                   : { maxHeight: 0, opacity: 0.8 }
-              }>
+              }
+            >
               <ul className="px-4 py-2 bg-gray-800">
                 <li>
                   <Link className="flex py-2 text-gray-300 hover:text-gray-200">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href={'https://form.typeform.com/to/Sr7xLL3s'}>
+                      href={'https://form.typeform.com/to/Sr7xLL3s'}
+                    >
                       Solutions
                     </a>
                   </Link>
@@ -170,7 +183,8 @@ function Header() {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href={'https://dev-status.web3.workers.dev/'}>
+                      href={'https://dev-status.web3.workers.dev/'}
+                    >
                       Network
                     </a>
                   </Link>
@@ -180,7 +194,8 @@ function Header() {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href={`https://primitives.substack.com/`}>
+                      href={`https://primitives.substack.com/`}
+                    >
                       Blog
                     </a>
                   </Link>
@@ -190,14 +205,16 @@ function Header() {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href={`https://t.me/manifoldfinance`}>
+                      href={`https://t.me/manifoldfinance`}
+                    >
                       Telegram
                     </a>
                   </Link>
                   <a
                     rel="noopener noreferrer"
                     target="_blank"
-                    href="https://t.me/manifoldfinance">
+                    href="https://t.me/manifoldfinance"
+                  >
                     @manifold
                   </a>
                 </li>
@@ -218,7 +235,8 @@ function Header() {
                           rel="noopener noreferrer"
                           href={
                             'https://backbonecabal.github.io/knowledgebase/'
-                          }>
+                          }
+                        >
                           Help center
                         </a>
                       </Link>
@@ -226,7 +244,8 @@ function Header() {
                     <li>
                       <Link
                         to="/404"
-                        className="flex py-2 text-sm font-medium text-gray-400 hover:text-gray-200">
+                        className="flex py-2 text-sm font-medium text-gray-400 hover:text-gray-200"
+                      >
                         404
                       </Link>
                     </li>
@@ -235,14 +254,16 @@ function Header() {
                 <li>
                   <Link
                     to="/signin"
-                    className="flex justify-center py-2 w-full font-medium text-white-600 hover:text-gray-200">
+                    className="flex justify-center py-2 w-full font-medium text-white-600 hover:text-gray-200"
+                  >
                     Sign in
                   </Link>
                 </li>
                 <li>
                   <Link
                     to="/signup"
-                    className="inline-flex justify-center items-center px-4 py-2 my-2 w-full font-medium text-white bg-gray-600 rounded-sm border border-transparent transition duration-150 ease-in-out hover:bg-white-700">
+                    className="inline-flex justify-center items-center px-4 py-2 my-2 w-full font-medium text-white bg-gray-600 rounded-sm border border-transparent transition duration-150 ease-in-out hover:bg-white-700"
+                  >
                     Request access
                   </Link>
                 </li>

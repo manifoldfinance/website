@@ -34,14 +34,16 @@ function News() {
                       <li className="m-1">
                         <a
                           className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
-                          to="#0">
+                          to="#0"
+                        >
                           Product
                         </a>
                       </li>
                       <li className="m-1">
                         <a
                           className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out"
-                          to="#0">
+                          to="#0"
+                        >
                           Engineering
                         </a>
                       </li>
@@ -50,7 +52,8 @@ function News() {
                   <h3 className="h4 mb-2">
                     <a
                       className="hover:text-gray-100 transition duration-150 ease-in-out"
-                      to="blog-post.html">
+                      to="blog-post.html"
+                    >
                       The quick brown fox jumped over the lazy dog.
                     </a>
                   </h3>
@@ -72,7 +75,8 @@ function News() {
                   <div className="font-medium">
                     <a
                       className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
-                      to="#0">
+                      to="#0"
+                    >
                       Anastasia Dan
                     </a>
                     <span className="text-gray-700"> - </span>
@@ -85,7 +89,8 @@ function News() {
               <article
                 className="flex flex-col h-full"
                 data-aos="fade-up"
-                data-aos-delay="200">
+                data-aos-delay="200"
+              >
                 <header>
                   <a className="block mb-6" to="blog-post.html">
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
@@ -103,14 +108,16 @@ function News() {
                       <li className="m-1">
                         <a
                           className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-pink-500 hover:bg-pink-600 transition duration-150 ease-in-out"
-                          to="#0">
+                          to="#0"
+                        >
                           Desing
                         </a>
                       </li>
                       <li className="m-1">
                         <a
                           className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-blue-500 hover:bg-blue-600 transition duration-150 ease-in-out"
-                          to="#0">
+                          to="#0"
+                        >
                           Engineering
                         </a>
                       </li>
@@ -119,7 +126,8 @@ function News() {
                   <h3 className="h4 mb-2">
                     <a
                       className="hover:text-gray-100 transition duration-150 ease-in-out"
-                      to="blog-post.html">
+                      to="blog-post.html"
+                    >
                       The quick brown fox jumped over the lazy dog.
                     </a>
                   </h3>
@@ -141,7 +149,8 @@ function News() {
                   <div className="font-medium">
                     <a
                       className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
-                      to="#0">
+                      to="#0"
+                    >
                       Markus Barker
                     </a>
                     <span className="text-gray-700"> - </span>
@@ -154,7 +163,8 @@ function News() {
               <article
                 className="flex flex-col h-full"
                 data-aos="fade-up"
-                data-aos-delay="400">
+                data-aos-delay="400"
+              >
                 <header>
                   <a className="block mb-6" to="blog-post.html">
                     <figure className="relative h-0 pb-9/16 overflow-hidden rounded-sm">
@@ -172,14 +182,16 @@ function News() {
                       <li className="m-1">
                         <a
                           className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
-                          to="#0">
+                          to="#0"
+                        >
                           Product
                         </a>
                       </li>
                       <li className="m-1">
                         <a
                           className="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-teal-500 hover:bg-teal-600 transition duration-150 ease-in-out"
-                          to="#0">
+                          to="#0"
+                        >
                           Tutorials and articles
                         </a>
                       </li>
@@ -188,7 +200,8 @@ function News() {
                   <h3 className="h4 mb-2">
                     <a
                       className="hover:text-gray-100 transition duration-150 ease-in-out"
-                      to="blog-post.html">
+                      to="blog-post.html"
+                    >
                       The quick brown fox jumped over the lazy dog.
                     </a>
                   </h3>
@@ -210,7 +223,8 @@ function News() {
                   <div className="font-medium">
                     <a
                       className="text-gray-200 hover:text-gray-100 transition duration-150 ease-in-out"
-                      to="#0">
+                      to="#0"
+                    >
                       Lisa Crockett
                     </a>
                     <span className="text-gray-700"> - </span>

@@ -16,7 +16,8 @@ function Contact() {
         {/*  Page illustration */}
         <div
           className="relative max-w-6xl mx-auto h-0 pointer-events-none"
-          aria-hidden="true"></div>
+          aria-hidden="true"
+        ></div>
 
         <section className="relative">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
@@ -29,7 +30,8 @@ function Contact() {
                 <p
                   className="text-xl text-gray-400"
                   data-aos="fade-up"
-                  data-aos-delay="200">
+                  data-aos-delay="200"
+                >
                   We have custom plans to power your business. Tell us your
                   needs, and we’ll contact you shortly.
                 </p>
@@ -41,7 +43,8 @@ function Contact() {
                   <div className="w-full md:w-1/2 px-3 mb-4 md:mb-0">
                     <label
                       className="block text-gray-300 text-sm font-medium mb-1"
-                      htmlFor="first-name">
+                      htmlFor="first-name"
+                    >
                       First Name <span className="text-red-600">*</span>
                     </label>
                     <input
@@ -58,7 +61,8 @@ function Contact() {
                   <div className="w-full md:w-1/2 px-3">
                     <label
                       className="block text-gray-300 text-sm font-medium mb-1"
-                      htmlFor="last-name">
+                      htmlFor="last-name"
+                    >
                       Last Name <span className="text-red-600">*</span>
                     </label>
                     <input
@@ -74,7 +78,8 @@ function Contact() {
                   <div className="w-full px-3">
                     <label
                       className="block text-gray-300 text-sm font-medium mb-1"
-                      htmlFor="email">
+                      htmlFor="email"
+                    >
                       Email <span className="text-red-600">*</span>
                     </label>
                     <input
@@ -90,7 +95,8 @@ function Contact() {
                   <div className="w-full px-3">
                     <label
                       className="block text-gray-300 text-sm font-medium mb-1"
-                      htmlFor="subject">
+                      htmlFor="subject"
+                    >
                       Subject <span className="text-red-600">*</span>
                     </label>
                     <input
@@ -106,12 +112,14 @@ function Contact() {
                   <div className="w-full px-3">
                     <label
                       className="block text-gray-300 text-sm font-medium mb-1"
-                      htmlFor="country">
+                      htmlFor="country"
+                    >
                       Country
                     </label>
                     <select
                       id="country"
-                      className="form-select w-full text-gray-300">
+                      className="form-select w-full text-gray-300"
+                    >
                       <option>United States</option>
                       <option>United Kingdom</option>
                       <option>Germany</option>
@@ -122,14 +130,16 @@ function Contact() {
                   <div className="w-full px-3">
                     <label
                       className="block text-gray-300 text-sm font-medium mb-1"
-                      htmlFor="message">
+                      htmlFor="message"
+                    >
                       Message
                     </label>
                     <textarea
                       id="message"
                       rows="4"
                       className="form-textarea w-full text-gray-300"
-                      placeholder="Write your message"></textarea>
+                      placeholder="Write your message"
+                    ></textarea>
                   </div>
                 </div>
                 <div className="flex flex-wrap -mx-3 mb-4">

@@ -31,7 +31,8 @@ function CaseStudies() {
                   />
                   <figcaption
                     className="absolute top-0 right-0 mt-4 mr-4 text-xs font-medium inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-gray-900 bg-opacity-75 pointer-events-none"
-                    to="#0">
+                    to="#0"
+                  >
                     Case study
                   </figcaption>
                 </figure>
@@ -40,7 +41,8 @@ function CaseStudies() {
                 <h3 className="h4 mb-2">
                   <a
                     className="hover:text-gray-100 transition duration-150 ease-in-out"
-                    to="#0">
+                    to="#0"
+                  >
                     How to build anything
                   </a>
                 </h3>
@@ -53,12 +55,14 @@ function CaseStudies() {
                 <div>
                   <a
                     className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6"
-                    to="#0">
+                    to="#0"
+                  >
                     <span className="text-sm">Learn more</span>
                     <svg
                       className="w-3 h-3 fill-current text-purple-400 flex-shrink-0 ml-2"
                       viewBox="0 0 12 12"
-                      xmlns="http://www.w3.org/2000/svg">
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
                       <path d="M6 5H0v2h6v4l6-5-6-5z" />
                     </svg>
                   </a>
@@ -70,7 +74,8 @@ function CaseStudies() {
             <article
               className="flex flex-col h-full"
               data-aos="fade-up"
-              data-aos-delay="200">
+              data-aos-delay="200"
+            >
               <a className="block" to="#0">
                 <figure className="relative h-0 pb-9/16 overflow-hidden">
                   <img
@@ -82,7 +87,8 @@ function CaseStudies() {
                   />
                   <figcaption
                     className="absolute top-0 right-0 mt-4 mr-4 text-xs font-medium inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-gray-900 bg-opacity-75 pointer-events-none"
-                    to="#0">
+                    to="#0"
+                  >
                     Case study
                   </figcaption>
                 </figure>
@@ -91,7 +97,8 @@ function CaseStudies() {
                 <h3 className="h4 mb-2">
                   <a
                     className="hover:text-gray-100 transition duration-150 ease-in-out"
-                    to="#0">
+                    to="#0"
+                  >
                     How to build anything
                   </a>
                 </h3>
@@ -104,12 +111,14 @@ function CaseStudies() {
                 <div>
                   <a
                     className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6"
-                    to="#0">
+                    to="#0"
+                  >
                     <span className="text-sm">Learn more</span>
                     <svg
                       className="w-3 h-3 fill-current text-purple-400 flex-shrink-0 ml-2"
                       viewBox="0 0 12 12"
-                      xmlns="http://www.w3.org/2000/svg">
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
                       <path d="M6 5H0v2h6v4l6-5-6-5z" />
                     </svg>
                   </a>
@@ -121,7 +130,8 @@ function CaseStudies() {
             <article
               className="flex flex-col h-full"
               data-aos="fade-up"
-              data-aos-delay="400">
+              data-aos-delay="400"
+            >
               <a className="block" to="#0">
                 <figure className="relative h-0 pb-9/16 overflow-hidden">
                   <img
@@ -133,7 +143,8 @@ function CaseStudies() {
                   />
                   <figcaption
                     className="absolute top-0 right-0 mt-4 mr-4 text-xs font-medium inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-gray-900 bg-opacity-75 pointer-events-none"
-                    to="#0">
+                    to="#0"
+                  >
                     Case study
                   </figcaption>
                 </figure>
@@ -142,7 +153,8 @@ function CaseStudies() {
                 <h3 className="h4 mb-2">
                   <a
                     className="hover:text-gray-100 transition duration-150 ease-in-out"
-                    to="#0">
+                    to="#0"
+                  >
                     How to build anything
                   </a>
                 </h3>
@@ -155,12 +167,14 @@ function CaseStudies() {
                 <div>
                   <a
                     className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6"
-                    to="#0">
+                    to="#0"
+                  >
                     <span className="text-sm">Learn more</span>
                     <svg
                       className="w-3 h-3 fill-current text-purple-400 flex-shrink-0 ml-2"
                       viewBox="0 0 12 12"
-                      xmlns="http://www.w3.org/2000/svg">
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
                       <path d="M6 5H0v2h6v4l6-5-6-5z" />
                     </svg>
                   </a>

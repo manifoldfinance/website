@@ -17,12 +17,14 @@ function Timeline() {
           {/* Items */}
           <div
             className="max-w-3xl mx-auto -my-4 md:-my-6"
-            data-aos-id-timeline>
+            data-aos-id-timeline
+          >
             {/* 1st item */}
             <div
               className="relative py-4 md:py-6 pl-24"
               data-aos="fade-up"
-              data-aos-anchor="[data-aos-id-timeline]">
+              data-aos-anchor="[data-aos-id-timeline]"
+            >
               <div className="pl-2">
                 <div className="font-fira-sans text-xl text-purple-600 mb-2">
                   The seed
@@ -33,10 +35,12 @@ function Timeline() {
                   </div>
                   <div
                     className="absolute left-0 h-full px-px bg-gray-800 ml-20 self-start transform -translate-x-1/2 translate-y-3"
-                    aria-hidden="true"></div>
+                    aria-hidden="true"
+                  ></div>
                   <div
                     className="absolute left-0 w-2 h-2 bg-purple-600 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2"
-                    aria-hidden="true"></div>
+                    aria-hidden="true"
+                  ></div>
                   <h4 className="h4">Open PRO was founded in Milan, Italy</h4>
                 </div>
                 <p className="text-lg text-gray-400">
@@ -52,7 +56,8 @@ function Timeline() {
               className="relative py-4 md:py-6 pl-24"
               data-aos="fade-up"
               data-aos-delay="200"
-              data-aos-anchor="[data-aos-id-timeline]">
+              data-aos-anchor="[data-aos-id-timeline]"
+            >
               <div className="pl-2">
                 <div className="font-fira-sans text-xl text-purple-600 mb-2">
                   New solutions
@@ -63,10 +68,12 @@ function Timeline() {
                   </div>
                   <div
                     className="absolute left-0 h-full px-px bg-gray-800 ml-20 self-start transform -translate-x-1/2 translate-y-3"
-                    aria-hidden="true"></div>
+                    aria-hidden="true"
+                  ></div>
                   <div
                     className="absolute left-0 w-2 h-2 bg-purple-600 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2"
-                    aria-hidden="true"></div>
+                    aria-hidden="true"
+                  ></div>
                   <h4 className="h4">
                     Launched the first Open PRO Advanced plan
                   </h4>
@@ -84,7 +91,8 @@ function Timeline() {
               className="relative py-4 md:py-6 pl-24"
               data-aos="fade-up"
               data-aos-delay="400"
-              data-aos-anchor="[data-aos-id-timeline]">
+              data-aos-anchor="[data-aos-id-timeline]"
+            >
               <div className="pl-2">
                 <div className="font-fira-sans text-xl text-purple-600 mb-2">
                   Pivoting
@@ -95,10 +103,12 @@ function Timeline() {
                   </div>
                   <div
                     className="absolute left-0 h-full px-px bg-gray-800 ml-20 self-start transform -translate-x-1/2 translate-y-3"
-                    aria-hidden="true"></div>
+                    aria-hidden="true"
+                  ></div>
                   <div
                     className="absolute left-0 w-2 h-2 bg-purple-600 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2"
-                    aria-hidden="true"></div>
+                    aria-hidden="true"
+                  ></div>
                   <h4 className="h4">Transitioned to a SaaS business model</h4>
                 </div>
                 <p className="text-lg text-gray-400">
@@ -114,7 +124,8 @@ function Timeline() {
               className="relative py-4 md:py-6 pl-24"
               data-aos="fade-up"
               data-aos-delay="600"
-              data-aos-anchor="[data-aos-id-timeline]">
+              data-aos-anchor="[data-aos-id-timeline]"
+            >
               <div className="pl-2">
                 <div className="font-fira-sans text-xl text-purple-600 mb-2">
                   Huge milestone
@@ -125,7 +136,8 @@ function Timeline() {
                   </div>
                   <div
                     className="absolute left-0 w-2 h-2 bg-purple-600 border-4 box-content border-gray-900 rounded-full ml-20 transform -translate-x-1/2"
-                    aria-hidden="true"></div>
+                    aria-hidden="true"
+                  ></div>
                   <h4 className="h4">1 million happy customers</h4>
                 </div>
                 <p className="text-lg text-gray-400">

@@ -14,7 +14,8 @@ function SignIn() {
         {/*  Page illustration */}
         <div
           className="relative max-w-6xl mx-auto h-0 pointer-events-none"
-          aria-hidden="true"></div>
+          aria-hidden="true"
+        ></div>
 
         <section className="relative">
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -33,12 +34,14 @@ function SignIn() {
                         <svg
                           className="w-4 h-4 fill-current text-white opacity-75 flex-shrink-0 mx-4"
                           viewBox="0 0 16 16"
-                          xmlns="http://www.w3.org/2000/svg">
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
                           <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" />
                         </svg>
                         <span
                           className="h-6 flex items-center border-r border-white border-opacity-25 mr-4"
-                          aria-hidden="true"></span>
+                          aria-hidden="true"
+                        ></span>
                         <span className="flex-auto pl-16 pr-8 -ml-16">
                           Sign in with Google
                         </span>
@@ -49,20 +52,23 @@ function SignIn() {
                 <div className="flex items-center my-6">
                   <div
                     className="border-t border-gray-700 border-dotted flex-grow mr-3"
-                    aria-hidden="true"></div>
+                    aria-hidden="true"
+                  ></div>
                   <div className="text-gray-400">
                     Or, sign in with your accountId
                   </div>
                   <div
                     className="border-t border-gray-700 border-dotted flex-grow ml-3"
-                    aria-hidden="true"></div>
+                    aria-hidden="true"
+                  ></div>
                 </div>
                 <form>
                   <div className="flex flex-wrap -mx-3 mb-4">
                     <div className="w-full px-3">
                       <label
                         className="block text-gray-300 text-sm font-medium mb-1"
-                        htmlFor="email">
+                        htmlFor="email"
+                      >
                         accountId
                       </label>
                       <input
@@ -78,7 +84,8 @@ function SignIn() {
                     <div className="w-full px-3">
                       <label
                         className="block text-gray-300 text-sm font-medium mb-1"
-                        htmlFor="password">
+                        htmlFor="password"
+                      >
                         Password
                       </label>
                       <input
@@ -101,7 +108,8 @@ function SignIn() {
                         </label>
                         <Link
                           to="/reset-password"
-                          className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">
+                          className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
+                        >
                           Reset Password
                         </Link>
                       </div>
@@ -119,7 +127,8 @@ function SignIn() {
                   {' '}
                   <Link
                     to="https://form.typeform.com/to/Sr7xLL3s"
-                    className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out">
+                    className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
+                  >
                     Request Access
                   </Link>
                 </div>

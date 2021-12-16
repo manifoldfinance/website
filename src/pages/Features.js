@@ -21,7 +21,8 @@ function solutions() {
         {/*  Page illustration */}
         <div
           className="relative max-w-6xl mx-auto h-0 pointer-events-none"
-          aria-hidden="true">
+          aria-hidden="true"
+        >
           <PageIllustration />
         </div>
 
