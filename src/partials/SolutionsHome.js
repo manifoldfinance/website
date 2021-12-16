@@ -62,7 +62,7 @@ function SolutionsHome() {
 
                   {/* TODO change style */}
                   <div className="mb-2 text-xl text-purple-600 font-fira-sans">
-                    Bare Metal Native
+                    Robinhood for Sushiswap trading
                   </div>
                   <h3 className="mb-3 h3">Stablecoin staking starts here.</h3>
                   <p className="mb-4 text-xl text-gray-400">
