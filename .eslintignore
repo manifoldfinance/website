@@ -2,3 +2,4 @@ unused/*
 build/
 dist/
 test/
+src/**/*
