@@ -1,0 +1,8 @@
+.github/
+unused/
+build/
+dist/
+*.md
+docs/
+test/
+tests/
