@@ -15,6 +15,6 @@ module.exports = {
   rules: {
     'no-unused-vars': 'off',
     'no-sequences': 'off',
-    'no-unused-expressions': 'off'
+    'no-unused-expressions': 'off',
   },
 };
