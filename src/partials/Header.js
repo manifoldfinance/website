@@ -233,9 +233,7 @@ function Header() {
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          href={
-                            'https://backbonecabal.github.io/knowledgebase/'
-                          }
+                          href={'https://manifoldfinance.github.io/hub/'}
                         >
                           Help center
                         </a>

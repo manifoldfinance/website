@@ -14,12 +14,12 @@ function Faqs() {
           <ul className="grid gap-8 md:grid-cols-2 xl:col-gap-16 lg:row-gap-12">
             <li>
               <h4 className="text-xl font-medium mb-2">
-                Scaling Layer 1 - Gasless Trading
+                Near zero-cost trading fees for users
               </h4>
               <p className="text-lg text-gray-400">
                 By leveraging batching, miner transaction flow, and providing
                 additional performant utilities (e.g. faster calculations for
-                finalizing), YCabal enables gasless trading on Layer 1 Ethereum
+                finalizing), OpenMEV enables gasless trading on Layer 1 Ethereum
               </p>
             </li>
             <li>
@@ -27,7 +27,7 @@ function Faqs() {
                 Efficiency by Aggregation
               </h4>
               <p className="text-lg text-gray-400">
-                YCabal is a strategy in which we maximize profits from user
+                OpenMEV is a strategy in which we maximize profits from user
                 actions. This normally gets distributed for free to miners and
                 bots via MEV (miner extracted value). We then extract this value
                 and provide these profits as <b>cashback/rebates</b> back to
@@ -64,12 +64,10 @@ function Faqs() {
             </li>
             <li>
               <h4 className="text-xl font-medium mb-2">
-                Are you offering your Gasless DEX service anywhere else?
+                Who are you working with?
               </h4>
               <p className="text-lg text-gray-400">
-                We are working with Sushiswap exclusively. We feel building a
-                strong community is important, and those decisions are left to a
-                formal governance procedure.
+                Our current partners include Sushiswap and Eden Network.
               </p>
             </li>
           </ul>
