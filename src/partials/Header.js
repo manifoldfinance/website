@@ -49,22 +49,22 @@ function Header() {
               </li>
               <li>
                 <a
-                  href="https://form.typeform.com/to/Sr7xLL3s"
+                  href="https://forums.manifoldfinace.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
                 >
-                  Contact
+                  Forums
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/manifoldfinance"
+                  href="https://forums.manifoldfinance.com/t/guide-how-to-stake-fold-for-xfold/150"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
                 >
-                  GitHub
+                  Staking
                 </a>
               </li>
               <li>
@@ -96,9 +96,9 @@ function Header() {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href={'https://github.com/manifoldfinance/documentation'}
+                      href={'https://manifoldfinance.github.io/hub/'}
                     >
-                      Documentation
+                      Documentation Hub
                     </a>
                   </Link>
                 </li>
@@ -107,7 +107,7 @@ function Header() {
                     to="https://status.manifoldfinance.com"
                     className="flex px-4 py-2 text-sm font-medium leading-tight text-gray-400 hover:text-white-600"
                   >
-                    Status
+                    Service Status
                   </Link>
                 </li>
               </Dropdown>
@@ -125,7 +125,7 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="/signup"
+                  to="https://form.typeform.com/to/Sr7xLL3s"
                   className="ml-3 text-white btn-sm bg-white-600 hover:bg-white-700"
                 >
                   Request access
@@ -183,7 +183,7 @@ function Header() {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href={'https://dev-status.web3.workers.dev/'}
+                      href={'https://status.manifoldfinance.com/'}
                     >
                       Network
                     </a>
@@ -194,9 +194,9 @@ function Header() {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href={`https://primitives.substack.com/`}
+                      href={`https://sambacha.github.io/primitives/`}
                     >
-                      Blog
+                      Primitives Blog
                     </a>
                   </Link>
                 </li>
@@ -213,9 +213,9 @@ function Header() {
                   <a
                     rel="noopener noreferrer"
                     target="_blank"
-                    href="https://t.me/manifoldfinance"
+                    href="https://twitter.com/foldfinance"
                   >
-                    @manifold
+                    @foldfinance
                   </a>
                 </li>
                 <li className="py-2 my-2 border-t border-b border-gray-700">
@@ -233,7 +233,9 @@ function Header() {
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          href={'https://manifoldfinance.github.io/hub/'}
+                          href={
+                            'https://github.com/manifoldfinance/support'
+                          }
                         >
                           Help center
                         </a>
