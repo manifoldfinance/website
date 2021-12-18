@@ -59,9 +59,18 @@ function Footer() {
                     <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
                     <a
                       rel="noopener noreferrer"
-                      href={'https://sambacha.github.io/primitives/'}
+                      href={'https://github.com/manifoldfinance/openmev-sdk'}
                     >
-                      Primitives Blog
+                      OpenMEV SDK
+                    </a>
+                  </li>
+                  <li className="mb-1">
+                    <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
+                    <a
+                      rel="noopener noreferrer"
+                      href={'https://github.com/manifoldfinance/web3disco'}
+                    >
+                      Web3 & Style Guide
                     </a>
                   </li>
                 </ul>
@@ -69,7 +78,7 @@ function Footer() {
 
               {/* 3rd block */}
               <div className="text-sm">
-                <h6 className="mb-1 font-medium text-gray-200">Resources</h6>
+                <h6 className="mb-1 font-medium text-gray-200">Community</h6>
                 <ul>
                   <li className="mb-1">
                     <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
@@ -110,7 +119,7 @@ function Footer() {
                     <a
                       rel="noopener noreferrer"
                       href={
-                        'https://github.com/manifoldfinance/pki#security-bug-handling-process'
+                        'https://github.com/manifoldfinance/security/tree/master'
                       }
                     >
                       Security and Bug Bounties
@@ -124,10 +133,10 @@ function Footer() {
                 <ul>
                   <li className="mb-1">
                     <Link
-                      href="https://etherscan.io/token/0xd084944d3c05cd115c09d072b9f44ba3e0e45921"
+                      href="https://analytics.sushi.com/tokens/0xd084944d3c05cd115c09d072b9f44ba3e0e45921"
                       className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
                     ></Link>
-                    $FOLD Token
+                    $FOLD on Sushiswap
                   </li>
                   <li className="mb-1">
                     <Link

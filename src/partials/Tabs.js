@@ -29,7 +29,8 @@ function Tabs() {
               data-aos="fade-up"
               data-aos-anchor="[data-aos-id-tabs]"
             >
-              Connect to the world of Decentralized Finance
+              Connect to the world of  <br />
+              Decentralized Finance
             </h2>
             <p
               className="text-xl text-gray-400"
