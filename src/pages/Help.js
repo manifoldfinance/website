@@ -36,18 +36,17 @@ function Help() {
                     </h2>
                     <p className="text-gray-400">
                       Last updated -{' '}
-                      <span className="text-purple-600">June 30, 2020</span>
+                      <span className="text-purple-600">Dec 18, 2021</span>
                     </p>
                   </div>
                   <ul className="-my-4">
                     <li className="py-4">
                       <h4 className="text-xl font-medium mb-2">
-                        How can I use Open PRO without registration?
+                        What is the Hub?
                       </h4>
                       <p className="text-lg text-gray-400">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis enim lobortis scelerisque fermentum.
+                        The Hub is where our community and developing resources
+                        meet. You can find everything there!
                       </p>
                     </li>
                     <li className="py-4">

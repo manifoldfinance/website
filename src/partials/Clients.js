@@ -7,7 +7,9 @@ function Clients() {
         <div className="py-12 md:py-20 border-t border-gray-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Our customers span the globe</h1>
+            <h1 className="h2 mb-4">
+              Connecting the world to defi opportunities{' '}
+            </h1>
             <p className="text-xl text-gray-400"></p>
           </div>
 

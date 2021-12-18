@@ -43,7 +43,7 @@ function Footer() {
                       rel="noopener noreferrer"
                       href={'https://manifoldfinance.github.io/hub/'}
                     >
-                      Transaction Privacy
+                      Developer Hub
                     </a>
                   </li>
                   <li className="mb-1">
@@ -75,9 +75,9 @@ function Footer() {
                     <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
                     <a
                       rel="noopener noreferrer"
-                      href={'https://form.typeform.com/to/Sr7xLL3s'}
+                      href={'https://forums.manifoldfinance.com/'}
                     >
-                      Contact us
+                      Community Forums
                     </a>
                   </li>
                   <li className="mb-1">
@@ -101,7 +101,7 @@ function Footer() {
                       rel="noopener noreferrer"
                       href={'https://t.me/manifoldfinance'}
                     >
-                      Telegram
+                      Telegram Chat
                     </a>
                   </li>
 
@@ -109,9 +109,11 @@ function Footer() {
                     <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
                     <a
                       rel="noopener noreferrer"
-                      href={'https://github.com/manifoldfinance/pki'}
+                      href={
+                        'https://github.com/manifoldfinance/pki#security-bug-handling-process'
+                      }
                     >
-                      Security
+                      Security and Bug Bounties
                     </a>
                   </li>
                 </ul>
