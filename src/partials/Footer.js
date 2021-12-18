@@ -41,7 +41,7 @@ function Footer() {
                     </Link>
                     <a
                       rel="noopener noreferrer"
-                      href={'https://github.com/manifoldfinance/documentation'}
+                      href={'https://manifoldfinance.github.io/hub/'}
                     >
                       Transaction Privacy
                     </a>
@@ -50,9 +50,9 @@ function Footer() {
                     <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
                     <a
                       rel="noopener noreferrer"
-                      href={'https://github.com/manifoldfinance/documentation'}
+                      href={'https://github.com/manifoldfinance'}
                     >
-                      Private RPC Connections
+                      Manifold Finance GitHub
                     </a>
                   </li>
                   <li className="mb-1">
@@ -61,7 +61,7 @@ function Footer() {
                       rel="noopener noreferrer"
                       href={'https://github.com/openmev'}
                     >
-                      GitHub
+                      OpenMEV GitHub
                     </a>
                   </li>
                 </ul>
@@ -117,8 +117,8 @@ function Footer() {
                 </ul>
               </div>
 
-              {/* 4th block */}
-              <div className="text-sm">
+              {/* 4th block 
+                            <div className="text-sm">
                 <h6 className="mb-1 font-medium text-gray-200">Organization</h6>
                 <ul>
                   <li className="mb-1">
@@ -159,6 +159,9 @@ function Footer() {
                   </li>
                 </ul>
               </div>
+              
+              */}
+
             </div>
           </div>
 
@@ -168,7 +171,7 @@ function Footer() {
             <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
               <li>
                 <Link
-                  href="https://twitter.com/openmev"
+                  href="https://twitter.com/foldfinance"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex justify-center items-center text-purple-600 bg-gray-800 rounded-full transition duration-150 ease-in-out hover:text-gray-100 hover:bg-purple-600"
@@ -185,7 +188,7 @@ function Footer() {
               </li>
               <li className="ml-4">
                 <Link
-                  href="https://github.com/openmev"
+                  href="https://github.com/manifoldfinance"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex justify-center items-center text-purple-600 bg-gray-800 rounded-full transition duration-150 ease-in-out hover:text-gray-100 hover:bg-purple-600"
@@ -204,7 +207,7 @@ function Footer() {
 
             {/* Copyrights note */}
             <div className="mr-4 text-sm text-gray-400">
-              &copy; 2021 Manifold Finance - All Rights Reserved
+              &copy; 2021 Manifold Finance, Inc. - All Rights Reserved
             </div>
             <div id="title" className="mr-4 text-sm text-gray-400"></div>
             <div id="status" status="wait"></div>
