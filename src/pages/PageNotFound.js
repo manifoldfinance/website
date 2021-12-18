@@ -47,6 +47,8 @@ function PageNotFound() {
                   Head to our{' '}
                   <Link
                     to="https://manifoldfinance.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
                   >
                     homepage
