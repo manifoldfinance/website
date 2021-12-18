@@ -50,18 +50,18 @@ function Footer() {
                     <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
                     <a
                       rel="noopener noreferrer"
-                      href={'https://github.com/manifoldfinance'}
+                      href={'https://openmev.page.link/support-chat'}
                     >
-                      Manifold Finance GitHub
+                      Discord Support
                     </a>
                   </li>
                   <li className="mb-1">
                     <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
                     <a
                       rel="noopener noreferrer"
-                      href={'https://github.com/openmev'}
+                      href={'https://sambacha.github.io/primitives/'}
                     >
-                      OpenMEV GitHub
+                      Primitives Blog
                     </a>
                   </li>
                 </ul>
@@ -119,24 +119,23 @@ function Footer() {
                 </ul>
               </div>
 
-              {/* 4th block 
-                            <div className="text-sm">
-                <h6 className="mb-1 font-medium text-gray-200">Organization</h6>
+              <div className="text-sm">
+                <h6 className="mb-1 font-medium text-gray-200">Links</h6>
                 <ul>
                   <li className="mb-1">
                     <Link
-                      href="#"
+                      href="https://etherscan.io/token/0xd084944d3c05cd115c09d072b9f44ba3e0e45921"
                       className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
                     ></Link>
-                    Overview
+                    $FOLD Token
                   </li>
                   <li className="mb-1">
                     <Link
-                      href="#"
+                      href="https://etherscan.io/address/0x454BD9E2B29EB5963048cC1A8BD6fD44e89899Cb"
                       rel="noopener noreferrer"
                       className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
                     ></Link>
-                    About
+                    $xFOLD Token
                   </li>
                   <li className="mb-1">
                     <Link
@@ -146,7 +145,14 @@ function Footer() {
                     >
                       {' '}
                     </Link>
-                    Partners
+                    <a
+                      rel="noopener noreferrer"
+                      href={
+                        'https://github.com/manifoldfinance/legal/blob/master/service/privacy_policy.md'
+                      }
+                    >
+                      Privacy Policy
+                    </a>
                   </li>
                   <li className="mb-1">
                     <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100">
@@ -154,15 +160,13 @@ function Footer() {
                     </Link>
                     <a
                       rel="noopener noreferrer"
-                      href={'https://github.com/openmev/legal'}
+                      href={'https://github.com/manifoldfinance/legal'}
                     >
                       Legal
                     </a>
                   </li>
                 </ul>
               </div>
-              
-              */}
             </div>
           </div>
 
