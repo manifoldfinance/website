@@ -64,13 +64,15 @@ function SolutionsHome() {
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   {/* TODO change style */}
                   <div className="mb-2 text-xl text-purple-600 font-fira-sans">
-                    Robinhood for Sushiswap trading
+                    Up to 90% cheaper trading for Sushiswap
                   </div>
-                  <h3 className="mb-3 h3">Stablecoin staking starts here.</h3>
+                  <h3 className="mb-3 h3">
+                    Trade on Sushiswap: Get paid for your costs.
+                  </h3>
                   <p className="mb-4 text-xl text-gray-400">
-                    Utilizing OpenMEV, FOLD Staking enables stablecoin staking
-                    by offering trading protection and privacy protection for
-                    Decentralized Financial protocols like SushiSwap
+                    When you trade on Sushiswap Manifold Finance rebates your
+                    costs by offering trading protection and privacy protection
+                    via OpenMEV. Stake FOLD and get excess profits from OpenMEV.
                   </p>
                   <ul className="flex flex-wrap -mx-2 -my-1 text-lg text-gray-400">
                     <li className="flex items-center mx-2 my-1">

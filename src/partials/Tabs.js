@@ -29,7 +29,7 @@ function Tabs() {
               data-aos="fade-up"
               data-aos-anchor="[data-aos-id-tabs]"
             >
-              Securing the future of decentralized finance
+              Connect to the world of Decentralized Finance
             </h2>
             <p
               className="text-xl text-gray-400"
@@ -37,8 +37,8 @@ function Tabs() {
               data-aos-delay="200"
               data-aos-anchor="[data-aos-id-tabs]"
             >
-              Ensuring both miner profits and end-user affordability, OpenMEV
-              provides optimal outcomes by providing a neutral playing field.
+              Manifold Finance enables seamless connectivity and scaling that
+              create opportunity and facilitate innovation
             </p>
           </div>
 
@@ -142,7 +142,7 @@ function Tabs() {
                     </p>
                     <a
                       className="btn-sm text-white bg-purple-600 hover:bg-purple-700 mt-6"
-                      to="https://github.com/manifoldfinance/api-documentation"
+                      to="https://manifoldfinance.github.io/documentation/"
                     >
                       <span className="text-sm">Learn more</span>
                       <svg

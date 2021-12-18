@@ -1,9 +1,7 @@
-*.html
 *.css
 *.scss
 dist/
 build/
-public/
 *.svg
 *.png
 *.jpg
