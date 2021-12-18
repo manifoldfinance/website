@@ -1,7 +1,4 @@
-src/partials/*.js
-src/**/*.js
 unused/*
 build/
 dist/
 test/
-
