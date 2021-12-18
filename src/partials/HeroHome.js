@@ -14,14 +14,15 @@ function HeroHome() {
           {/* Section header */}
           <div className="pb-12 mx-auto max-w-3xl text-center md:pb-16">
             <h1 className="mb-4 h1" data-aos="fade-up">
-              Connect to Opportunities
+              Connect to DeFi Opportunities
             </h1>
             <p
               className="mb-8 text-xl text-gray-400"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Manifold Finance enables maximal extracted value (MEV) from defi trading
+              Manifold enables capital to capitalize on opportunity in
+              decentralized financal markets.
             </p>
             <div className="mx-auto max-w-xs sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
@@ -29,7 +30,7 @@ function HeroHome() {
                   className="mb-4 w-full text-black bg-white btn hover:bg-white sm:w-auto sm:mb-0"
                   to="https://forums.manifoldfinance.com/t/guide-how-to-stake-fold-for-xfold/150"
                 >
-                  Staking
+                  Start Staking
                 </a>
               </div>
               <div data-aos="fade-up" data-aos-delay="600">
@@ -37,7 +38,7 @@ function HeroHome() {
                   className="w-full text-white bg-gray-700 btn hover:bg-gray-800 sm:w-auto sm:ml-4"
                   to="https://forums.manifoldfinance.com/t/manifold-dao-xfold-how-payouts-work/98"
                 >
-                  Learn more
+                  How Staking Works
                 </a>
               </div>
             </div>
