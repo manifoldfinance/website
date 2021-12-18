@@ -39,17 +39,17 @@ function Header() {
             <ul className="flex flex-wrap flex-grow justify-end items-center">
               <li>
                 <a
-                  href="https://discord.gg/uTNRCQmzt8"
+                  href="https://analytics.sushi.com/tokens/0xd084944d3c05cd115c09d072b9f44ba3e0e45921"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
                 >
-                  Discord
+                  FOLD Token
                 </a>
               </li>
               <li>
                 <a
-                  href="https://forums.manifoldfinace.com"
+                  href="https://forums.manifoldfinance.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
@@ -98,7 +98,7 @@ function Header() {
                       rel="noopener noreferrer"
                       href={'https://manifoldfinance.github.io/hub/'}
                     >
-                      Documentation Hub
+                      Developer Hub
                     </a>
                   </Link>
                 </li>
@@ -120,15 +120,15 @@ function Header() {
                   to="/signin"
                   className="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out text-white-600 hover:text-gray-200"
                 >
-                  Sign in
+                  Dashboard
                 </Link>
               </li>
               <li>
                 <Link
-                  to="https://form.typeform.com/to/Sr7xLL3s"
+                  to="#"
                   className="ml-3 text-white btn-sm bg-white-600 hover:bg-white-700"
                 >
-                  Request access
+                  Staking DApp
                 </Link>
               </li>
             </ul>
@@ -172,9 +172,11 @@ function Header() {
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
-                      href={'https://form.typeform.com/to/Sr7xLL3s'}
+                      href={
+                        'https://analytics.sushi.com/tokens/0xd084944d3c05cd115c09d072b9f44ba3e0e45921'
+                      }
                     >
-                      Solutions
+                      FOLD Token
                     </a>
                   </Link>
                 </li>
@@ -185,7 +187,7 @@ function Header() {
                       rel="noopener noreferrer"
                       href={'https://status.manifoldfinance.com/'}
                     >
-                      Network
+                      Service Status
                     </a>
                   </Link>
                 </li>
@@ -233,11 +235,9 @@ function Header() {
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          href={
-                            'https://github.com/manifoldfinance/support'
-                          }
+                          href={'https://github.com/manifoldfinance/support'}
                         >
-                          Help center
+                          Helpdesk
                         </a>
                       </Link>
                     </li>
@@ -256,15 +256,15 @@ function Header() {
                     to="/signin"
                     className="flex justify-center py-2 w-full font-medium text-white-600 hover:text-gray-200"
                   >
-                    Sign in
+                    Dashboard
                   </Link>
                 </li>
                 <li>
                   <Link
-                    to="/signup"
+                    to="#"
                     className="inline-flex justify-center items-center px-4 py-2 my-2 w-full font-medium text-white bg-gray-600 rounded-sm border border-transparent transition duration-150 ease-in-out hover:bg-white-700"
                   >
-                    Request access
+                    Staking DApp
                   </Link>
                 </li>
               </ul>

@@ -1,8 +1,8 @@
-# [manifoldfinace.com](https://manifoldfinance.com)
+# [manifoldfinance.com](https://manifoldfinance.com)
 
 <br />
 
-[manifoldfinace.com](https://manifoldfinance.com)
+[manifoldfinance.com](https://manifoldfinance.com)
 
 ---
 
