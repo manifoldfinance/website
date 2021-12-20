@@ -7,7 +7,7 @@ function Help() {
   const [page, setPage] = useState(1);
 
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden">
+    <div className="flex overflow-hidden flex-col min-h-screen">
       {/*  Site header */}
       <Header />
 
@@ -15,23 +15,23 @@ function Help() {
       <main className="flex-grow">
         {/*  Page illustration */}
         <div
-          className="relative max-w-6xl mx-auto h-0 pointer-events-none"
+          className="relative mx-auto max-w-6xl h-0 pointer-events-none"
           aria-hidden="true"
         ></div>
 
         {/*  Page sections */}
-        <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
+        <div className="relative px-4 mx-auto max-w-6xl sm:px-6">
           <div className="pt-32 pb-12 md:pt-40 md:pb-20">
             <div className="flex flex-col md:flex-row">
               {/* Main content */}
               <main
-                className="md:flex-auto md:pl-10 order-1"
+                className="order-1 md:flex-auto md:pl-10"
                 data-aos="fade-up"
               >
                 {/* FAQ’s – Frequently Asked Questions */}
                 <div className={page !== 1 ? 'hidden' : undefined}>
                   <div className="mb-8">
-                    <h2 className="h2 mb-4">
+                    <h2 className="mb-4 h2">
                       FAQ’s – Frequently Asked Questions
                     </h2>
                     <p className="text-gray-400">
@@ -41,7 +41,7 @@ function Help() {
                   </div>
                   <ul className="-my-4">
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         What is the Hub?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -50,7 +50,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         Can I import my sitemap to Open PRO?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -60,7 +60,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         How can I switch my subscription between essential, and
                         premium plans?
                       </h4>
@@ -71,7 +71,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         Can I cancel my subscription at any time?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -81,7 +81,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         Is there an additional discount when paid annually?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -91,7 +91,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         What happens if I don’t renew my license after one year?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -101,7 +101,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         What kind of payment methods do you provide?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -116,25 +116,23 @@ function Help() {
                 {/* What is Open PRO */}
                 <div className={page !== 2 ? 'hidden' : undefined}>
                   <div className="mb-8">
-                    <h2 className="h2 mb-4">What is Open PRO</h2>
+                    <h2 className="mb-4 h2">What is OpenMEV</h2>
                     <p className="text-gray-400">
                       Last updated -{' '}
-                      <span className="text-purple-600">June 30, 2020</span>
+                      <span className="text-purple-600">December 15, 2021</span>
                     </p>
                   </div>
                   <ul className="-my-4">
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
-                        How can I use Open PRO without registration?
+                      <h4 className="mb-2 text-xl font-medium">
+                        Can I use OpenMEV without registration?
                       </h4>
                       <p className="text-lg text-gray-400">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis enim lobortis scelerisque fermentum.
+                       Yes.
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         Can I import my sitemap to Open PRO?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -144,7 +142,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         How can I switch my subscription between essential, and
                         premium plans?
                       </h4>
@@ -155,7 +153,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         Can I cancel my subscription at any time?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -165,7 +163,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         Is there an additional discount when paid annually?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -175,7 +173,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         What happens if I don’t renew my license after one year?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -185,7 +183,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         What kind of payment methods do you provide?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -200,7 +198,7 @@ function Help() {
                 {/* Open PRO plan’s solutions */}
                 <div className={page !== 3 ? 'hidden' : undefined}>
                   <div className="mb-8">
-                    <h2 className="h2 mb-4">Open PRO plan’s solutions</h2>
+                    <h2 className="mb-4 h2">Open PRO plan’s solutions</h2>
                     <p className="text-gray-400">
                       Last updated -{' '}
                       <span className="text-purple-600">June 30, 2020</span>
@@ -208,7 +206,7 @@ function Help() {
                   </div>
                   <ul className="-my-4">
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         How can I use Open PRO without registration?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -218,7 +216,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         Can I import my sitemap to Open PRO?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -228,7 +226,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         How can I switch my subscription between essential, and
                         premium plans?
                       </h4>
@@ -239,7 +237,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         Can I cancel my subscription at any time?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -249,7 +247,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         Is there an additional discount when paid annually?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -259,7 +257,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         What happens if I don’t renew my license after one year?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -269,7 +267,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         What kind of payment methods do you provide?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -284,7 +282,7 @@ function Help() {
                 {/* Get started */}
                 <div className={page !== 4 ? 'hidden' : undefined}>
                   <div className="mb-8">
-                    <h2 className="h2 mb-4">Get started</h2>
+                    <h2 className="mb-4 h2">Get started</h2>
                     <p className="text-gray-400">
                       Last updated -{' '}
                       <span className="text-purple-600">June 30, 2020</span>
@@ -292,7 +290,7 @@ function Help() {
                   </div>
                   <ul className="-my-4">
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         How can I use Open PRO without registration?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -302,7 +300,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         Can I import my sitemap to Open PRO?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -312,7 +310,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         How can I switch my subscription between essential, and
                         premium plans?
                       </h4>
@@ -323,7 +321,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         Can I cancel my subscription at any time?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -333,7 +331,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         Is there an additional discount when paid annually?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -343,7 +341,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         What happens if I don’t renew my license after one year?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -353,7 +351,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         What kind of payment methods do you provide?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -368,7 +366,7 @@ function Help() {
                 {/* Payments FAQ’s */}
                 <div className={page !== 5 ? 'hidden' : undefined}>
                   <div className="mb-8">
-                    <h2 className="h2 mb-4">Payments FAQ’s</h2>
+                    <h2 className="mb-4 h2">Payments FAQ’s</h2>
                     <p className="text-gray-400">
                       Last updated -{' '}
                       <span className="text-purple-600">June 30, 2020</span>
@@ -376,7 +374,7 @@ function Help() {
                   </div>
                   <ul className="-my-4">
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         How can I use Open PRO without registration?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -386,7 +384,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         Can I import my sitemap to Open PRO?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -396,7 +394,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         How can I switch my subscription between essential, and
                         premium plans?
                       </h4>
@@ -407,7 +405,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         Can I cancel my subscription at any time?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -417,7 +415,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         Is there an additional discount when paid annually?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -427,7 +425,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         What happens if I don’t renew my license after one year?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -437,7 +435,7 @@ function Help() {
                       </p>
                     </li>
                     <li className="py-4">
-                      <h4 className="text-xl font-medium mb-2">
+                      <h4 className="mb-2 text-xl font-medium">
                         What kind of payment methods do you provide?
                       </h4>
                       <p className="text-lg text-gray-400">
@@ -452,11 +450,11 @@ function Help() {
 
               {/* Nav sidebar */}
               <aside
-                className="md:w-64 mb-16 md:mb-0 md:mr-10 md:flex-shrink-0"
+                className="mb-16 md:w-64 md:mb-0 md:mr-10 md:flex-shrink-0"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                <h4 className="text-lg font-medium px-3 pb-3 border-b border-gray-800">
+                <h4 className="px-3 pb-3 text-lg font-medium border-b border-gray-800">
                   Choose a category
                 </h4>
                 <nav>
@@ -474,7 +472,7 @@ function Help() {
                       >
                         <span>Frequently Asked Questions</span>
                         <svg
-                          className="w-3 h-3 fill-current flex-shrink-0 ml-2 opacity-0 group-hover:opacity-100 group-hover:text-purple-600 group-hover:translate-x-1 transition duration-150 ease-in-out transform"
+                          className="flex-shrink-0 ml-2 w-3 h-3 opacity-0 transition duration-150 ease-in-out transform fill-current group-hover:opacity-100 group-hover:text-purple-600 group-hover:translate-x-1"
                           viewBox="0 0 12 12"
                           xmlns="http://www.w3.org/2000/svg"
                         >
@@ -493,9 +491,9 @@ function Help() {
                           setPage(2);
                         }}
                       >
-                        <span>What is Open PRO</span>
+                        <span>What is OpenMEV</span>
                         <svg
-                          className="w-3 h-3 fill-current flex-shrink-0 ml-2 opacity-0 group-hover:opacity-100 group-hover:text-purple-600 group-hover:translate-x-1 transition duration-150 ease-in-out transform"
+                          className="flex-shrink-0 ml-2 w-3 h-3 opacity-0 transition duration-150 ease-in-out transform fill-current group-hover:opacity-100 group-hover:text-purple-600 group-hover:translate-x-1"
                           viewBox="0 0 12 12"
                           xmlns="http://www.w3.org/2000/svg"
                         >
@@ -514,9 +512,9 @@ function Help() {
                           setPage(3);
                         }}
                       >
-                        <span>Open PRO plan’s solutions</span>
+                        <span>How does staking work</span>
                         <svg
-                          className="w-3 h-3 fill-current flex-shrink-0 ml-2 opacity-0 group-hover:opacity-100 group-hover:text-purple-600 group-hover:translate-x-1 transition duration-150 ease-in-out transform"
+                          className="flex-shrink-0 ml-2 w-3 h-3 opacity-0 transition duration-150 ease-in-out transform fill-current group-hover:opacity-100 group-hover:text-purple-600 group-hover:translate-x-1"
                           viewBox="0 0 12 12"
                           xmlns="http://www.w3.org/2000/svg"
                         >
@@ -535,9 +533,9 @@ function Help() {
                           setPage(4);
                         }}
                       >
-                        <span>Get started</span>
+                        <span>Development support</span>
                         <svg
-                          className="w-3 h-3 fill-current flex-shrink-0 ml-2 opacity-0 group-hover:opacity-100 group-hover:text-purple-600 group-hover:translate-x-1 transition duration-150 ease-in-out transform"
+                          className="flex-shrink-0 ml-2 w-3 h-3 opacity-0 transition duration-150 ease-in-out transform fill-current group-hover:opacity-100 group-hover:text-purple-600 group-hover:translate-x-1"
                           viewBox="0 0 12 12"
                           xmlns="http://www.w3.org/2000/svg"
                         >
@@ -556,9 +554,9 @@ function Help() {
                           setPage(5);
                         }}
                       >
-                        <span>Payments FAQ’s</span>
+                        <span>Resources and Guides</span>
                         <svg
-                          className="w-3 h-3 fill-current flex-shrink-0 ml-2 opacity-0 group-hover:opacity-100 group-hover:text-purple-600 group-hover:translate-x-1 transition duration-150 ease-in-out transform"
+                          className="flex-shrink-0 ml-2 w-3 h-3 opacity-0 transition duration-150 ease-in-out transform fill-current group-hover:opacity-100 group-hover:text-purple-600 group-hover:translate-x-1"
                           viewBox="0 0 12 12"
                           xmlns="http://www.w3.org/2000/svg"
                         >

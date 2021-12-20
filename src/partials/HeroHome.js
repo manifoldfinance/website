@@ -22,7 +22,7 @@ function HeroHome() {
               data-aos-delay="200"
             >
               Manifold enables capital to capitalize on opportunity in
-              decentralized financal markets.
+              decentralized financial markets.
             </p>
             <div className="mx-auto max-w-xs sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
@@ -36,9 +36,9 @@ function HeroHome() {
               <div data-aos="fade-up" data-aos-delay="600">
                 <a
                   className="w-full text-white bg-gray-700 btn hover:bg-gray-800 sm:w-auto sm:ml-4"
-                  to="https://forums.manifoldfinance.com/t/manifold-dao-xfold-how-payouts-work/98"
+                  to="https://forums.manifoldfinance.com/"
                 >
-                  How Staking Works
+                  Forums
                 </a>
               </div>
             </div>
@@ -61,7 +61,7 @@ function HeroHome() {
               />
               <a
                 className="absolute group"
-                href="#0"
+                href="#"
                 onClick={(e) => {
                   e.preventDefault();
                   setVideoModalOpen(true);

@@ -128,7 +128,7 @@ function Header() {
                   to="#"
                   className="ml-3 text-white btn-sm bg-white-600 hover:bg-white-700"
                 >
-                  Staking DApp
+                  Portal
                 </Link>
               </li>
             </ul>
