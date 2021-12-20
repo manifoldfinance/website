@@ -127,9 +127,7 @@ function Help() {
                       <h4 className="mb-2 text-xl font-medium">
                         Can I use OpenMEV without registration?
                       </h4>
-                      <p className="text-lg text-gray-400">
-                       Yes.
-                      </p>
+                      <p className="text-lg text-gray-400">Yes.</p>
                     </li>
                     <li className="py-4">
                       <h4 className="mb-2 text-xl font-medium">

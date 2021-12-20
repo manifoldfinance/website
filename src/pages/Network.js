@@ -21,14 +21,11 @@ function Network() {
         <div
           className="relative mx-auto max-w-6xl h-0 pointer-events-none"
           aria-hidden="true"
-        >
-
-        </div>
+        ></div>
 
         {/*  Page sections */}
         <NetworkTables />
         <Faqs />
-
 
         <Newsletter />
       </main>

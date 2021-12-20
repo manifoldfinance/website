@@ -29,7 +29,7 @@ function Tabs() {
               data-aos="fade-up"
               data-aos-anchor="[data-aos-id-tabs]"
             >
-              Connect to the world of  <br />
+              Connect to the world of <br />
               Decentralized Finance
             </h2>
             <p
