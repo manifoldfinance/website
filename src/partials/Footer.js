@@ -52,7 +52,7 @@ function Footer() {
                       rel="noopener noreferrer"
                       href={'https://openmev.page.link/support-chat'}
                     >
-                      Discord Support
+                      Helpdesk
                     </a>
                   </li>
                   <li className="mb-1">
@@ -68,9 +68,9 @@ function Footer() {
                     <Link className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"></Link>
                     <a
                       rel="noopener noreferrer"
-                      href={'https://github.com/manifoldfinance/web3disco'}
+                      href={'https://github.com/manifoldfinance/disco'}
                     >
-                      Web3 & Style Guide
+                      Design System
                     </a>
                   </li>
                 </ul>
@@ -86,7 +86,7 @@ function Footer() {
                       rel="noopener noreferrer"
                       href={'https://forums.manifoldfinance.com/'}
                     >
-                      Community Forums
+                      Forums
                     </a>
                   </li>
                   <li className="mb-1">
@@ -110,7 +110,7 @@ function Footer() {
                       rel="noopener noreferrer"
                       href={'https://t.me/manifoldfinance'}
                     >
-                      Telegram Chat
+                      Telegram
                     </a>
                   </li>
 
@@ -136,15 +136,15 @@ function Footer() {
                       href="https://analytics.sushi.com/tokens/0xd084944d3c05cd115c09d072b9f44ba3e0e45921"
                       className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
                     ></Link>
-                    $FOLD on Sushiswap
+                    $FOLD Token
                   </li>
                   <li className="mb-1">
                     <Link
-                      href="https://etherscan.io/address/0x454BD9E2B29EB5963048cC1A8BD6fD44e89899Cb"
+                      href="https://form.typeform.com/to/Sr7xLL3s"
                       rel="noopener noreferrer"
                       className="text-gray-400 transition duration-150 ease-in-out hover:text-gray-100"
                     ></Link>
-                    $xFOLD Token
+                    Partnership Inquires
                   </li>
                   <li className="mb-1">
                     <Link

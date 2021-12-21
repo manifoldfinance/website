@@ -125,10 +125,10 @@ function Header() {
               </li>
               <li>
                 <Link
-                  to="#"
+                  to="https://staking.manifoldfinance.com"
                   className="ml-3 text-white btn-sm bg-white-600 hover:bg-white-700"
                 >
-                  Staking DApp
+                  Staking
                 </Link>
               </li>
             </ul>
@@ -253,18 +253,18 @@ function Header() {
                 </li>
                 <li>
                   <Link
-                    to="/signin"
+                    to="https://app.sushi.com/swap?inputCurrency=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2&outputCurrency=0xd084944d3c05cd115c09d072b9f44ba3e0e45921"
                     className="flex justify-center py-2 w-full font-medium text-white-600 hover:text-gray-200"
                   >
-                    Dashboard
+                    Trade
                   </Link>
                 </li>
                 <li>
                   <Link
-                    to="#"
+                    to="https://staking.manifoldfinance.com"
                     className="inline-flex justify-center items-center px-4 py-2 my-2 w-full font-medium text-white bg-gray-600 rounded-sm border border-transparent transition duration-150 ease-in-out hover:bg-white-700"
                   >
-                    Staking DApp
+                    Staking
                   </Link>
                 </li>
               </ul>
