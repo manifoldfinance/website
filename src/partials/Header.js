@@ -117,7 +117,7 @@ function Header() {
             <ul className="flex flex-wrap flex-grow justify-end items-center">
               <li>
                 <Link
-                  to="/signin"
+                  to="https://staking.manifoldfinance.com"
                   className="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out text-white-600 hover:text-gray-200"
                 >
                   Dashboard

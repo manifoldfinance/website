@@ -33,9 +33,9 @@ function Cta() {
             >
               <a
                 className="text-white bg-purple-600 btn hover:bg-purple-700"
-                to="#0"
+                to="https://manifoldfinance.github.io/hub/"
               >
-                Learn more
+                Ecosystem Hub
               </a>
             </div>
 
