@@ -116,19 +116,26 @@ function Header() {
             {/* Desktop sign in links */}
             <ul className="flex flex-wrap flex-grow justify-end items-center">
               <li>
-                <Link
-                  to="https://staking.manifoldfinance.com"
-                  className="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out text-white-600 hover:text-gray-200"
-                >
+                <Link className="flex items-center px-4 py-3 font-medium transition duration-150 ease-in-out text-white-600 hover:text-gray-200" >
+                  <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={`https://staking.manifoldfinance.com`}
+                  >
                   Dashboard
+                  </a>
                 </Link>
               </li>
               <li>
-                <Link
-                  to="https://staking.manifoldfinance.com"
-                  className="ml-3 text-white btn-sm bg-white-600 hover:bg-white-700"
+                <Link className="ml-3 text-white btn-sm bg-white-600 hover:bg-white-700"
                 >
+                  <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={`https://staking.manifoldfinance.com`}
+                  >
                   Staking
+                    </a>
                 </Link>
               </li>
             </ul>
